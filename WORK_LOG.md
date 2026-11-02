@@ -10,3 +10,11 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Source verification: JS syntax and earlier browser flow checks passed for this prototype snapshot; no new narrative or real networking/payment capability is claimed.
 - Collaboration packaging validation: links/assets/source inventory checked before upload. Remote upload is pending GitHub App write access; no successful remote commit has been claimed.
 - Open: final immediate consequence, world-rule review, cream/black iPad implementation, instruction set, build photos, final ad approval and presentation.
+
+## 2026-11-02 — Codex — GitHub publication and handoff verified
+- User supplied public repository dlua0926/HUSH-Design-Fiction, explicitly authorised public upload, and enabled GitHub App access after an initial integration-permission failure.
+- Published the complete 37-file snapshot at commit 35942564ec7a3021c042d0aa55cee8ec0957434c, then read START_HERE.md and MANIFEST.json back from main and inspected the remote commit.
+- Uploaded 12 JPEG preview blobs; source and asset inventory are coherent. Local verification passed all relative Markdown links, SHA-256 inventory hashes, image decoding and exact prototype-source equality; no original course PDFs, raw chats, private material photos or deployment credentials included.
+- Created open, unassigned issues #1–#5 for narrative/rules, iPad interface, physical build, advertisement and final deliverables.
+- This follow-up commit records verification and links tasks; it does not approve any unfinished design or claim a background monitoring service.
+- Next: a teammate can read START_HERE.md, claim a task and submit a branch/PR with STATUS.md and WORK_LOG.md updates.

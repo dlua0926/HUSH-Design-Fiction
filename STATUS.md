@@ -16,7 +16,7 @@ Last updated: **2026-11-02 · Australia/Sydney**
 - Browser checks passed for protected/unprotected paths, historical-event retention, expiry, renewal and mobile overflow; source syntax checked. Screenshot references included. These checks apply to this source snapshot, not future edits.
 - Physical concept iterations and gap-filling advice.
 - Poster iterations, including latest lifestyle ad (awaiting review).
-- Collaboration documents and asset inventory prepared for GitHub.
+- Collaboration documents, executable source and 12 asset previews uploaded to GitHub; onboarding and manifest read back successfully.
 
 ## Work queue
 
@@ -41,3 +41,13 @@ Last updated: **2026-11-02 · Australia/Sydney**
 
 ## Collaboration state
 Repository is public at the user's supplied URL. No teammates have been invited by this assistant. Each teammate needs appropriate repository and connector access. An AI session is not a background watcher; updates are committed when an assistant or person actually works on the project.
+
+## GitHub task board
+
+- [#1 Final narrative, immediate consequence and world rules](https://github.com/dlua0926/HUSH-Design-Fiction/issues/1)
+- [#2 Cream/black iPad interactive view](https://github.com/dlua0926/HUSH-Design-Fiction/issues/2)
+- [#3 Physical build and photographs](https://github.com/dlua0926/HUSH-Design-Fiction/issues/3)
+- [#4 Advertisement review and editable finish](https://github.com/dlua0926/HUSH-Design-Fiction/issues/4)
+- [#5 Instructions, performance and final PDF](https://github.com/dlua0926/HUSH-Design-Fiction/issues/5)
+
+All issues are open and unassigned at setup; claim an issue before parallel work. The user explicitly authorised public upload after the repository visibility was identified. GitHub App access was subsequently granted and content upload succeeded.
