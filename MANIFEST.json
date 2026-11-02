@@ -34,18 +34,18 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 5610,
-      "sha256": "29ae84db54690b8bdeb454da7bc029cd11931af5038f2972875bb71dc1d23f12"
+      "bytes": 6106,
+      "sha256": "22eb148f79d2b10b57c4314c25ad334d230d6b0f8bfd29d4e9ca3bc64e8916f3"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 4462,
-      "sha256": "815bf519cc466d9a9463a5f7cb1170a3d95cc8c2f2d375e62e5a4137e0d9b74b"
+      "bytes": 5532,
+      "sha256": "a866bec34f7418b3487b0cd872e4253122fbeec43fda465d12294c7ebe97bc8e"
     },
     {
       "path": "ai/USAGE.md",
-      "bytes": 2382,
-      "sha256": "f76984737fe3a11fec64e86bef6fde95b8d541754edf1f3236c448e2ad72612b"
+      "bytes": 2585,
+      "sha256": "e07d3de1bfa6c569ee55db0a14dd0e08bdd7dbd4c73c8bb5087cb98ed52d4dd1"
     },
     {
       "path": "ai/prompts/HUSH-Advertisement-Future-Product-Prompt.txt",
@@ -171,6 +171,26 @@
       "path": "docs/WORLD_RULES.md",
       "bytes": 3716,
       "sha256": "2c28ce478b0f37c988925972acd4b6efffa69f85f8700ec31073181261e7a3f6"
+    },
+    {
+      "path": "proposals/story-film-and-keynote-ad/README.md",
+      "bytes": 3814,
+      "sha256": "971bf1a6d85c5d14877cfe83d45a35f36d49ee6fbdfad6268ce5d04369c2204f"
+    },
+    {
+      "path": "proposals/story-film-and-keynote-ad/flow-wireframe.html",
+      "bytes": 21601,
+      "sha256": "97a0ef72ac9549aaa34dc5844f55028485d61dcc43e9733ec263b9eb48c9807f"
+    },
+    {
+      "path": "proposals/story-film-and-keynote-ad/keynote-ad.html",
+      "bytes": 37842,
+      "sha256": "31228eac56677f1b4498341c8e9377f8d73b5ac3c611e9484325025c5c753937"
+    },
+    {
+      "path": "proposals/story-film-and-keynote-ad/story-prototype.html",
+      "bytes": 105520,
+      "sha256": "1b5aeaf0cfc298da3030c773377193edd495c07c4072337400871e00e8717898"
     },
     {
       "path": "prototype/README.md",

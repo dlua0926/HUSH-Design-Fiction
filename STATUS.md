@@ -30,6 +30,9 @@ Last updated: **2026-11-02 · Australia/Sydney**
 - Poster iterations, including latest lifestyle ad (awaiting review).
 - Collaboration documents, executable source and 12 asset previews uploaded to GitHub; onboarding and manifest read back successfully.
 
+## Proposals pending review
+- `proposals/story-film-and-keynote-ad/` (branch `prototype/story-film-and-keynote-ad`, Jinge Gao + Claude): multi-device presentation story prototype, keynote-style ad film and low-fi flow. PROPOSAL only; does not replace the final Figma prototype. Flags: shared-TV scene may conflict with the withdrawn family/roommate disclosure rule; workplace consequence lacks a stated mechanism; ad hour amounts and "Hours renew monthly" are unapproved. See the folder README.
+
 ## Work queue
 
 | Priority | Task | Status | Owner | Definition of done |

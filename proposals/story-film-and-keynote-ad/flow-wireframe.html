@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HUSH Flow Wireframe</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500&display=swap">
+<style>
+/* Layout: low-fi storyboard. Flow map on top, one device frame in the middle, design notes beside it. Pencil-on-paper palette so nobody mistakes it for final UI. */
+:root {
+  --paper: #f2f3f0;
+  --sheet: #fbfbf9;
+  --ink: #1f2328;
+  --soft: #6b7078;
+  --line: #c9ccc6;
+  --pencil: #3157b7;
+  --pencil-bg: #e3e9f7;
+  --warn: #9a5a12;
+  --font-sans: "IBM Plex Sans", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #15171a; --sheet: #1c1f23; --ink: #e6e8ea; --soft: #9aa0a8; --line: #3a3f46;
+    --pencil: #8eabf2; --pencil-bg: #222c44; --warn: #e0a560; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #15171a; --sheet: #1c1f23; --ink: #e6e8ea; --soft: #9aa0a8; --line: #3a3f46;
+  --pencil: #8eabf2; --pencil-bg: #222c44; --warn: #e0a560; color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-sans); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 48px; display: grid; gap: 22px; }
+button { font: inherit; color: inherit; }
+button:focus-visible { outline: 2px solid var(--pencil); outline-offset: 2px; }
+
+header.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 10px 20px; }
+.eyebrow { margin: 0; font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+h1 { margin: 2px 0 0; font-size: 26px; font-weight: 600; letter-spacing: -.01em; }
+.keys { font-family: var(--font-mono); font-size: 12px; color: var(--soft); }
+.keys kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: var(--sheet); }
+
+/* Flow map */
+.map { background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 10px; overflow-x: auto; }
+.lane { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; min-width: 0; }
+.lane-label { font-family: var(--font-mono); font-size: 11.5px; color: var(--soft); width: 72px; flex: none; }
+.node { border: 1px dashed var(--line); background: transparent; border-radius: 6px; padding: 4px 9px; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.node .n { font-family: var(--font-mono); color: var(--soft); margin-right: 5px; font-size: 11.5px; }
+.node.seen { border-style: solid; }
+.node.here { background: var(--pencil-bg); border: 1px solid var(--pencil); color: var(--pencil); }
+.node.here .n { color: var(--pencil); }
+.arrow { color: var(--soft); font-size: 12px; }
+
+/* Stage */
+.stage { display: grid; gap: 22px; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; }
+@media (max-width: 860px) { .stage { grid-template-columns: 1fr; } }
+.scene { background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 18px; display: grid; gap: 14px; justify-items: center; min-width: 0; }
+.scene-meta { justify-self: stretch; display: flex; justify-content: space-between; gap: 10px; font-family: var(--font-mono); font-size: 12px; color: var(--soft); flex-wrap: wrap; }
+
+.device { border: 2px solid var(--ink); background: var(--paper); display: grid; place-items: center; text-align: center; position: relative; max-width: 100%; }
+.device .inner { display: grid; gap: 8px; padding: 22px; justify-items: center; width: 100%; }
+.d-hub { width: min(380px, 100%); aspect-ratio: 1; border-radius: 50%; box-shadow: 0 0 0 10px var(--sheet), 0 0 0 11px var(--line); }
+.d-hub .inner { padding: 14%; }
+.d-laptop { width: min(560px, 100%); aspect-ratio: 16 / 10; border-radius: 10px 10px 4px 4px; border-bottom-width: 12px; }
+.d-phone { width: min(260px, 100%); aspect-ratio: 9 / 18; border-radius: 30px; }
+.d-tv { width: min(580px, 100%); aspect-ratio: 16 / 9; border-radius: 4px; border-width: 6px; }
+.d-tablet { width: min(560px, 100%); aspect-ratio: 4 / 3; border-radius: 18px; border-width: 10px; }
+.d-card { width: min(520px, 100%); border-radius: 10px; border-style: dashed; }
+.devlabel { font-family: var(--font-mono); font-size: 11px; color: var(--soft); text-transform: uppercase; letter-spacing: .08em; }
+
+.big { font-family: var(--font-mono); font-size: clamp(30px, 7vw, 46px); font-weight: 500; line-height: 1; letter-spacing: -.02em; }
+.mid { font-size: 17px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+.small { font-size: 12.5px; color: var(--soft); line-height: 1.5; }
+.fine { font-size: 11.5px; color: var(--soft); max-width: 34em; line-height: 1.45; }
+.rows { display: grid; gap: 3px; font-size: 12.5px; width: 100%; max-width: 360px; text-align: left; }
+.rows div { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px dotted var(--line); padding-block: 2px; }
+.rows span:last-child { font-family: var(--font-mono); }
+.searchbar { width: 100%; max-width: 440px; border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 14px; text-align: left; font-size: 14px; }
+.toast { border: 1.5px solid var(--ink); border-radius: 12px; padding: 8px 10px; text-align: left; font-size: 12px; width: 100%; line-height: 1.4; }
+.ph { border: 1px dashed var(--soft); border-radius: 6px; padding: 6px 10px; font-size: 12px; color: var(--soft); }
+.tiles { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.tiles .ph { width: 30%; min-width: 90px; }
+.pill { font-family: var(--font-mono); font-size: 11.5px; border: 1px solid var(--ink); border-radius: 999px; padding: 1px 8px; }
+
+.choices { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.choice { border: 1.5px solid var(--ink); background: var(--sheet); border-radius: 8px; padding: 8px 14px; cursor: pointer; font-size: 14px; font-weight: 500; }
+.choice.primary { background: var(--ink); color: var(--sheet); }
+.choice:hover { border-color: var(--pencil); }
+
+/* Notes */
+.notes { background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; display: grid; gap: 12px; min-width: 0; }
+.notes h2 { margin: 0; font-size: 18px; font-weight: 600; }
+.notes .who { margin: 0; font-family: var(--font-mono); font-size: 12px; color: var(--soft); }
+.notes p { margin: 0; }
+.notes .line { border-left: 2px solid var(--line); padding-left: 10px; color: var(--ink); }
+.notes .todo { color: var(--warn); font-size: 13.5px; }
+.notes .todo::before { content: "待定 · "; font-family: var(--font-mono); font-size: 12px; }
+.navrow { display: flex; gap: 8px; flex-wrap: wrap; }
+.navrow button { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 5px 10px; cursor: pointer; font-size: 13px; }
+.assume { font-size: 13px; color: var(--soft); border-top: 1px dashed var(--line); padding-top: 10px; }
+@media (prefers-reduced-motion: no-preference) { .device { transition: transform .2s ease; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="eyebrow">HUSH · Final 交互原型 · 流程草图 v0.2</p>
+      <h1>先确认顺序，再做高保真</h1>
+    </div>
+    <div class="keys"><kbd>→</kbd> 走主选项　<kbd>←</kbd> 返回　<kbd>R</kbd> 重来</div>
+  </header>
+
+  <nav class="map" id="map" aria-label="流程图"></nav>
+
+  <div class="stage">
+    <section class="scene" aria-live="polite">
+      <div class="scene-meta"><span id="when"></span><span id="where"></span></div>
+      <div id="device"></div>
+      <div class="choices" id="choices"></div>
+    </section>
+    <aside class="notes">
+      <p class="who" id="sid"></p>
+      <h2 id="ntitle"></h2>
+      <div id="nbody" style="display:grid;gap:10px"></div>
+      <div class="navrow">
+        <button id="back" type="button">← 返回</button>
+        <button id="restart" type="button">从头开始</button>
+      </div>
+      <p class="assume">这版用的默认假设：买的路保留，作为对照；事后补救放在主线里；月报是 iPad 页面，不在主线上；文案和数字先由我起草，最终由你们确认。灰框只是占位，不代表最终样子。</p>
+    </aside>
+  </div>
+</div>
+
+<script>
+(function () {
+  var S = {
+    hub0: { n: "1", lane: "共同", label: "Hub 00:00", dev: "hub", when: "Mon 10 Sep 2046 · 8:42 PM", where: "客厅墙上",
+      html: '<span class="devlabel">HUSH Home</span><div class="big">00:00</div><div class="mid">Private Hours remaining</div><div class="rows"><div><span>Used this month</span><span>20 / 20 h</span></div><div><span>Renews</span><span>Thu 13 Sep · 3 days</span></div><div><span>Connected devices</span><span>11</span></div></div><div class="small">Tracking · Profiling · Data sharing · Ads: active</div>',
+      choices: [["打开笔记本", "laptop", 1], ["月度报表（iPad）", "report"]],
+      title: "开场：用完了", body: ['<p class="line">主角：「又用完了。还有三天才续。」</p>', '<p>前 20 秒只靠这一屏让观众明白：有个东西用完了，要等，或者花钱。不提 what-if。</p>', '<p>光圈是冷灰色。四项追踪只写成一行小字，不做成开关，免得像 Nest 的控制面板。</p>'] },
+    laptop: { n: "2", lane: "共同", label: "开始搜索", dev: "laptop", when: "8:44 PM", where: "书桌",
+      html: '<span class="devlabel">Lumen browser</span><div class="searchbar">changing jobs without employer knowing▍</div><div class="small">逐字打出来，中间停顿一下</div>',
+      choices: [["按下搜索", "prompt", 1]],
+      title: "敏感的动作", body: ['<p>搜索框里的字一个个打出来，打到 employer 时停一下，表现犹豫。</p>', '<p>浏览器名字已定：Lumen。</p>'] },
+    prompt: { n: "3", lane: "共同", label: "买不买", dev: "laptop", when: "8:44 PM", where: "书桌",
+      html: '<span class="devlabel">HUSH · 系统提示</span><div class="mid">Private Hours: 00:00</div><div class="small">This search may be added to your connected profiles.</div><div class="ph">Buy 1 Private Hour · $3.99</div><div class="ph">Continue without protection</div>',
+      choices: [["不买，继续搜索", "results", 1], ["买 1 小时 · $3.99", "buy1"]],
+      title: "核心决定", body: ['<p>整个作品就是在问这一刻：这次搜索值不值 3.99？</p>', '<p class="line">主角停两秒，说：「就搜一下，应该没事。」</p>', '<p>演示时先走「不买」。「买」那条路留给观众课后自己点。</p>'] },
+
+    buy1: { n: "4a", lane: "买", label: "付款", dev: "phone", when: "8:45 PM", where: "",
+      html: '<span class="devlabel">HUSH</span><div class="mid">One-Time Private Hour</div><div class="rows"><div><span>Duration</span><span>60 min</span></div><div><span>Protects</span><span>11 devices</span></div><div><span>Price</span><span>$3.99</span></div></div><div class="fine">Prevents new tracking during this session. Previously collected data and existing profiles will not be removed.</div><div class="ph">Pay with saved card</div>',
+      choices: [["付款", "active1", 1]],
+      title: "买的那条路", body: ['<p>小字条款必须出现，而且不放大，就像真实的条款那样。</p>', '<p>付款写「用已保存的卡支付」，不用 Apple Pay 这类真实品牌。</p>'] },
+    active1: { n: "5a", lane: "买", label: "保护中", dev: "hub", when: "8:45 PM", where: "客厅墙上",
+      html: '<span class="devlabel">HUSH Home</span><span class="pill">Private Protection ACTIVE</span><div class="big">59:59</div><div class="small">New tracking, browser profiling and identifiable data sharing are paused.</div>',
+      choices: [["回去搜索", "okresult", 1]],
+      title: "倒计时真的在走", body: ['<p>高保真版里 59:59 会实时倒数。光圈变成柔和的绿色。</p>'] },
+    okresult: { n: "6a", lane: "买", label: "什么也没发生", dev: "laptop", when: "8:46 PM", where: "书桌",
+      html: '<span class="devlabel">Lumen browser</span><div class="searchbar">changing jobs without employer knowing</div><div class="tiles"><div class="ph">result</div><div class="ph">result</div><div class="ph">result</div></div><div class="small">No notifications.</div>',
+      choices: [["下个月", "nextmonth", 1]],
+      title: "平淡就是重点", body: ['<p>这条路故意什么都不发生。和另一条路放在一起看，3.99 买到的就是「什么都没发生」。</p>'] },
+
+    results: { n: "4b", lane: "不买", label: "搜索结果", dev: "laptop", when: "8:44 PM", where: "书桌",
+      html: '<span class="devlabel">Lumen browser</span><div class="searchbar">changing jobs without employer knowing</div><div class="tiles"><div class="ph">NextHorizon Careers</div><div class="ph">result</div><div class="ph">result</div></div><div class="small">Unprotected session</div>',
+      choices: [["继续", "toast", 1]],
+      title: "看起来一切正常", body: ['<p>结果页和平常一样，没有任何异样。</p>'] },
+    toast: { n: "5b", lane: "不买", label: "档案更新", dev: "phone", when: "8:45 PM", where: "",
+      html: '<span class="devlabel">Phone · lock screen</span><div class="toast"><b>Employment Profile Updated</b><br>Recent career-change activity detected.<br>Source: Browser activity · Added to connected profile services</div><div class="small">一秒后消失</div>',
+      choices: [["9 点，客厅", "tv", 1]],
+      title: "很小、很普通的一条通知", body: ['<p>故意做得像天气提醒一样普通，一闪就过去。观众这时还没反应过来，后面出事时才会想起它。</p>', '<p>这是正常的自动流程，不是被黑。</p>'] },
+    tv: { n: "6b", lane: "不买", label: "客厅电视", dev: "tv", when: "9:03 PM", where: "客厅 · 伴侣打开电视",
+      html: '<span class="devlabel">Hearth TV · Home</span><div class="mid">Recommended for your household</div><div class="tiles"><div class="ph">Changing careers quietly</div><div class="ph">How to resign well</div><div class="ph">NextHorizon Careers</div></div>',
+      choices: [["第二天早上", "work", 1]],
+      title: "家里的人先知道了", body: ['<p class="line">伴侣：「……你在找工作？」</p>', '<p>电视是全家共用的，推荐写的是 your household。最先暴露你的是家人，不是陌生人。电视名字已定：Hearth TV。</p>', '<p class="todo">伴侣这句由谁演，还没定。</p>'] },
+    work: { n: "7b", lane: "不买", label: "公司", dev: "laptop", when: "Tue 11 Sep · 8:55 AM", where: "公司 · 工作电脑",
+      html: '<span class="devlabel">Work calendar</span><div class="mid">Retention check-in</div><div class="rows"><div><span>When</span><span>Today · 2:00 PM</span></div><div><span>With</span><span>Your manager</span></div><div><span>Suggested by</span><span>Workforce Insights</span></div></div>',
+      choices: [["晚上回家", "hublate", 1]],
+      title: "然后是公司", body: ['<p>没有写「我们知道你在找工作」，只是一条日程，加一行「由 Workforce Insights 建议」。观众自己会把它和昨晚的通知连起来。</p>', '<p>已定：经理不上场，现场只放这张截图。</p>'] },
+    hublate: { n: "8b", lane: "不买", label: "事后再买", dev: "hub", when: "Tue 11 Sep · 7:10 PM", where: "客厅墙上",
+      html: '<span class="devlabel">HUSH Home</span><div class="big">00:00</div><div class="mid">Private Hours remaining</div><div class="small">Renews in 2 days</div><div class="ph">Buy 1 Private Hour · $3.99</div>',
+      choices: [["现在买", "buy2", 1]],
+      title: "现在想买了", body: ['<p>续期从 3 天变成 2 天，时间是真的在往前走。</p>'] },
+    buy2: { n: "9b", lane: "不买", label: "保护中，但是", dev: "hub", when: "7:11 PM", where: "客厅墙上",
+      html: '<span class="devlabel">HUSH Home</span><span class="pill">Private Protection ACTIVE</span><div class="big">59:59</div><div class="fine">Earlier activity remains in connected profiles.</div>',
+      choices: [["下个月", "nextmonth", 1]],
+      title: "买了也撤不回来", body: ['<p>不直接说「撤不回来」，只放这一行小字。谁拥有这份档案、能保存多久，都不回答。</p>'] },
+
+    nextmonth: { n: "10", lane: "结尾", label: "下个月", dev: "hub", when: "Thu 18 Oct 2046 · 9:20 PM", where: "客厅墙上 · 手里拿着手机",
+      html: '<span class="devlabel">HUSH Home</span><div class="big">02:00</div><div class="mid">Private Hours remaining</div><div class="small">Phone: Your test results are ready</div><div class="mid">Is this worth one Private Hour?</div>',
+      choices: [["从头再走一遍", "hub0", 1], ["月度报表", "report"]],
+      title: "结尾的问题", body: ['<p>主角站在 Hub 前，手机上是体检结果。停两秒，不说话。</p>', '<p>这一屏把「省隐私」这个行为变化落到下一次选择上。</p>', '<p class="todo">日期 10 月 18 日是星期四，已核对。剩余 02:00 这个数合适吗？</p>'] },
+    report: { n: "R", lane: "旁支", label: "月度报表", dev: "tablet", when: "September 2046", where: "iPad",
+      html: '<span class="devlabel">HUSH · Monthly Privacy Report</span><div class="rows"><div><span>Private Hours included</span><span>20 h</span></div><div><span>Used</span><span>20 h</span></div><div><span>Remaining</span><span>0 h</span></div><div><span>Next renewal</span><span>3 days</span></div><div><span>Connected devices</span><span>11</span></div><div><span>Tracking requests detected</span><span>1,284</span></div><div><span>App data requests</span><span>438</span></div><div><span>Browser profiling requests</span><span>327</span></div><div><span>Advertising profile updates</span><span>63</span></div><div><span>Additional Private Hour</span><span>$3.99</span></div></div>',
+      choices: [["回到 Hub", "hub0", 1]],
+      title: "像一份水电账单", body: ['<p>不在现场主线上，适合课后在 Ed 上看。</p>', '<p>1,284 和 PPT 里的分类加总一致（438 + 327 + 291 + 155 + 73）。63 是单独的一项，不算在 1,284 里面。</p>', '<p>已定：保持 iPad 页面，不做纸质账单。</p>'] }
+  };
+
+  var LANES = [
+    ["共同", ["hub0", "laptop", "prompt"]],
+    ["买", ["buy1", "active1", "okresult"]],
+    ["不买", ["results", "toast", "tv", "work", "hublate", "buy2"]],
+    ["结尾", ["nextmonth"]],
+    ["旁支", ["report"]]
+  ];
+
+  var history = [], current = "hub0", seen = {};
+  var $ = function (id) { return document.getElementById(id); };
+
+  function renderMap() {
+    var html = "";
+    LANES.forEach(function (lane) {
+      html += '<div class="lane"><span class="lane-label">' + lane[0] + '</span>';
+      lane[1].forEach(function (id, i) {
+        var s = S[id];
+        if (i) html += '<span class="arrow" aria-hidden="true">→</span>';
+        var cls = "node" + (id === current ? " here" : "") + (seen[id] ? " seen" : "");
+        html += '<button type="button" class="' + cls + '" data-go="' + id + '"' + (id === current ? ' aria-current="step"' : "") + '><span class="n">' + s.n + '</span>' + s.label + '</button>';
+      });
+      html += "</div>";
+    });
+    $("map").innerHTML = html;
+  }
+
+  function render() {
+    var s = S[current];
+    seen[current] = true;
+    $("when").textContent = s.when;
+    $("where").textContent = s.where;
+    $("device").innerHTML = '<div class="device d-' + s.dev + '"><div class="inner">' + s.html + "</div></div>";
+    $("choices").innerHTML = s.choices.map(function (c) {
+      return '<button type="button" class="choice' + (c[2] ? " primary" : "") + '" data-go="' + c[1] + '">' + c[0] + "</button>";
+    }).join("");
+    $("sid").textContent = "屏幕 " + s.n + " · " + s.lane;
+    $("ntitle").textContent = s.title;
+    $("nbody").innerHTML = s.body.join("");
+    $("back").disabled = history.length === 0;
+    renderMap();
+  }
+
+  function go(id, push) {
+    if (!S[id] || id === current) return;
+    if (push !== false) history.push(current);
+    current = id;
+    render();
+  }
+
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest("[data-go]");
+    if (t) go(t.getAttribute("data-go"));
+  });
+  $("back").addEventListener("click", function () { if (history.length) { current = history.pop(); render(); } });
+  $("restart").addEventListener("click", function () { history = []; current = "hub0"; render(); });
+  document.addEventListener("keydown", function (e) {
+    if (e.target.closest && e.target.closest("input, textarea")) return;
+    if (e.key === "ArrowRight") { var p = S[current].choices.filter(function (c) { return c[2]; })[0]; if (p) go(p[1]); }
+    else if (e.key === "ArrowLeft") { if (history.length) { current = history.pop(); render(); } }
+    else if (e.key === "r" || e.key === "R") { history = []; current = "hub0"; render(); }
+  });
+
+  render();
+})();
+</script>
+
+</html>

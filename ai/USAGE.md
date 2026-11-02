@@ -19,5 +19,6 @@ AI assistance in the source chat included concept critique, narrative brainstorm
 | Ad02 | Edit | Ad01; replace craft model with manufactured router | Earlier poster, superseded style |
 | Ad04 lifestyle | Generation with references | User's lifestyle poster + Ad02 device | Latest draft, not approved |
 | Web app | Coding | User project brief and authorisation | Functional snapshot, earlier visual style |
+| Story prototype + keynote ad (proposal) | Coding (Claude, Anthropic) | Jinge Gao brief, team W11 slides, final Figma UI, physical prototype photo | Proposal, pending team review; no image generation |
 
 Before submission, record team edits, final exports, the actual final prompt history and any AI assistance by other teammates. Label reconstructed notes honestly. Generated text/UI should be checked and preferably redrawn in an editable tool for final typography control.

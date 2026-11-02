@@ -37,3 +37,10 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Corrected previous overstatement that 80-hour tiers must be excluded: the 20-hour Home story and an optional 80-hour Plus tier can coexist; final names, prices and use remain unconfirmed.
 - Maintained newer user-selected Wi-Fi-router form and final Figma prototype. No new narrative or charge rule was declared decided; summary and teacher feedback are not treated as verbatim primary records.
 - Did not upload raw pasted chat to the public repository. Updated status, onboarding, narrative, advertising notes and world rules; manifest refreshed.
+
+## 2026-11-02 — Claude (Anthropic) with Jinge Gao — Story prototype and keynote ad proposal
+- Added `proposals/story-film-and-keynote-ad/`: `story-prototype.html` (multi-device clickable presentation story), `keynote-ad.html` (about 1-minute launch-event style ad), `flow-wireframe.html` (low-fi flow) and README.
+- Hub screens follow the final Figma cream/black UI and the white-frame / sage-base / antenna router form. Plan wording changed to Home, 20 shared hours; unsettled recurring prices removed.
+- Validation: `node --check` on each file's script; paid and unpaid paths and the monthly report clicked through in a desktop browser at 1280x800. Phone-width layout not separately verified.
+- Blockers: shared-TV disclosure scene may conflict with the withdrawn rule; workplace consequence needs collector/recipient/mechanism/incentive; ad hour amounts and renewal wording unapproved.
+- Next: team review via PR; decide whether to keep, rework or drop the TV and workplace scenes (issue #1) and whether the keynote film supplements the lifestyle ad (issue #4).
