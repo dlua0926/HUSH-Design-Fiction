@@ -5,13 +5,19 @@
 | Rule | Current value | Evidence/status |
 |---|---|---|
 | What-if | What if privacy was no longer a right, but a subscription? | User's project concept |
-| Private Hours | 20 h/month, shared household allowance in current story | Current brief; supersedes legacy 80 h household ad |
+| Private Hours | 20 h/month, shared household allowance in current story | Current Home story; a possible separate 80 h Home Plus tier was also described in the earlier summary |
 | Opening state | 0 hours left; 20/20 used; renewal in 3 days | User prototype prompt and selected screen |
 | Connected devices | 11 | User prompt and selected screen |
 | Extra hour | $3.99 / 60 minutes | User prompt |
 | History | Previously collected data/existing profiles are not removed | User prompt |
 | Device | Wi-Fi router with screen | Explicit user direction |
 | Theme | People budget privacy, saving it for sensitive activities | User concept and teacher feedback summary |
+
+## Prior summary: boundaries and open questions
+- HUSH does not listen to the room. Tracking is attributed to apps, browsers, advertising platforms and connected services.
+- Earlier summary proposes a separate HUSH Home Plus tier of 80 shared hours/month. This can coexist with Home's 20-hour allowance; whether to include it and recurring prices remain undecided. The original Personal 20/Household 80/Unlimited pricing examples require reconciliation with the current 20-hour household scenario.
+- Whether the privacy provider can infer behaviour from session timing or frequency is an open critical question, not an established claim that HUSH knows protected search contents or sells data.
+- Group name: UNLIMITED. The earlier summary places the imagined future roughly 20 years ahead.
 
 ## Current implementation defaults — review before treating as final
 - Protection operates only on HUSH Wi-Fi during an active session.
@@ -29,7 +35,7 @@ A real present-day router does not, simply by routing traffic, prevent every app
 
 ## Do not accidentally change
 - No baseline monthly subscription price has been approved.
-- Do not import 80 h or unlimited from old materials without a recorded team decision.
+- Do not assign the separate proposed 80-hour tier to the 20-hour story household or treat legacy tier names/prices as final without a team decision.
 - No automatic family notification, employer notification or school intervention is established canon.
 - A browser search is not proof of a person's intent. Any story inference should be labelled a possibility and its consequences made explicit.
 - Stay within a router's chosen coverage; don't imply it hides off-network location or hotel registration.

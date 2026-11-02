@@ -21,5 +21,7 @@ This is an editorial summary of the project conversation, not a verbatim transcr
 
 16. User supplied an earlier Copilot chat extract. It covers Week 8 methodology, an earlier education topic and the Anywhere Door analogy; it contains no HUSH development. See docs/COPILOT_WEEK08.md. Original Week 8 teaching PDFs were not inspected.
 
+17. User supplied a 1,039-line prior HUSH master summary. It identifies group UNLIMITED, states HUSH does not listen to rooms, sets out the earlier job-search flow, raises session-pattern metadata as an open question, and suggests a separate 80-hour Home Plus tier. See docs/PRIOR_HUSH_CONTEXT.md. Later user directions on the router and final Figma site still apply; final narrative and tier decisions require reconciliation.
+
 ## What is not decided
 Final scenario, immediate consequence, monthly base price, final service-protocol explanation, exact hardware dimensions, final ad approval and final presentation script.

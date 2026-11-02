@@ -29,18 +29,18 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2450,
-      "sha256": "d1ab6350199984807e9167a76613fde12d0e378b41c21e9a6be3f42603d94e94"
+      "bytes": 2721,
+      "sha256": "3a450c3126c7c633aa0bbfad1261fa1a20dc24ad92969569623e6dbcc96cd9c4"
     },
     {
       "path": "STATUS.md",
-      "bytes": 4861,
-      "sha256": "93acc0ae13dfc67f9af2638abbec364512995df88a2ecfb6d4961ab2e80bf43d"
+      "bytes": 5610,
+      "sha256": "29ae84db54690b8bdeb454da7bc029cd11931af5038f2972875bb71dc1d23f12"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 3569,
-      "sha256": "df12198c3658492b861ddae4f9aec5fb635a5ca0d85245965b6d00a6748141c1"
+      "bytes": 4462,
+      "sha256": "815bf519cc466d9a9463a5f7cb1170a3d95cc8c2f2d375e62e5a4137e0d9b74b"
     },
     {
       "path": "ai/USAGE.md",
@@ -134,8 +134,8 @@
     },
     {
       "path": "docs/ADVERTISEMENT.md",
-      "bytes": 2685,
-      "sha256": "f48913faa1bb83688c950f44b66403c52cb81173a62ed9319e431f0e641b9bee"
+      "bytes": 2886,
+      "sha256": "e94822127986b4b43464d3f575b7baae05c70cb472841007c88b6987eebcfe67"
     },
     {
       "path": "docs/BRIEF_AND_FEEDBACK.md",
@@ -149,13 +149,13 @@
     },
     {
       "path": "docs/HISTORY.md",
-      "bytes": 3731,
-      "sha256": "7bb09e62d8d4a6395e0e3b2e1aad3523d266e81ba08197b7070ff9c3fa75a1a9"
+      "bytes": 4159,
+      "sha256": "895901bb4942f04024c1ad1c3229d7f84b197db51d39ee97de8cb079db03dded"
     },
     {
       "path": "docs/NARRATIVE.md",
-      "bytes": 2867,
-      "sha256": "56040381d4321ac0b7409c698806df633e7f69a8b2aa731bc487fd428a1c5368"
+      "bytes": 3477,
+      "sha256": "02a1e97f606e10ddd8296430eb6bedbd9adc93c1bf7d05a599de34b2def87f0c"
     },
     {
       "path": "docs/PHYSICAL.md",
@@ -163,9 +163,14 @@
       "sha256": "b72336a4e4b60d0adf20a744c39638b17e39ffb4e0d89f24eed244f8f53c0359"
     },
     {
+      "path": "docs/PRIOR_HUSH_CONTEXT.md",
+      "bytes": 5073,
+      "sha256": "e2dd18efbb1b1973961d0dc6322ad9d79621b9b1b3dc87aa30d18b33e9e72f2f"
+    },
+    {
       "path": "docs/WORLD_RULES.md",
-      "bytes": 2811,
-      "sha256": "b80b3fc8b52242b246d18b2f3b523c4b2ec48389e3a1ef80c8cfdc493baa8c8a"
+      "bytes": 3716,
+      "sha256": "2c28ce478b0f37c988925972acd4b6efffa69f85f8700ec31073181261e7a3f6"
     },
     {
       "path": "prototype/README.md",

@@ -5,6 +5,9 @@ Exhausted allowance → sensitive need → decision whether to buy → meaningfu
 
 The public-facing ad may feel reassuring. The story should reveal the tensions of the system through everyday experience. Keep “Is this worth one Private Hour?” as a behavioural question rather than only a sales slogan.
 
+## Earlier HUSH master-summary flow
+The previous project's main story was job search without protection → career-interest profile → cross-device indications; a later purchase cannot remove existing data. It was described as the main flow in the earlier master summary. Later in this chat the user asked for a more student-relevant setting and a stronger immediate consequence, so preserve job search as an established earlier candidate while leaving the final choice open. It is not necessary to invent employer access or family notifications to describe a profile update. See docs/PRIOR_HUSH_CONTEXT.md.
+
 ## Explored stories and status
 | Scenario | Status | Reason/next step |
 |---|---|---|

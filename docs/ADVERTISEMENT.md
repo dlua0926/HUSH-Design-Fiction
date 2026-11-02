@@ -20,7 +20,7 @@ An in-world ad sells the product as ordinary and desirable. The critical discuss
 - Terms distinguish covered participating services, active HUSH Wi-Fi sessions and retained past data.
 
 ## Consistency caveats
-The supplied style reference has a circular wall device and 20/80/unlimited tiers with $14.99/$29.99/$59.99 pricing. Those are reference/legacy content, not approved current pricing. Current generated ad deliberately uses a router, 20sharedhours and $3.99 add-on.
+The supplied style reference has a circular wall device and 20/80/unlimited tiers with $14.99/$29.99/$59.99 pricing. The earlier master summary also includes these as ad options and separately proposes an 80-hour Home Plus. These are reference/legacy options, not approved current pricing; 80 hours can represent a separate tier rather than a contradiction of the 20-hour Home story. Current generated ad deliberately uses a router, 20sharedhours and $3.99 add-on.
 
 The latest poster has an ON session while the story opens at 00:00; these are different moments, not a rules change. 59:59 belongs to an extra-hour session, not proof of a monthly total.
 

@@ -10,9 +10,10 @@ Read in this order:
 
 ## Critical context
 
+- Read `docs/PRIOR_HUSH_CONTEXT.md` for the earlier HUSH master summary: group UNLIMITED, HUSH does not listen to rooms, and session-pattern metadata is an open question.
 - The project's centre is **running out of privacy**, and the resulting everyday budgeting behaviour. Product feature growth is not the goal.
 - Product direction changed from wall-mounted Nest-like hub to a **screen-equipped Wi-Fi router**.
-- Household allowance in the current story is **20 shared hours**, not 80. $3.99 buys an additional 60 minutes; baseline monthly subscription price is NOT settled.
+- Household allowance in the current Home story is **20 shared hours**. A separate Home Plus tier of 80 shared hours was proposed in the prior summary and could coexist; its inclusion, name and recurring price are NOT settled. $3.99 buys an additional 60 minutes.
 - A final student-relevant story and its immediate consequence are NOT chosen.
 - Search → automatic parent/roommate notification was challenged by the user and withdrawn for lacking a credible information-sharing mechanism. Do not bring it back as an accepted rule.
 - Profile updates alone may still be too weak for the teacher's request for an immediate life consequence.

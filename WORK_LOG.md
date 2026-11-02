@@ -30,3 +30,10 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Read the full pasted extract (375 lines), summarised Week 8 framing and the Anywhere Door analogy in docs/COPILOT_WEEK08.md, and updated STATUS.md and HISTORY.md.
 - Distinguished Copilot interpretations from verified Assessment 4 requirements and from adopted HUSH decisions. The original Week 8 teaching PDFs were not supplied or checked.
 - No HUSH story, world rule or selected Figma prototype was changed. The raw pasted chat was not published.
+
+## 2026-11-02 — Codex — Earlier HUSH master summary incorporated
+- Read the complete 1,039-line user-pasted HUSH master summary and added docs/PRIOR_HUSH_CONTEXT.md as a sourced contextual summary.
+- Recorded UNLIMITED group name, no room listening, metadata question, earlier job-search flow and possible separate 80-hour Home Plus tier.
+- Corrected previous overstatement that 80-hour tiers must be excluded: the 20-hour Home story and an optional 80-hour Plus tier can coexist; final names, prices and use remain unconfirmed.
+- Maintained newer user-selected Wi-Fi-router form and final Figma prototype. No new narrative or charge rule was declared decided; summary and teacher feedback are not treated as verbatim primary records.
+- Did not upload raw pasted chat to the public repository. Updated status, onboarding, narrative, advertising notes and world rules; manifest refreshed.
