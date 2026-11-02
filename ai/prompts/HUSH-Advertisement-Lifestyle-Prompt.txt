@@ -1,0 +1,34 @@
+Use case: ads-marketing.
+Generate ONE finished portrait 2:3 HUSH advertising poster. Image 1 is the PRIMARY art-direction and layout reference: follow its rich cinematic evening home photography, big white typography over dark negative space, aspirational emotionally relaxing household scene, subtle translucent glass information bubbles and neatly organized cream commercial offer cards at bottom. This should look like a beautifully art-directed real home-technology advertisement, polished and immersive, not a product sheet.
+Image 2 is ONLY the reference for the new manufactured HUSH ROUTER appearance: off-white unified rectangular housing with integrated landscape screen, two short deep teal antennas, small indicator and side ventilation. No craft model, no photo frame, no clay. DO NOT use the circular wall thermostat from Image 1.
+Make a new domestic night scene: a young adult East Asian woman comfortably reclining on a textured oatmeal sofa, relaxed with eyes closed and an anatomically natural comfortable pose, a golden retriever resting beside her, a closed or partially open laptop near her and a mug on coffee table. Warm amber lamp, dark blue evening windows with city bokeh, softly blurred indoor foliage and beautiful layered depth. Arrange the HUSH router prominently on a waist-height sideboard at the upper-right/mid-right of the poster, fully supported physically, naturally fitting into the room. Device is a major, clearly visible advertising hero, not hidden, and does not float on wall. Keep face, dog and product unobscured.
+Device screen: near-black/deep charcoal with light text "HUSH HOME", a small lock icon, "PRIVATE PROTECTION ON", a large dominant "59:59", and "11 devices protected". This is an active extra one-hour session. Maintain manufactured off-white rectangular body from Image 2, warm ambient lighting, slender teal antennas, subtle shadow.
+Typography and layout:
+Top left a wide-tracked thin modern wordmark "HUSH". Top right small "A QUIETER DIGITAL LIFE".
+Upper left huge clean white sans-serif headline, exactly:
+"Your apps
+know enough."
+Under headline a lighter cream line, exactly "Give them some time off."
+Then a small widely tracked line "PRIVATE TIME FOR YOUR CONNECTED HOME".
+Use exactly THREE subtle translucent smoked-glass circular advertising overlay badges, each with a simple appropriate thin white icon and two lines of accurately spelled readable text:
+"App Tracking" / "Paused"
+"Browser Profiling" / "Paused"
+"New Profile Sharing" / "Paused"
+These bubbles are clearly advertising graphic overlays, not literal holograms in the story. Place them carefully in open areas around the scene, never obscuring eyes/face or router screen, never overwhelming lifestyle photography.
+Bottom quarter: warm dark gradient to support text, a small white phrase "A little time. Just for you."
+Two large balanced cream rounded rectangular cards with precise readable typography:
+Left card:
+"HOUSEHOLD"
+"20 shared Private Hours"
+"every month"
+"Included with your subscription"
+Right card:
+"NEED MORE TIME?"
+"Add 1 Private Hour"
+"$3.99"
+"60 minutes · All connected devices"
+Do NOT add 80 hours, unlimited plans, $14.99, $29.99 or $59.99. No invented base subscription price.
+Below cards a minimal fine white footer "HUSH / PRIVACY STARTS AT HOME."
+And readable small disclaimer across bottom:
+"Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed."
+All text must be accurately spelled, within generous safe margins and legible. Keep beautiful believable consumer advertisement quality, warm night photography and layered composition of Image 1. Avoid overly bright blank backgrounds, stiff product-centered catalog styling, sci-fi neon, lots of interface boxes, extra headlines or random decorations. Maintain consistent fictional time-based privacy subscription rules.

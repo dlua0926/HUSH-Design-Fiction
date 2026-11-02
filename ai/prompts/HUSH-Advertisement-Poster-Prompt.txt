@@ -1,0 +1,17 @@
+Use case: ads-marketing / product-mockup.
+Create ONE finished, beautifully designed portrait advertising poster for HUSH, a near-future home privacy subscription. Portrait 2:3 aspect ratio, high resolution. This is the actual advertisement people encounter inside this fictional world, not a design concept board. All text in English. Use the supplied image ONLY as the product appearance reference; show ONE front three-quarter view of the device, no rear view, no reference board title. Keep reference device recognizable: white rectangular photo frame around a landscape iPad; teal green vertical sides and twin short teal antennas with coral bands; purple top rail; coral and yellow lower frame panels with three tiny blue/pink/yellow dots; white low pedestal. Neatly made tactile matte pastel dough texture, slightly handmade but carefully finished. Do not redesign into a seamless futuristic manufactured shell.
+Art direction: premium yet approachable home-utility advertising, a large charcoal editorial headline, very generous margins, warm ivory paper background, quiet domestic light with soft late-afternoon window shadows. The multicolored product is the visual centerpiece. Design has a real typographic hierarchy and exceptional layout, NOT a rainbow background or generic AI flyer. A tiny slim cobalt blue rule and understated color accent may echo product. Single hero product photograph filling the middle 45% of the poster, seated on a very pale warm-white desk surface, with only a closed thin notebook and an out-of-focus neutral ceramic cup at far edge to establish ordinary student living. No people. Antennas fully visible. Keep product's cream-and-black screen legible: HUSH HOME, PRIVATE HOURS, large 00:00, 20 / 20 hours used, Renews in 3 days, 11 devices, dark lower status band marked PROTECTION INACTIVE. This is an exhausted allowance state, do NOT show active protection.
+Poster layout:
+Top left modest widely spaced logotype "HUSH"; top right very small "HOME PRIVACY UTILITY".
+Below logo, very large elegant clean sans-serif headline with intentional 3 line breaks, exactly:
+"Some moments
+are worth keeping
+to yourself."
+Under the headline in restrained small type, exactly "For the plans you’re not ready to share."
+Then the hero product photograph, fully inside margins, strong natural shadows, with enough breathing room.
+Bottom area with a thin fine horizontal divider, two aligned typographic columns:
+Left column, large readable text exactly "One home." on first line and "20 Private Hours every month." on second line.
+Right column has small "Need more time?" then bold larger "Add 1 Private Hour" and price "$3.99" beneath. No QR code, no invented website, no unsupported base subscription price.
+At the very bottom, readable but genuinely small fine print, exact:
+"20 shared hours included with a household subscription. Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed."
+Ensure text is accurately spelled, keep all text inside safe margins, don't add any other slogans, don't add "prototype", don't print production annotations. The ad should feel welcoming while allowing the unsettling paid, limited privacy rule to reveal itself through ordinary commercial language.

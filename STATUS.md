@@ -1,0 +1,43 @@
+# Current project status
+
+Last updated: **2026-11-02 · Australia/Sydney**
+
+## Confirmed direction
+- HUSH remains the project; limited monthly Private Hours and privacy budgeting remain central.
+- User-selected device: screen-equipped Wi-Fi router.
+- User has a white frame and six clay colours: yellow, blue, purple, pink, teal and coral. White clay cannot be mixed from the available colours.
+- User selected a cream/black iPad screen reference.
+- User wants colourful decoration across frame, not only antennas.
+- Advertising should use a fictional finished consumer product, rather than requiring the handmade model appearance.
+- Latest request: use a warm nighttime lifestyle-ad style with relaxed person, dog, glass badges and a router in the home.
+
+## Delivered
+- Clickable prototype source, device list, simulated checkout, countdown, browsing ledger, network boundary, report and demo controls.
+- Browser checks passed for protected/unprotected paths, historical-event retention, expiry, renewal and mobile overflow; source syntax checked. Screenshot references included. These checks apply to this source snapshot, not future edits.
+- Physical concept iterations and gap-filling advice.
+- Poster iterations, including latest lifestyle ad (awaiting review).
+- Collaboration documents and asset inventory prepared for GitHub.
+
+## Work queue
+
+| Priority | Task | Status | Owner | Definition of done |
+|---|---|---|---|---|
+| P0 | Final narrative and immediate unpaid consequence | OPEN | Unassigned | Student-relevant need, credible collector/recipient/incentive, tangible consequence and consistent paid branch |
+| P0 | Privacy/world rules review | OPEN | Unassigned | Team approves scope, timing, base plan, charge rules and service mechanism |
+| P1 | Match interactive iPad view to cream/black reference | OPEN | Unassigned | Full-screen display inside frame, tested on actual iPad; source retained |
+| P1 | Physical construction | IN PROGRESS, self-reported materials only | Group | Stable assembled model, touch access, charge access, photos |
+| P1 | Instruction set | OPEN | Unassigned | In-world quick-start + depleted-hours behaviour + history limitation |
+| P1 | Advertisement review and editable finish | DRAFT READY | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
+| P1 | Presentation/rehearsal | OPEN | Group | Continuous speaker blocks, reliable device cues, no early what-if reveal |
+| P1 | Final PDF | OPEN | Group | Artefact photos, instruction set, ad, slides, AI record; proofread and visually checked |
+
+## Unresolved
+- Strong final consequence beyond advertising/profile update.
+- Precise participating-service protocol (a fictional assumption, not existing router capability).
+- Whether one extra hour can pause; current implementation starts a continuous hour immediately.
+- Whether to keep other tiers at all; legacy 80-hour/unlimited advertisement is not current canon.
+- Actual frame/iPad dimensions and material attachment behaviour.
+- Final advertisement approval; latest generated ad uses an active 59:59 session.
+
+## Collaboration state
+Repository is public at the user's supplied URL. No teammates have been invited by this assistant. Each teammate needs appropriate repository and connector access. An AI session is not a background watcher; updates are committed when an assistant or person actually works on the project.

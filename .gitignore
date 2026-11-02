@@ -1,0 +1,10 @@
+# Local state and generated scratch
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+work/
+__pycache__/
+*.log
+.openai/

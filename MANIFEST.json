@@ -1,0 +1,186 @@
+{
+  "snapshot_date": "2026-11-02",
+  "timezone": "Australia/Sydney",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/task.md",
+      "bytes": 352,
+      "sha256": "9b7a2396e79d9dfd4e6c3448af707ba98cf68c069a9b38682ccf5d13141cbab7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 120,
+      "sha256": "adac2a92fe8ea54d1f83117424f531660a9f1c8dd29d65d4e6c254ca9e45fa48"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2253,
+      "sha256": "4f34e8d283e827fe441527f0a7febba03956ebc05a0ca534bf8a890b9721c83b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1431,
+      "sha256": "391c12b461e626f8559f6a9758c28466c2023240963c5fc28bd8fc3d4a2c22e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2762,
+      "sha256": "d4d076d552b81dd808f339ac1bfa14fe72c038cc788aadc84ed3b6c63a7b068e"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2292,
+      "sha256": "959c83bdec639519892b962cc9248d5fe793081276428f127aaa9b6f9007614c"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 3408,
+      "sha256": "629073b2a0b3fcfa19b8a860e02306d804951ac8cb4e9e12768678dfb05237d8"
+    },
+    {
+      "path": "WORK_LOG.md",
+      "bytes": 1112,
+      "sha256": "62025a846af44f63d26843b3c615d00e6cc654cee893af26bc622dad375f8a84"
+    },
+    {
+      "path": "ai/USAGE.md",
+      "bytes": 2382,
+      "sha256": "f76984737fe3a11fec64e86bef6fde95b8d541754edf1f3236c448e2ad72612b"
+    },
+    {
+      "path": "ai/prompts/HUSH-Advertisement-Future-Product-Prompt.txt",
+      "bytes": 2753,
+      "sha256": "bb2a8fa32acc6884410e441538d1832af95355f58b3956167954339eb63e9614"
+    },
+    {
+      "path": "ai/prompts/HUSH-Advertisement-Lifestyle-Prompt.txt",
+      "bytes": 3921,
+      "sha256": "d72ee4d6940c7234f3829df090193a613cbab3ea4c33fa89d57cdbe4f170212a"
+    },
+    {
+      "path": "ai/prompts/HUSH-Advertisement-Poster-Prompt.txt",
+      "bytes": 3318,
+      "sha256": "70854f40cdd4ea670d9e1e91caa0b71f2abb06d90956c06c9364c84c9b24ab82"
+    },
+    {
+      "path": "ai/prompts/HUSH-Physical-Prototype-Prompt.txt",
+      "bytes": 3259,
+      "sha256": "7670bf2479408729f40d8ac7844d03f0b980525b0cae914585572ad2cc4c70c8"
+    },
+    {
+      "path": "assets/INDEX.md",
+      "bytes": 1754,
+      "sha256": "b1b1830a38b853b35b4c0b387476507271712932371d27dcd47d5643491bcdad"
+    },
+    {
+      "path": "assets/advertisements/01-craft-product.jpg",
+      "bytes": 196393,
+      "sha256": "36e5b9ffe4ddb7d2972ffdeef5648ac40ca0e2f372ba477dceae69dc6cc62018"
+    },
+    {
+      "path": "assets/advertisements/02-future-product.jpg",
+      "bytes": 188476,
+      "sha256": "402fc3ecd4c365abb69031c85cb942115a6a606749bb05160f8056f9b561a8e3"
+    },
+    {
+      "path": "assets/advertisements/04-lifestyle.jpg",
+      "bytes": 258510,
+      "sha256": "68fed9a9864e796363d9225646a84c7fcc68ae99277e170263fdf907d3289fcd"
+    },
+    {
+      "path": "assets/physical/01-initial.jpg",
+      "bytes": 110107,
+      "sha256": "0631f8c1269cabb941eac3138d47c9fbd83093cebc9ffe6dfa84171540ad7b7a"
+    },
+    {
+      "path": "assets/physical/02-frame-mat.jpg",
+      "bytes": 115639,
+      "sha256": "ce0f9d61924b1cf72f25821e227b5cc0bcd9e496fc68e1e3dc2809185f12ecb6"
+    },
+    {
+      "path": "assets/physical/03-teal-coral.jpg",
+      "bytes": 110216,
+      "sha256": "26282fccdf70d9427e2e680dab4fb386fc463f464e4b49e248350bdbd1c544d9"
+    },
+    {
+      "path": "assets/physical/04-colourful-frame.jpg",
+      "bytes": 126395,
+      "sha256": "3521db4ee831fac368adea036b51c35677361531078e7bf91e05c57a57a13eef"
+    },
+    {
+      "path": "assets/prototype/browser.jpg",
+      "bytes": 84488,
+      "sha256": "62e86bc63d4b0df5caff1af7a05b3d8aeb001519890347f452caa3e995fab85e"
+    },
+    {
+      "path": "assets/prototype/home.jpg",
+      "bytes": 89099,
+      "sha256": "4f372ec5eca6b5a465887a500553dad9f4d130592d7d754c827def0ef5112073"
+    },
+    {
+      "path": "assets/prototype/mobile.jpg",
+      "bytes": 60161,
+      "sha256": "f1dfb14ee54f4c64824a262c27c5be8c1e124ebcbbfaca70dfb92a82fe3fbaa4"
+    },
+    {
+      "path": "assets/prototype/report.jpg",
+      "bytes": 88857,
+      "sha256": "aa9e9190846f6ae79344a836067418f3753122a8453a818ae5352e903c7990ea"
+    },
+    {
+      "path": "assets/ui/selected-cream-screen.jpg",
+      "bytes": 91146,
+      "sha256": "6334643e9943c31602a2ff593aebcdac5b28d173225380de71037cb73a7b011b"
+    },
+    {
+      "path": "docs/ADVERTISEMENT.md",
+      "bytes": 2685,
+      "sha256": "f48913faa1bb83688c950f44b66403c52cb81173a62ed9319e431f0e641b9bee"
+    },
+    {
+      "path": "docs/BRIEF_AND_FEEDBACK.md",
+      "bytes": 2910,
+      "sha256": "9f0891d30719a13c93dbff4e49cb54be0d4edd7c502cfed3b0e8bbe713d4865f"
+    },
+    {
+      "path": "docs/HISTORY.md",
+      "bytes": 3130,
+      "sha256": "768a8e0c4f61b669ec6095dbf5fb9d695413e22e6ac2ca10cc585487ae0093f6"
+    },
+    {
+      "path": "docs/NARRATIVE.md",
+      "bytes": 2867,
+      "sha256": "56040381d4321ac0b7409c698806df633e7f69a8b2aa731bc487fd428a1c5368"
+    },
+    {
+      "path": "docs/PHYSICAL.md",
+      "bytes": 2365,
+      "sha256": "fe0db31cedb0981e02cc725162a815a11c7fd64b392027f72a7ce5d0041a3174"
+    },
+    {
+      "path": "docs/WORLD_RULES.md",
+      "bytes": 2811,
+      "sha256": "b80b3fc8b52242b246d18b2f3b523c4b2ec48389e3a1ef80c8cfdc493baa8c8a"
+    },
+    {
+      "path": "prototype/README.md",
+      "bytes": 1661,
+      "sha256": "c3e11dc24c47022f7deb0b88452a5ecd8b80f217ba2870f699e148be3f9532a3"
+    },
+    {
+      "path": "prototype/app.js",
+      "bytes": 19200,
+      "sha256": "26f0aefc75526dedb4c7294c4782174cb719f1162e880c51ba568e2a20b42309"
+    },
+    {
+      "path": "prototype/index.html",
+      "bytes": 1384,
+      "sha256": "537cffc57f656388d3a500eed2a2c020b334bf55b2187a2cf85a7314ed7a95ec"
+    },
+    {
+      "path": "prototype/style.css",
+      "bytes": 16852,
+      "sha256": "c6c22057efeeea999c806250a2aa4774c9b3b8415bacd7bf9f49b5c17636de33"
+    }
+  ]
+}
