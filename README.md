@@ -14,7 +14,7 @@ HUSH 是一台带屏幕的家庭 Wi-Fi 隐私路由器。在这个虚构未来�
 |---|---|
 | 核心体验 | 20 小时/月；当前已用完；3 天后更新；额外一小时 $3.99；11 台设备 |
 | 产品形态 | 带屏 Wi-Fi 路由器，保护范围取决于网络连接和保护时段 |
-| 点击原型 | 已实现并检查；[源码](prototype/)；模拟支付和网络保护 |
+| 最终点击原型 | [用户指定的 Figma 最终版](https://banner-dish-90173388.figma.site)；此前绿色版本已弃用 |
 | 实体制作 | 已购买白色相框和六色黏土，计划套在横放 iPad 外；未收到完成照 |
 | 最新广告 | [暖色夜景生活方式海报](assets/advertisements/04-lifestyle.jpg)，待组内审核 |
 | 最大待定项 | 未付费的具体生活后果和最终演示故事 |
@@ -35,11 +35,7 @@ HUSH 是一台带屏幕的家庭 Wi-Fi 隐私路由器。在这个虚构未来�
 
 ## 原型预览
 
-![HUSH prototype](assets/prototype/home.jpg)
-
-[打开原型](https://hush-private-hours-home.pastelray9.chatgpt.site)（先前部署为 owner-private，不保证其他组员可直接访问；以仓库源码为协作依据）。
-
-无需安装，下载仓库后在浏览器打开 `prototype/index.html`。部署链接不会随着 GitHub 更新自动发布；需要独立同步和部署。
+**[打开用户指定的最终版原型](https://banner-dish-90173388.figma.site)**。已检查首页；完整交互与可编辑源码尚未核实。仓库 `prototype/` 和 `assets/prototype/` 为先前被用户否决的历史版本，不得作为最终作品。
 
 ## 最新广告方向
 

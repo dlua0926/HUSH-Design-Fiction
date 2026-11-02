@@ -2,6 +2,12 @@
 
 Last updated: **2026-11-02 · Australia/Sydney**
 
+## Final prototype — user-confirmed
+- **Final:** https://banner-dish-90173388.figma.site
+- The previous green HTML prototype was rejected by the user. Its source/screenshots remain only as historical material.
+- Final homepage was opened and its displayed state checked. Full interaction flow and editable source are not yet verified.
+- Earlier Copilot shared chat requires Microsoft sign-in; its contents have not been read or incorporated yet.
+
 ## Confirmed direction
 - HUSH remains the project; limited monthly Private Hours and privacy budgeting remain central.
 - User-selected device: screen-equipped Wi-Fi router.
@@ -24,7 +30,7 @@ Last updated: **2026-11-02 · Australia/Sydney**
 |---|---|---|---|---|
 | P0 | Final narrative and immediate unpaid consequence | OPEN | Unassigned | Student-relevant need, credible collector/recipient/incentive, tangible consequence and consistent paid branch |
 | P0 | Privacy/world rules review | OPEN | Unassigned | Team approves scope, timing, base plan, charge rules and service mechanism |
-| P1 | Match interactive iPad view to cream/black reference | OPEN | Unassigned | Full-screen display inside frame, tested on actual iPad; source retained |
+| P1 | Validate final Figma prototype on iPad | OPEN | Unassigned | Test user-selected Figma final version on actual iPad and check interaction; do not use rejected green build |
 | P1 | Physical construction | IN PROGRESS, self-reported materials only | Group | Stable assembled model, touch access, charge access, photos |
 | P1 | Instruction set | OPEN | Unassigned | In-world quick-start + depleted-hours behaviour + history limitation |
 | P1 | Advertisement review and editable finish | DRAFT READY | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
@@ -45,7 +51,7 @@ Repository is public at the user's supplied URL. No teammates have been invited 
 ## GitHub task board
 
 - [#1 Final narrative, immediate consequence and world rules](https://github.com/dlua0926/HUSH-Design-Fiction/issues/1)
-- [#2 Cream/black iPad interactive view](https://github.com/dlua0926/HUSH-Design-Fiction/issues/2)
+- [#2 Validate final Figma prototype on iPad](https://github.com/dlua0926/HUSH-Design-Fiction/issues/2)
 - [#3 Physical build and photographs](https://github.com/dlua0926/HUSH-Design-Fiction/issues/3)
 - [#4 Advertisement review and editable finish](https://github.com/dlua0926/HUSH-Design-Fiction/issues/4)
 - [#5 Instructions, performance and final PDF](https://github.com/dlua0926/HUSH-Design-Fiction/issues/5)

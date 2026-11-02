@@ -24,23 +24,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 2762,
-      "sha256": "d4d076d552b81dd808f339ac1bfa14fe72c038cc788aadc84ed3b6c63a7b068e"
+      "bytes": 2677,
+      "sha256": "09868441618e6cf7e1a2619ee95ddd63cf79418764d0f66c0d269ddc18893aab"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2292,
-      "sha256": "959c83bdec639519892b962cc9248d5fe793081276428f127aaa9b6f9007614c"
+      "bytes": 2450,
+      "sha256": "d1ab6350199984807e9167a76613fde12d0e378b41c21e9a6be3f42603d94e94"
     },
     {
       "path": "STATUS.md",
-      "bytes": 4274,
-      "sha256": "1e845ca21ee690974d5a6e4d529c3c5d3fb9d2d036f95669192acf7abc0108ca"
+      "bytes": 4750,
+      "sha256": "ffc0c77db55752c57353697d9e36b6d6717b09527a015736a8f494690cc9a478"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 2247,
-      "sha256": "a5175f9cddc5dc64583bd740e22eb0e172cf8d4490429e819572f21467b04ec0"
+      "bytes": 3057,
+      "sha256": "56e8af53b8f970f90bf4114ad33546fc1d3ca814b2c9e9d1a00626121429b3ed"
     },
     {
       "path": "ai/USAGE.md",
@@ -144,8 +144,8 @@
     },
     {
       "path": "docs/HISTORY.md",
-      "bytes": 3130,
-      "sha256": "768a8e0c4f61b669ec6095dbf5fb9d695413e22e6ac2ca10cc585487ae0093f6"
+      "bytes": 3480,
+      "sha256": "df5e50db14c899dcd2d625e26ec9ce77467213c9f17436cf32bb3be536c2fe4b"
     },
     {
       "path": "docs/NARRATIVE.md",
@@ -154,8 +154,8 @@
     },
     {
       "path": "docs/PHYSICAL.md",
-      "bytes": 2365,
-      "sha256": "fe0db31cedb0981e02cc725162a815a11c7fd64b392027f72a7ce5d0041a3174"
+      "bytes": 2524,
+      "sha256": "b72336a4e4b60d0adf20a744c39638b17e39ffb4e0d89f24eed244f8f53c0359"
     },
     {
       "path": "docs/WORLD_RULES.md",

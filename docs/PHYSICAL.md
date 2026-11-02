@@ -23,9 +23,9 @@ Centre actual iPad in aperture; measure top and bottom gaps individually. If tru
 Use rigid easel/stand/base to carry iPad weight; clay is decorative, not structural. Antennas can wrap a paper-straw core and mount on rear frame. Retain charge access, ventilation and removability. Test with actual materials before final assembly.
 
 ## Screen
-Latest selected reference: `assets/ui/selected-cream-screen.jpg`. Cream main panel, HUSH HOME header, small 8:42 PM clock, dominant 00:00 left, 0 HRS ring right, monthly20/20, renewal3days, connected11, dark lower band with protection inactive and four active tracking categories. This is supplied as a static screenshot; editable source/link was not supplied.
+Latest selected reference: `assets/ui/selected-cream-screen.jpg`. Cream main panel, HUSH HOME header, small 8:42 PM clock, dominant 00:00 left, 0 HRS ring right, monthly20/20, renewal3days, connected11, dark lower band with protection inactive and four active tracking categories. The user later designated https://banner-dish-90173388.figma.site as the final prototype. Its homepage was checked; editable source and complete interaction flow remain unverified.
 
-For presentation, expose the actual device UI rather than website navigation and marketing text. The existing web app is an earlier green design, so an iPad-focused visual implementation is still a task.
+For presentation, expose the actual device UI rather than website navigation and marketing text. Use the user-selected final Figma prototype. The earlier green web app is rejected and is historical only. Check full-screen operation and touch on the actual iPad.
 
 ## Final evidence needed
 Photos of the assembled object from front, side and rear, plus an interaction photo. Record how it is operated in performance and any practical limits. A rendered mockup does not replace these photos.

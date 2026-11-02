@@ -17,7 +17,7 @@ Read in this order:
 - Search → automatic parent/roommate notification was challenged by the user and withdrawn for lacking a credible information-sharing mechanism. Do not bring it back as an accepted rule.
 - Profile updates alone may still be too weak for the teacher's request for an immediate life consequence.
 - A physical student model uses a white picture frame + iPad + coloured dough. Ads may depict a fully manufactured future product instead.
-- The latest screen reference is cream/black, with 00:00 and a dark tracking-status footer. The implemented web prototype still uses an earlier green visual design. These are not yet reconciled.
+- The user explicitly selected https://banner-dish-90173388.figma.site as the FINAL prototype and rejected the earlier green prototype. The final homepage was observed; other screens and editable source have not yet been verified. The repository `prototype/` and its screenshots are historical only. Do not rebuild or promote them as the final version.
 - Never claim the prototype performs real payments, network protection, or profile deletion.
 - AI-generated visuals are concepts; they are not proof of a manufactured product or completed physical build.
 

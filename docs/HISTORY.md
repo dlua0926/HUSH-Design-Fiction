@@ -17,5 +17,7 @@ This is an editorial summary of the project conversation, not a verbatim transcr
 13. User supplied a superior nighttime lifestyle ad reference and asked for that style. Latest ad uses relaxed resident/dog, glass feature bubbles and household20hours/$3.99extra offer cards.
 14. User requested GitHub as the shared knowledge and progress hub for other teammates' AIs. User supplied `dlua0926/HUSH-Design-Fiction`; repository is public and initially empty. No automatic teammate invitations or background monitoring were requested/configured.
 
+15. User explicitly rejected the assistant-built green prototype and selected https://banner-dish-90173388.figma.site as the final prototype. Its homepage was observed; full interaction flow and editable source have not been verified. The user also provided an earlier Copilot conversation; it redirected to Microsoft sign-in and has not been read.
+
 ## What is not decided
 Final scenario, immediate consequence, monthly base price, final service-protocol explanation, exact hardware dimensions, final ad approval and final presentation script.

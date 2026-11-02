@@ -18,3 +18,10 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Created open, unassigned issues #1–#5 for narrative/rules, iPad interface, physical build, advertisement and final deliverables.
 - This follow-up commit records verification and links tasks; it does not approve any unfinished design or claim a background monitoring service.
 - Next: a teammate can read START_HERE.md, claim a task and submit a branch/PR with STATUS.md and WORK_LOG.md updates.
+
+## 2026-11-02 — Codex — Final prototype corrected
+- User explicitly designated https://banner-dish-90173388.figma.site as the final prototype and rejected the assistant's earlier green version.
+- Opened the Figma site in a browser and confirmed its cream/black home screen: 00:00, 20/20 hours used, renewal in 3 days, 11 connected devices, protection inactive. Did not verify all interactive branches or access to editable source.
+- Updated onboarding, README, status, physical guidance and history. Earlier green source and screenshots are historical only.
+- User supplied an earlier Microsoft Copilot conversation, but it redirected to Microsoft login; its contents were not accessible or summarised.
+- Next: obtain accessible Copilot text and review the actual final prototype's complete flow on iPad.
