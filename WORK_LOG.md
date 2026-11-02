@@ -25,3 +25,8 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Updated onboarding, README, status, physical guidance and history. Earlier green source and screenshots are historical only.
 - User supplied an earlier Microsoft Copilot conversation, but it redirected to Microsoft login; its contents were not accessible or summarised.
 - Next: obtain accessible Copilot text and review the actual final prototype's complete flow on iPad.
+
+## 2026-11-02 — Codex — Earlier Copilot extract reviewed
+- Read the full pasted extract (375 lines), summarised Week 8 framing and the Anywhere Door analogy in docs/COPILOT_WEEK08.md, and updated STATUS.md and HISTORY.md.
+- Distinguished Copilot interpretations from verified Assessment 4 requirements and from adopted HUSH decisions. The original Week 8 teaching PDFs were not supplied or checked.
+- No HUSH story, world rule or selected Figma prototype was changed. The raw pasted chat was not published.

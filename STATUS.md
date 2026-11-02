@@ -6,7 +6,7 @@ Last updated: **2026-11-02 · Australia/Sydney**
 - **Final:** https://banner-dish-90173388.figma.site
 - The previous green HTML prototype was rejected by the user. Its source/screenshots remain only as historical material.
 - Final homepage was opened and its displayed state checked. Full interaction flow and editable source are not yet verified.
-- Earlier Copilot shared chat requires Microsoft sign-in; its contents have not been read or incorporated yet.
+- A pasted extract of the earlier Copilot chat was reviewed: it covers Week 8 design-fiction framing and an Anywhere Door analogy, not HUSH development. See docs/COPILOT_WEEK08.md; original Week 8 PDFs were not inspected.
 
 ## Confirmed direction
 - HUSH remains the project; limited monthly Private Hours and privacy budgeting remain central.

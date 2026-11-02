@@ -19,5 +19,7 @@ This is an editorial summary of the project conversation, not a verbatim transcr
 
 15. User explicitly rejected the assistant-built green prototype and selected https://banner-dish-90173388.figma.site as the final prototype. Its homepage was observed; full interaction flow and editable source have not been verified. The user also provided an earlier Copilot conversation; it redirected to Microsoft sign-in and has not been read.
 
+16. User supplied an earlier Copilot chat extract. It covers Week 8 methodology, an earlier education topic and the Anywhere Door analogy; it contains no HUSH development. See docs/COPILOT_WEEK08.md. Original Week 8 teaching PDFs were not inspected.
+
 ## What is not decided
 Final scenario, immediate consequence, monthly base price, final service-protocol explanation, exact hardware dimensions, final ad approval and final presentation script.
