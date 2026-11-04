@@ -18,3 +18,6 @@ All JPEGs are collaboration previews converted from original PNGs; no design cha
 | [assets/ui/selected-cream-screen.jpg](ui/selected-cream-screen.jpg) | user-selected static screen, source not supplied |
 
 Physical and ad renders are AI-generated concepts. UI screenshot is user-supplied. Prototype captures are actual browser renders. Latest files are not automatically human-approved. No original clay photograph or third-party style-reference poster is republished here.
+
+## Latest draft — 2026-11-04
+[05-white-no-antennas.jpg](advertisements/05-white-no-antennas.jpg): AI-generated modern white device with hidden antennas and the final Figma homepage visual design; latest advertising draft, pending user review. Earlier antenna-based ads remain historical iterations.

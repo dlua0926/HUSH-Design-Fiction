@@ -37,3 +37,8 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Corrected previous overstatement that 80-hour tiers must be excluded: the 20-hour Home story and an optional 80-hour Plus tier can coexist; final names, prices and use remain unconfirmed.
 - Maintained newer user-selected Wi-Fi-router form and final Figma prototype. No new narrative or charge rule was declared decided; summary and teacher feedback are not treated as verbatim primary records.
 - Did not upload raw pasted chat to the public repository. Updated status, onboarding, narrative, advertising notes and world rules; manifest refreshed.
+
+## 2026-11-04 — Codex — Modern white antenna-free ad draft
+- Reopened the user-selected Figma prototype and inspected its cream/black exhausted home screen.
+- Generated a new lifestyle-ad draft with a refined white unibody and no external antennas. UI shows00:00/protectioninactive; service-benefit bubbles use conditional “Pause with HUSH”.
+- Added assets/advertisements/05-white-no-antennas.jpg and exact generation prompt; updated ad notes, status and inventory. Image remains a draft; no physical build completion or final approval is implied.

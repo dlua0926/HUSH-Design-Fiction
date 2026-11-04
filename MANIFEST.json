@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-04",
   "timezone": "Australia/Sydney",
   "files": [
     {
@@ -34,13 +34,13 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 5610,
-      "sha256": "29ae84db54690b8bdeb454da7bc029cd11931af5038f2972875bb71dc1d23f12"
+      "bytes": 6058,
+      "sha256": "a8dadbb1faa57673c566b03c6fa11aafacffaf043d99f3265856293e10387d53"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 4462,
-      "sha256": "815bf519cc466d9a9463a5f7cb1170a3d95cc8c2f2d375e62e5a4137e0d9b74b"
+      "bytes": 5019,
+      "sha256": "a1c44cd54bb41149c12ea04bfa645d98ef6ae1fe9f8ef99847605cc6a2cbb742"
     },
     {
       "path": "ai/USAGE.md",
@@ -63,14 +63,19 @@
       "sha256": "70854f40cdd4ea670d9e1e91caa0b71f2abb06d90956c06c9364c84c9b24ab82"
     },
     {
+      "path": "ai/prompts/HUSH-Advertisement-White-No-Antennas-Prompt.txt",
+      "bytes": 3314,
+      "sha256": "cc4447235145efe370de264c6d866c90a554a233f89c9d984ba7203272ae85f2"
+    },
+    {
       "path": "ai/prompts/HUSH-Physical-Prototype-Prompt.txt",
       "bytes": 3259,
       "sha256": "7670bf2479408729f40d8ac7844d03f0b980525b0cae914585572ad2cc4c70c8"
     },
     {
       "path": "assets/INDEX.md",
-      "bytes": 1754,
-      "sha256": "b1b1830a38b853b35b4c0b387476507271712932371d27dcd47d5643491bcdad"
+      "bytes": 2056,
+      "sha256": "0cd04a3cc2b4322b929d9849bac253effc7476e13d928ba4fda66d3c4b00b957"
     },
     {
       "path": "assets/advertisements/01-craft-product.jpg",
@@ -86,6 +91,11 @@
       "path": "assets/advertisements/04-lifestyle.jpg",
       "bytes": 258510,
       "sha256": "68fed9a9864e796363d9225646a84c7fcc68ae99277e170263fdf907d3289fcd"
+    },
+    {
+      "path": "assets/advertisements/05-white-no-antennas.jpg",
+      "bytes": 244338,
+      "sha256": "4b40946d812c8dbed21f526d5e9ee1d2093d8dbedac94ce20d499d974212df21"
     },
     {
       "path": "assets/physical/01-initial.jpg",
@@ -134,8 +144,8 @@
     },
     {
       "path": "docs/ADVERTISEMENT.md",
-      "bytes": 2886,
-      "sha256": "e94822127986b4b43464d3f575b7baae05c70cb472841007c88b6987eebcfe67"
+      "bytes": 3622,
+      "sha256": "33a71bfed98d8af13b01da04528bda6120ec7df9d2d903044a1a02277f5592f4"
     },
     {
       "path": "docs/BRIEF_AND_FEEDBACK.md",

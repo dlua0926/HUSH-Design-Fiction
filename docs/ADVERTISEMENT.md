@@ -1,5 +1,9 @@
 # Advertisement direction
 
+## 2026-11-04 update — white antenna-free advertisement
+User requested an updated ad based on the final Figma page, with a more modern white body and no external antennas. Latest draft: [05-white-no-antennas.jpg](../assets/advertisements/05-white-no-antennas.jpg). Final Figma homepage was opened again: cream/black UI, 00:00, 20/20 used, renewal in 3 days, 11 devices, protection inactive. The new image uses that exhausted state; feature bubbles say “Pause with HUSH” rather than claiming current protection is on. Device is a rounded white manufactured product with concealed antennas. Warm nighttime lifestyle style is retained. This is an AI-generated draft pending user review, not evidence of completed physical changes.
+
+
 ## Assignment fit
 An in-world ad sells the product as ordinary and desirable. The critical discussion can emerge from the limited allowance, additional-hour price and terms. The ad does not need to announce the what-if or narrate the entire negative consequence. A polished print poster is an allowed format; video is optional.
 

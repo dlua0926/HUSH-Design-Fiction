@@ -1,6 +1,6 @@
 # Current project status
 
-Last updated: **2026-11-02 · Australia/Sydney**
+Last updated: **2026-11-04 · Australia/Sydney**
 
 ## Final prototype — user-confirmed
 - **Final:** https://banner-dish-90173388.figma.site
@@ -63,3 +63,8 @@ Repository is public at the user's supplied URL. No teammates have been invited 
 - [#5 Instructions, performance and final PDF](https://github.com/dlua0926/HUSH-Design-Fiction/issues/5)
 
 All issues are open and unassigned at setup; claim an issue before parallel work. The user explicitly authorised public upload after the repository visibility was identified. GitHub App access was subsequently granted and content upload succeeded.
+
+## Latest advertisement — 2026-11-04
+- User requested modern white finished hardware with no exposed antennas, based on the final Figma interface.
+- Draft: assets/advertisements/05-white-no-antennas.jpg; pending user review. Earlier teal-antenna ad is a previous version.
+- Figma homepage rechecked; full interactive flow was not retested. The new advertising hardware request does not itself establish a completed change to the physical model.

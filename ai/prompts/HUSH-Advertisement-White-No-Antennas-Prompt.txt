@@ -1,0 +1,24 @@
+Create one finished portrait 2:3 HUSH consumer lifestyle advertisement. Image 1 is the existing ad STYLE reference, image 2 is the latest user-selected Figma UI and is authoritative for SCREEN DESIGN. Keep the cinematic upscale cozy night home with amber lamplight, blue city lights through windows, a relaxed young adult woman and resting golden retriever on the sofa, comfortable knit textiles, a laptop and mug, strong white ad typography and three subtle glass graphic bubbles. This is a real fictional consumer product advertisement, not a craft prototype.
+CRITICAL PRODUCT CHANGE: HUSH is now an elegant modern fully WHITE device with NO ANTENNAS anywhere. Use internal hidden antennas. The hero device sits visibly on a sideboard at upper right, is large and clearly legible, a sleek slightly tilted landscape rounded-rectangle touch panel in a smooth matte warm-white precision unibody housing, slim minimal bezel, gently rounded transitions, integrated low white foot, subtle underside ventilation hidden from front, no exposed wires, no teal parts, no black bulky housing, no picture-frame mitres, no clay, no protrusions. Contemporary refined 2046 domestic Wi-Fi privacy utility, tangible and believable. No circular Nest device.
+SCREEN follows image2: cream/off-white HUSH HOME interface with small logo, small time 8:42 PM, PRIVATE HOURS, dominant black "00:00" left with "remaining", thin circular meter right with "0 HRS", three lower columns "20 / 20 hours", "3 days", "11 devices", dark charcoal footer reading "PROTECTION INACTIVE" and the four active tracking labels. Screen is flush and bright enough to see. Do not put image2's surrounding website background inside screen. Display precisely this EXHAUSTED INACTIVE state, not green old interface and not 59:59.
+Typography: elegant widely-spaced HUSH logotype upper left, small upper right "A QUIETER DIGITAL LIFE". Large upper-left headline exactly "Your apps\nknow enough." Below it "Give them some time off." Small tracked line "PRIVATE TIME FOR YOUR CONNECTED HOME".
+Three subtle translucent circular AD GRAPHIC overlays around living scene, carefully outside face and device:
+"App Tracking" / "Pause with HUSH"
+"Browser Profiling" / "Pause with HUSH"
+"New Profile Sharing" / "Pause with HUSH"
+These are conditional service benefit claims, NOT current status; do not say Paused or Protection On because device currently has zero hours.
+Bottom gradient, elegant small line "A little time. Just for you."
+Two refined cream information cards. Left exactly:
+"HOUSEHOLD"
+"20 shared Private Hours"
+"every month"
+"Included with your subscription"
+Right exactly:
+"NEED MORE TIME?"
+"Add 1 Private Hour"
+"$3.99"
+"60 minutes · Your connected home"
+At bottom tasteful thin brand footer "HUSH / PRIVACY STARTS AT HOME."
+Fine print exactly:
+"Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed."
+Maintain beautiful photographic depth, anatomically natural person and dog, crisp exact spelling, well-composed margins and exceptionally polished premium editorial typography. Product industrial design must be visibly modern, pristine white and antenna-free. No extra pricing tiers, no invented monthly price, no cyberpunk, no literal floating holograms.
