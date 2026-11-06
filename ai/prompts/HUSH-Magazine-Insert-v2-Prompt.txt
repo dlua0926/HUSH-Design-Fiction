@@ -1,0 +1,15 @@
+Edit the attached HUSH advertisement poster (poster-v1.jpg) with the image generation tool. Keep the overall layout, colours (deep red #A31D1D, cream background, black), headline typography, the device design and all large text EXACTLY as they are. Make ONLY these changes:
+
+1. "How It Works" (bottom-left red panel): replace the three step pictures with flat SILHOUETTE pictograms in a single solid dark red, no shading, no skin tone, no gradients, like airport/IKEA signage:
+   - Step "Track Usage": silhouette of a person seated at a laptop.
+   - Step "Take a Pause": silhouette of a finger pressing a pause button (two bars) on the HUSH device.
+   - Step "Get Your Time Back": silhouette of a person relaxing with arms behind the head.
+   Keep the white rounded cards, the arrows and the step labels.
+
+2. Less small text: under the three right-hand callouts keep ONLY the bold headings "Simple Control", "Connected Home" and "Privacy by Design"; delete the smaller description lines beneath them. Keep the red callout lines.
+
+3. Large device image on the right: remove the black band at the bottom of its screen. The whole screen should be the same light cream colour; keep "PROTECTION INACTIVE" (with the small red dot) and "NOW" as dark text on the cream background.
+
+4. Back of the device (both the small line icon at the top-right and the "BACK VIEW" product image): remove the speaker/microphone grille completely. Instead show a neat row of ports on the back: two network (RJ45 Ethernet) ports and one small USB-C power port, with a network cable plugged into one port in the BACK VIEW image. There must be no speaker or microphone holes anywhere on the device (the product does not listen).
+
+Keep the poster the same size and aspect ratio (portrait). Spell every word correctly. Save the result as poster-v2.png in the current folder. Do not create other files.

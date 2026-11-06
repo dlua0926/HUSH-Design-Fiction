@@ -27,3 +27,11 @@ Line illustrations for the quick-start guide live in [instructions/img](../instr
 
 ## Magazine full-page preview — 2026-11-06
 [07-magazine-full-page.jpg](advertisements/07-magazine-full-page.jpg): new AI-generated full-page magazine-ad draft for user review. White antenna-free finished-product render, warm home scene,20sharedhours and$3.99extra hour. Earlier printed ad remains available; this preview is not automatically selected as final.
+
+## Draft submission images — 2026-11-07
+[submission/img](../submission/img) and [submission/shots](../submission/shots) hold the images used in the rough draft PDF:
+- `img/poster.jpg`: AI-generated magazine insert v5c. `img/pv-*.jpg` are its earlier versions.
+- Resized copies of existing concept and ad images.
+- Real model photos: `exhibition.jpg` and `front.jpg`.
+- Browser captures of the two live Figma prototypes in `shots/`. These are real renders, not AI images.
+

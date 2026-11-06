@@ -1,0 +1,9 @@
+Edit the attached poster (poster-v5b.png) with the image generation tool. Change ONLY the "BACK VIEW" product image (bottom row of Device Views, right). Everything else must remain identical.
+
+Problem: the ports are blocked by the kickstand and the plugged-in cable. Redraw the back view as a clean 3D product render, same matte warm-white material and lighting as the other views:
+- The device seen straight from behind, standing on its kickstand.
+- The kickstand attaches LOW, near the bottom edge, and is narrow, so it covers nothing.
+- A neat recessed port panel in the upper-middle of the back, fully visible: two RJ45 Ethernet ports and one USB-C power port, side by side, clearly readable, with a tiny embossed HUSH "H" logo above them.
+- One thin white network cable plugged into the left Ethernet port, routed sideways and then down off the edge, NOT crossing the other ports.
+- No speaker or microphone holes.
+Keep the "BACK VIEW" label below it. Save as poster-v5c.png in the current folder. Do not create other files.

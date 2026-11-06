@@ -1,0 +1,8 @@
+Edit the attached poster (poster-v3.png) with the image generation tool. Change ONLY the three illustrations inside the "How It Works" cards (bottom-left). Everything else — every word, the layout, the hero device, device views, prices, the numbered red circles, step titles, arrows, watermark — must stay exactly the same.
+
+The current card illustrations look hand-drawn / sketchy. Replace them with crisp, polished, photorealistic 3D product renders — NOT hand-drawn, NOT sketch, NOT line art, NOT cartoon, no people. Same visual language as the hero device: matte warm-white/cream plastic and soft-touch materials, a single red #C0272D accent glow, soft studio lighting, gentle shadows on a light background, premium near-future consumer-tech catalogue feel (like an Apple or Nothing product page). Each object small and centred in its card, with clean space around it:
+1 "Track Usage": a slim matte white laptop, half open, its screen showing a minimal cream dashboard with a thin red rising line graph.
+2 "Take a Pause": the white HUSH device (same design as the hero, landscape screen, rounded body, kickstand) at a three-quarter angle, its screen showing one large glowing red pause button.
+3 "Get Your Time Back": a matte white rounded hourglass, or a soft white dial with a glowing red ring arc returning to full — calm and minimal.
+
+Keep the same portrait size. Save as poster-v4.png in the current folder. Do not create other files.

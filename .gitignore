@@ -8,3 +8,4 @@ work/
 __pycache__/
 *.log
 .openai/
+submission/out/

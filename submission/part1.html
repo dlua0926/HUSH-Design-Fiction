@@ -1,0 +1,249 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HUSH — Part 1</title><link rel="stylesheet" href="style.css">
+<style>
+.cover { display:grid; grid-template-columns: 112mm 1fr; gap: 10mm; padding: 0; }
+.cover .l { padding: 15mm 0 13mm 15mm; display:flex; flex-direction:column; }
+.cover .logo { font-size: 58pt; letter-spacing: .32em; font-weight: 300; margin: 20mm 0 2mm; }
+.cover .sub { font-size: 11pt; color: var(--soft); }
+.cover .r { background: url(img/exhibition.jpg) center 62%/cover; }
+.cover .who { margin-top: auto; font-size: 8.6pt; line-height: 1.6; }
+.toc td:first-child { width: 12mm; color: var(--alert); font-weight: 700; }
+.sig .card p { font-size: 8.7pt; }
+.sig .card .eg { font-size: 7.8pt; color: var(--soft); margin-top: 2mm; }
+.dev img { height: 46mm; width: 100%; object-fit: cover; border-radius: 1.5mm; }
+.frames figure img { height: 50mm; width: 100%; object-fit: cover; object-position: top; }
+.frames .t { font-size: 7.2pt; letter-spacing: .16em; color: var(--alert); font-weight: 700; margin-top: 2mm; }
+.ui figure img { width: 100%; }
+.sig .card p { font-size: 9.2pt; }
+.path { display:grid; grid-template-columns: repeat(5,1fr); gap: 5mm; margin-top: 4mm; position: relative; }
+.path::before { content:""; position:absolute; left:0; right:0; top:3.2mm; border-top:.4mm dashed var(--soft); }
+.path > div { position: relative; padding-top: 8mm; font-size: 8.6pt; }
+.path > div::before { content:""; position:absolute; top:1.6mm; left:0; width:3.4mm; height:3.4mm; border-radius:50%; background: var(--paper); border:.5mm solid var(--ink); }
+.path .now::before { background: var(--alert); border-color: var(--alert); }
+.path .yr { display:block; font-size: 15pt; font-weight: 300; }
+.path .now .yr { color: var(--alert); }
+.path p { color: var(--soft); margin-top: 1mm; }
+.princ { display:grid; grid-template-columns: repeat(3,1fr); gap: 8mm; margin-top: 9mm; border-top: .4mm solid var(--ink); padding-top: 4mm; }
+.princ b { display:block; font-size: 10.5pt; margin-bottom: 1mm; }
+.princ p { font-size: 8.8pt; color: var(--soft); }
+</style></head><body>
+
+<!-- 1 COVER -->
+<section class="page cover">
+  <div class="l">
+    <div class="kicker">IDEA9201 · Assessment 4 · Design fiction prototype</div>
+    <div class="logo">HUSH</div>
+    <div class="sub">A home privacy utility from 2046.<br>Twenty Private Hours a month, shared by everyone on the Wi-Fi.</div>
+    <div class="who">
+      <div class="kicker" style="margin-bottom:2mm">Group UNLIMITED · Tutorial 03 Group B (HELENA B)</div>
+      Jinge Gao · Jing Wang · Di Luan · Yini Chen<br>
+      <span class="small">Submitted 8 November 2026</span>
+    </div>
+  </div>
+  <div class="r"></div>
+</section>
+
+<!-- 2 OVERVIEW -->
+<section class="page">
+  <div class="kicker">Overview</div>
+  <h1>Privacy, by the hour.</h1>
+  <div class="grid2" style="grid-template-columns: 1.15fr 1fr; gap: 14mm">
+    <div>
+      <p class="lead">In 2046, tracking is part of the plumbing of every home. Apps, browsers, TVs and appliances share data by default, and that is simply how the internet works. HUSH is the box on the hallway shelf that can make it stop, for a while. Each household buys a monthly allowance of <b>Private Hours</b>. While a session is running, participating services stop tracking, profiling and sharing for every device on HUSH Wi-Fi. When the hours run out, nothing breaks. The Wi-Fi keeps working, and the data starts flowing again.</p>
+      <p class="lead" style="margin-top:4mm">The fiction does not ask whether HUSH works. It asks what happens to people when privacy turns into a balance they have to spend. Which moments are worth an hour? Who in the house decides? And what happens to the searches made while everyone was saving time for later?</p>
+      <p class="small" style="margin-top:6mm">This document is written in two voices. The in-world artefacts (device, interface, quick-start guide, advertisement) speak as HUSH in 2046 and are shown without commentary. Process pages, marked with a kicker line at the top, explain how and why we made them.</p>
+    </div>
+    <table class="toc">
+      <tr><th colspan="2">Contents</th></tr>
+      <tr><td>01</td><td>Faint signals, what-if and archetype</td></tr>
+      <tr><td>02</td><td>The world of HUSH: rules of 2046</td></tr>
+      <tr><td>03</td><td>Design development</td></tr>
+      <tr><td>04</td><td>Artefact: the HUSH Home device (physical model)</td></tr>
+      <tr><td>05</td><td>Artefact: the HUSH Home interface (Figma prototype)</td></tr>
+      <tr><td>06</td><td>One evening in 2046: the scenario</td></tr>
+      <tr><td>07</td><td>Instruction set: HUSH Home Quick Start Guide</td></tr>
+      <tr><td>08</td><td>Advertisement: magazine insert</td></tr>
+      <tr><td>09</td><td>Critical questions</td></tr>
+      <tr><td>10</td><td>Presentation slides (Week 11)</td></tr>
+      <tr><td>11</td><td>Generative AI usage record and prompts</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Overview</span></div>
+</section>
+
+<!-- 3 FAINT SIGNALS -->
+<section class="page sig">
+  <div class="kicker">01 · Process · Faint signals</div>
+  <h1>Five things already happening.</h1>
+  <p class="lead" style="margin-bottom:7mm">We started from present-day signals that are small on their own. HUSH is what you get if all five keep growing at once and nobody stops them.</p>
+  <div class="grid3" style="grid-template-columns: repeat(5, 1fr); gap: 5mm">
+    <div class="card"><div class="n">S1</div><h3>Tracking follows us across devices</h3>
+      <p>Advertising IDs, logged-in accounts and shared home networks let a search on a laptop shape the ads on a phone and the suggestions on a TV.</p>
+      <p class="eg">Cross-device graphs, smart-TV viewing data, "recommended for you" everywhere.</p></div>
+    <div class="card"><div class="n">S2</div><h3>The home is a network of reporting devices</h3>
+      <p>Routers, speakers, TVs and appliances are connected by default. Each one talks to its maker, and the router is where all of it leaves the house.</p>
+      <p class="eg">Connected appliances, smart-home hubs, ISP-supplied routers with apps.</p></div>
+    <div class="card"><div class="n">S3</div><h3>Owning turns into subscribing</h3>
+      <p>Software, music, storage and even hardware features are rented month by month. A feature you already own can sit locked until you pay.</p>
+      <p class="eg">Subscription-unlocked car features, cloud storage tiers, app "premium" plans.</p></div>
+    <div class="card"><div class="n">S4</div><h3>Privacy is already for sale</h3>
+      <p>"Pay or consent" models offer an ad-free, less-tracked tier for a monthly fee. Privacy tools are sold as add-ons to the services that track us.</p>
+      <p class="eg">Paid ad-free social media tiers, VPN bundles, email masking, data-removal services.</p></div>
+    <div class="card"><div class="n">S5</div><h3>We ration invisible resources by the number</h3>
+      <p>Prepaid electricity, mobile data allowances and screen-time limits teach us to budget things we can't see by watching a number on a screen go down.</p>
+      <p class="eg">Prepaid meters, data caps, "you have 2 GB left this month".</p></div>
+  </div>
+  <div class="kicker" style="margin-top:12mm">Projecting forward · a plausible path, not a prediction</div>
+  <div class="path">
+    <div><span class="yr">2026</span><b>Today</b><p>Ad-free tiers cost extra. Privacy tools are add-ons. Data caps and prepaid meters are normal.</p></div>
+    <div><span class="yr">~2032</span><b>Privacy bundles</b><p>Internet providers bundle "tracking-free" modes with their routers, sold as a monthly upgrade.</p></div>
+    <div><span class="yr">~2038</span><b>Participating services</b><p>Major platforms agree to honour a household "private" signal, but only for paying networks.</p></div>
+    <div><span class="yr">~2042</span><b>Metered privacy</b><p>Unlimited plans become too expensive. Households switch to hour allowances, like data plans.</p></div>
+    <div class="now"><span class="yr">2046</span><b>HUSH Home</b><p>20 shared Private Hours a month, $19.99. A white box on the hallway shelf counts them down.</p></div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Faint signals</span></div>
+</section>
+
+<!-- 4 WHAT-IF + ARCHETYPE -->
+<section class="page">
+  <div class="kicker">01 · Process · What-if and archetype</div>
+  <div class="grid2" style="grid-template-columns: 1.1fr 1fr; gap: 14mm; margin-top: 6mm">
+    <div>
+      <div class="kicker" style="color:var(--alert)">What if</div>
+      <p class="quote" style="margin:3mm 0 8mm">What if privacy was no longer a right, but a subscription, metered by the hour and shared by the household?</p>
+      <h2>Why this question</h2>
+      <p>Signals S1 to S4 already put a price next to privacy. S5 shows how people behave once something is metered: they save it, ration it and argue about it. Put together, privacy stops being a default and becomes a budget. The interesting design question is no longer "is my data safe?" but "is this search worth one hour?"</p>
+      <p>We set the world about 20 years ahead, in 2046, close enough that HUSH feels like an ordinary purchase rather than science fiction. Nothing in the device is magic. It depends on a <b>participating-services protocol</b>: during a paid session, services agree to stop new tracking for the household. This is our fictional assumption. Today's routers cannot do this.</p>
+    </div>
+    <div>
+      <div class="kicker">Familiar archetype</div>
+      <h2 style="margin-top:2mm">Wi-Fi router × prepaid meter</h2>
+      <p>HUSH borrows its form from two objects everyone already lives with:</p>
+      <table style="margin:4mm 0 5mm">
+        <tr><th style="width:32%">Borrowed from</th><th>What it brings</th></tr>
+        <tr><td><b>Home Wi-Fi router</b></td><td>Sits on a shelf and is ignored. It is the one point every device passes through, so it is a believable place for household privacy to be switched on and off.</td></tr>
+        <tr><td><b>Prepaid utility meter</b></td><td>A big countdown number, a top-up price and a renewal date. It turns an invisible resource into something you can see running out.</td></tr>
+        <tr><td><b>Subscription app</b></td><td>Plans, upgrades, monthly reports and a small "Buy 1 hour" button that is always within reach.</td></tr>
+      </table>
+      <p class="small">The device stays deliberately boring: a white box with a timer. We wanted the critique to sit in the everyday rules around it, not in a dramatic gadget. This answered the W11 feedback to avoid a generic, feature-heavy smart-home dashboard.</p>
+    </div>
+  </div>
+  <div class="princ">
+    <div><b>Mundane, not dystopian</b><p>Nothing in the world is evil. HUSH is a helpful product with fair-sounding rules, and that is why it is unsettling.</p></div>
+    <div><b>Diegetic first</b><p>The device, interface, guide and ad speak only as HUSH would in 2046. The critique has to come through their own words and numbers.</p></div>
+    <div><b>Questions, not answers</b><p>Visitors press Pause themselves. The consequence shows up on someone else's screen a few minutes later, and they connect the two.</p></div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>What-if and archetype</span></div>
+</section>
+
+<!-- 5 WORLD RULES -->
+<section class="page">
+  <div class="kicker">02 · Process · World rules</div>
+  <h1>The rules of 2046.</h1>
+  <div class="grid2" style="grid-template-columns: 1.25fr 1fr; gap: 12mm">
+    <table>
+      <tr><th style="width:34%">Rule</th><th>In the world of HUSH</th></tr>
+      <tr><td>Plans</td><td>HUSH Personal 10 h · $9.99 / month<br>HUSH Home 20 h · $19.99 / month<br>HUSH Home+ 40 h · $29.99 / month</td></tr>
+      <tr><td>Extra time</td><td>Add 1 Private Hour for $3.99 (60 minutes, whole home)</td></tr>
+      <tr><td>Shared clock</td><td>One hour covers every device on HUSH Wi-Fi at once. Eleven devices do not use eleven hours.</td></tr>
+      <tr><td>Pause</td><td>A session can be paused to save time. While paused, tracking and profiling are active again.</td></tr>
+      <tr><td>Subscribe first</td><td>Protection cannot start until a plan is paid for.</td></tr>
+      <tr><td>Household</td><td>Any member can request a pause. Others can choose <i>Keep me private</i> or <i>Step out</i>.</td></tr>
+      <tr><td>Running out</td><td>At 00:00 the Wi-Fi keeps working. Default sharing resumes on every device.</td></tr>
+      <tr><td>The past</td><td>Buying more time later never removes data that was already collected or profiles that already exist.</td></tr>
+      <tr><td>Renewal</td><td>Hours renew monthly. Unused hours expire.</td></tr>
+    </table>
+    <div>
+      <h2>What HUSH does not do</h2>
+      <p>HUSH does not listen to the room, read messages or hide what you deliberately send. A booking, an email or a submitted form still reaches its service. HUSH only stops <i>new</i> tracking, profiling and identity-linked sharing by participating services, and only on its own Wi-Fi.</p>
+      <h2 style="margin-top:6mm">Where the friction lives</h2>
+      <p>We kept the rules plain and ordinary on purpose. The critique comes from the way they interact:</p>
+      <p>• <b>Pausing to save hours</b> means choosing to be tracked now so you can be private later.<br>
+      • <b>One shared clock</b> means one person's private moment spends everyone's allowance.<br>
+      • <b>The past is permanent</b>, so paying only ever protects the future.<br>
+      • <b>The session log</b> keeps the start and end times of every session "for billing", which records when a household wanted privacy.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>World rules</span></div>
+</section>
+
+<!-- 6 DESIGN DEVELOPMENT -->
+<section class="page dev">
+  <div class="kicker">03 · Process · Design development</div>
+  <h1>From wall hub to hallway shelf.</h1>
+  <div class="grid4" style="grid-template-columns: 1.2fr 1fr 1fr 1fr; margin-top:3mm">
+    <figure><img src="img/w11-hub.jpg"><div class="cap"><b>W11: circular wall hub.</b> Dark smart-home panel, 0:00 remaining. Feedback: strong concept, but it read like a generic future Nest, and the audience had nothing physical to touch.</div></figure>
+    <figure><img src="img/c-02-frame-mat.jpg"><div class="cap"><b>Router with a screen.</b> We moved to a tabletop router with a live screen: an iPad in a white frame, so people can actually press Pause.</div></figure>
+    <figure><img src="img/c-03-teal-coral.jpg"><div class="cap"><b>Colour and antennas.</b> AI concept sketches tested clay antennas and colour blocking on the frame. They looked craft-made, not like a product.</div></figure>
+    <figure><img src="img/c-04-colourful-frame.jpg"><div class="cap"><b>Colour-blocked frame.</b> Explored, then dropped. A quiet white object fits a utility that people stop noticing.</div></figure>
+  </div>
+  <div class="grid2" style="grid-template-columns: 1fr 2.1fr; gap: 8mm; margin-top: 6mm; align-items:start">
+    <img src="img/front.jpg" style="height:56mm; object-fit:cover; border-radius:1.5mm">
+    <div>
+      <h2>Final: a white, antenna-free device</h2>
+      <p>The built model is a white frame and card mat around an iPad running the final Figma prototype, with the HUSH wordmark below the screen. The interface moved from a dark dashboard to a cream, mostly typographic screen: one big countdown, one button, and a black band listing what is being shared right now. The fewer features it shows, the more the single number matters.</p>
+      <p class="small" style="margin-top:3mm">Concept images in this row were AI-generated as sketches during development; see the AI usage record. The photograph on the left is of the real model.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Design development</span></div>
+</section>
+
+<!-- 7 ARTEFACT PHYSICAL -->
+<section class="page">
+  <div class="kicker">04 · Artefact · HUSH Home device</div>
+  <div class="grid2" style="grid-template-columns: 1.55fr 1fr; gap: 9mm; margin-top: 3mm">
+    <figure><img src="img/exhibition.jpg" style="height:160mm; width:100%; object-fit:cover; object-position:center 60%; border-radius:1.5mm"><div class="cap"><b>Exhibition setup.</b> HUSH Home on the desk with protection active, the laptop running the browser simulation, and the campaign poster on the wall.</div></figure>
+    <div>
+      <img src="img/front.jpg" style="height:72mm; width:100%; object-fit:cover; border-radius:1.5mm">
+      <div class="cap"><b>Front, hours exhausted.</b> 00:00 remaining, 20 / 20 hours used, renewal in 3 days, 11 devices connected. Protection is inactive, and every category in the black band reads <i>Active</i>.</div>
+      <h2 style="margin-top:6mm">How it is made</h2>
+      <p>White photo frame, white card mat strips to close the gaps above and below the screen, and an iPad running the final Figma prototype full screen. The frame rests on a rigid stand so the screen stays touchable.</p>
+      <h2 style="margin-top:4mm">What visitors do</h2>
+      <p>Press <b>Pause</b> and watch the black band switch from <i>Blocked</i> to <i>Active</i>. Open the hours ring, compare plans, read the monthly report. Then search for a job on the laptop next to it.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Artefact · device</span></div>
+</section>
+
+<!-- 8 ARTEFACT INTERFACE -->
+<section class="page ui">
+  <div class="kicker">05 · Artefact · HUSH Home interface</div>
+  <div class="grid3" style="gap:5mm; margin-top:3mm">
+    <figure><img class="shot" src="shots/f1-home-active.png"><div class="cap"><b>Home, protection active.</b> 12:47:25 left this month. One button: Pause. "11 devices protected"; every category is Blocked.</div></figure>
+    <figure><img class="shot" src="shots/f3-paused.png"><div class="cap"><b>Paused, time saved.</b> The clock stops, and so does the protection. App tracking, profiling, data sharing and ad personalisation are all Active again.</div></figure>
+    <figure><img class="shot" src="shots/f4-hours.png"><div class="cap"><b>Privacy status.</b> 12.8 of 20 h left. "Pausing stops the timer. Tracking and profiling will become active again."</div></figure>
+    <figure><img class="shot" src="shots/f2-plans.png"><div class="cap"><b>Change plan.</b> "Choose how much privacy to keep." Personal 10 h, Home 20 h, Home+ 40 h. Small print: previously collected profile data is not removed.</div></figure>
+    <figure><img class="shot" src="shots/f6-report.png"><div class="cap"><b>Monthly privacy report.</b> 1,284 tracking requests this month (up 12%), 63 advertising profile updates, and the $3.99 extra hour one tap away.</div></figure>
+    <div style="padding-top:2mm">
+      <h2>Interactive prototype</h2>
+      <p>Built in Figma and run full screen on the iPad inside the physical model. All screens on this page are captured from the live prototype.</p>
+      <p class="small mono" style="margin-top:3mm">banner-dish-90173388.figma.site</p>
+      <p class="small" style="margin-top:4mm">The interface never says privacy is a right, and never says tracking is bad. It only reports quantities: hours, devices, requests, dollars. That neutrality is the point.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Artefact · interface</span></div>
+</section>
+
+<!-- 9 SCENARIO -->
+<section class="page frames">
+  <div class="kicker">06 · Scenario · Monday 15 September 2046, 8:42 PM</div>
+  <h1 style="font-size:20pt; margin-bottom:3mm">One evening: saving time, spending privacy.</h1>
+  <div class="grid3" style="gap:5mm 6mm">
+    <figure><img class="shot" src="shots/f1-home-active.png"><div class="t">01 · 8:42 PM</div><div class="cap">Three days before renewal, the household has 12 h 47 min left. Protection is running.</div></figure>
+    <figure><img class="shot" src="shots/f3-paused.png"><div class="t">02 · PAUSE</div><div class="cap">J. pauses HUSH to save the remaining hours for the weekend. It feels responsible: "time saved".</div></figure>
+    <figure><img class="shot" src="shots/p1-browser.png"><div class="t">03 · HUSH DISCONNECTED</div><div class="cap">On the laptop, J. types a search they haven't told anyone about: <i>Senior Product Designer jobs Sydney</i>.</div></figure>
+    <figure><img class="shot" src="shots/p2-results.png"><div class="t">04 · PROFILING ACTIVE</div><div class="cap">The results page notes "3 cross-site trackers active". Jobs are shown "based on your location".</div></figure>
+    <figure><img class="shot" src="shots/p3-linkedin.png"><div class="t">05 · PROFILE UPDATED</div><div class="cap">On LinkedIn, the connected profile now reads <b>"Career-change interest added"</b>. A career coach is promoted "based on your interests".</div></figure>
+    <figure><img class="shot" src="shots/p4-later.png"><div class="t">06 · EVERYWHERE</div><div class="cap">Instagram suggests <i>nextchapter.careers</i>. Resuming HUSH now protects the next search, but this one is already on the record.</div></figure>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Scenario · browser simulation: feed-test-35321007.figma.site</span></div>
+</section>
+
+<!-- 10 INSTRUCTION SET DIVIDER -->
+<section class="page divider">
+  <div class="kicker">07 · Instruction set</div>
+  <h1>HUSH Home<br>Quick Start Guide</h1>
+  <p>The in-box booklet: eight A5 pages, shown two to a spread. It covers setup (subscribe before you start), pausing, the monthly report, how a household shares one clock, what happens at 00:00, troubleshooting (malfunction scenarios), and the small print.</p>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Instruction set</span></div>
+</section>
+
+</body></html>

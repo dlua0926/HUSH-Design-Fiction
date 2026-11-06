@@ -72,3 +72,13 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Used a modern white antenna-free product, warm domestic photography, one headline and an ivory offer/fine-print area; no added recurring price or plan rule.
 - Added preview and exact prompt; refreshed asset inventory and AI usage. Visually inspected the generated image for typography, device identity and numeric consistency. It remains a raster draft pending team review and editable type finishing; no claim of press-ready export.
 - Preserved teammate instruction-set work and existing final prototype links.
+
+## 2026-11-07 — Claude Code (Jinge's session) — Rough first draft of the final submission PDF
+- **This is a quick, rough first pass that Jinge asked for "in one go". Treat everything in it as a draft for the team to edit.**
+- Added `submission/`: `part1.html`, `part2.html` and `style.css` (page sources), `make_part3.py` (AI record and prompt appendix), `merge.py` (imposes the A5 guide 2-up and appends the W11 slides), `build.ps1`, `img/`, `shots/`, `slides/W11-presentation.pdf` and `README.md`.
+- Output: `submission/HUSH_A4_Submission_DRAFT.pdf`, 28 pages.
+- `shots/`: captured from both live Figma sites with headless Edge through DevTools (home active, paused, privacy status, change plan, monthly report; browser simulation: start page, Google results, LinkedIn "Career-change interest added", Instagram suggestion).
+- Advertisement: poster v5c (Jinge's layout, iterated with Codex image generation over v2 to v5c). The six prompts were added as `ai/prompts/HUSH-Magazine-Insert-v*-Prompt.txt`.
+- Validation: rebuilt from the repo copy on Windows (Edge + pypdf) and visually checked every page for overflow and alignment. Fixed the W11 slide 1 offset, where the page origin was non-zero. `build.ps1` on other machines was not tested.
+- Open: team review of all process text and the scenario; complete the AI record with other members' use; plan tiers.
+

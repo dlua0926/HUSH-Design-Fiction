@@ -2,6 +2,11 @@
 
 Last updated: **2026-11-07 · Australia/Sydney**
 
+## Final PDF: rough first draft — 2026-11-07
+- **Rough first pass only, made quickly in one go by Jinge's AI. Not reviewed, not final.** `submission/HUSH_A4_Submission_DRAFT.pdf` (28 pages, A4 landscape) compiles: cover, faint signals and what-if, world rules, design development, physical model photos, Figma screens, scenario storyboard, the quick-start guide (2-up), the poster v5c advertisement and its iterations, critical questions, the original W11 slides and the AI usage record with all 14 prompts.
+- Editable sources and a rebuild script are in `submission/`; read `submission/README.md` first.
+- Team to check: wording of the process pages and scenario; AI record (Figma AI use? W11 deck images? 07 magazine page author? each member's own AI use); plan tiers 10/20/40 vs 80 h.
+
 ## Instruction set draft — 2026-11-07
 - `instructions/HUSH_Quick_Start_Guide.pdf` (8 × A5) with editable source `instructions/guide.html` and render scripts. Read `instructions/README.md` before editing.
 - Follows the final Figma prototype tiers (Personal 10 h $9.99, Home 20 h $19.99, Home+ 40 h $29.99; extra hour $3.99; pause/resume).
@@ -50,9 +55,9 @@ Last updated: **2026-11-07 · Australia/Sydney**
 | P1 | Validate final Figma prototype on iPad | OPEN | Unassigned | Test user-selected Figma final version on actual iPad and check interaction; do not use rejected green build |
 | P1 | Physical prototype and documentation | COMPLETED per user; photos received | Group | Completed model evidenced by front and exhibition photos; touch/charge tests and rear views not independently verified |
 | P1 | Instruction set | DRAFT READY (Jinge) | Jinge Gao | 8-page A5 quick-start in `instructions/` (subscribe-first setup, household pause rules, run-out behaviour, troubleshooting, fine print). Team to review added rules and the 10/20/40 vs 80 h plan question; see instructions/README.md |
-| P1 | Advertisement review and editable finish | DRAFT READY | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
+| P1 | Advertisement review and editable finish | DRAFT READY: magazine insert v5c used in the draft PDF (Jinge) | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
 | P1 | Presentation/rehearsal | OPEN | Group | Continuous speaker blocks, reliable device cues, no early what-if reveal |
-| P1 | Final PDF | OPEN | Group | Artefact photos, instruction set, ad, slides, AI record; proofread and visually checked |
+| P1 | Final PDF | ROUGH DRAFT (Jinge's AI, unreviewed) | Group | Artefact photos, instruction set, ad, slides, AI record; proofread and visually checked |
 
 ## Unresolved
 - Strong final consequence beyond advertising/profile update.

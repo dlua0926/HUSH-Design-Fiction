@@ -1,0 +1,17 @@
+Edit the attached HUSH advertisement (layout-v3-base.jpg) with the image generation tool. This is a magazine/catalogue advertisement insert for a product sold in the near future (around 2046). Keep the layout, the red/cream/black palette, the big "HUSH" logo, the headline "Your apps know enough. Give them some time off.", the large hero device, the "20 Private Hours. One connected home." block, "Need a little longer? Add 1 Private Hour $3.99", and the faint "HUSH" watermark EXACTLY where they are. Make ONLY these changes:
+
+1. "How It Works" (bottom-left, 3 cards): redraw the three card illustrations in a more refined, minimal, near-future style: very clean thin-line (hairline) illustration, monochrome warm grey with a single red #C0272D accent, soft frosted-glass card background, generous whitespace, no faces or facial details, no heavy outlines, no cartoon look. Same three steps and labels:
+   1 "Track Usage": a minimal figure (simple abstract head and shoulders) with a slim laptop, a thin red line chart rising from the screen.
+   2 "Take a Pause": a fingertip touching a glowing red pause button on the HUSH device's screen (same white device design as the hero).
+   3 "Get Your Time Back": a minimal reclining figure with arms behind the head, with a thin circular red progress ring behind it.
+   Keep the numbered red circles, the step titles and the small red arrows between cards.
+
+2. Hero device screen: remove the black band at the bottom of the screen. The whole screen must be the same light cream colour; keep the row "PROTECTION INACTIVE" (small red dot) and "NOW", and the four status items (App Tracking / Browser Profiling / Device Data Sharing / Ad Personalisation — Active) as dark text on cream.
+
+3. "BACK VIEW" product image: remove the speaker/microphone grille completely. Show a clean row of ports on the back instead: two network (RJ45 Ethernet) ports and one small USB-C power port, with one network cable plugged in. No speaker or microphone holes anywhere (the product does not listen).
+
+4. "FRONT VIEW" product image: the screen should be switched on, showing the same cream HUSH home screen as the hero (tiny, simplified), not a black glass screen.
+
+5. Less small text and in-world wording: replace "Concept" with "Meet HUSH" and replace "A home device for real privacy." with "Private time for your home." Keep "PRIVACY. CONTROL. BALANCE." top right.
+
+Keep the same portrait size and aspect ratio. Spell every word correctly. Save as poster-v3.png in the current folder. Do not create other files.

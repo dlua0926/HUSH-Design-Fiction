@@ -1,0 +1,76 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HUSH — Part 2</title><link rel="stylesheet" href="style.css">
+<style>
+.var img { height: 70mm; width: 100%; object-fit: cover; object-position: top; border-radius: 1mm; }
+.it img { height: 62mm; width: 100%; object-fit: contain; background:#fff; border: .3mm solid var(--line); border-radius: 1mm; }
+.q .card p { font-size: 9pt; }
+</style></head><body>
+
+<!-- AD (in-world, full page) -->
+<section class="page" style="padding:9mm 15mm; display:grid; grid-template-columns: 131mm 1fr; gap: 12mm">
+  <img src="img/poster.jpg" style="height:192mm; width:auto; box-shadow: 0 1mm 4mm rgba(0,0,0,.18)">
+  <div style="padding-top:4mm">
+    <div class="kicker">08 · Advertisement · Full-page magazine insert</div>
+    <h1 style="font-size:22pt">"Your apps know enough. Give them some time off."</h1>
+    <h2 style="margin-top:5mm">Where people meet it</h2>
+    <p>A full-page insert in a 2046 home and lifestyle magazine. The same artwork runs as an in-store poster beside the router shelf at electronics retailers. It sells HUSH the way routers and meal kits are sold today: cheerful, practical, and with the price up front.</p>
+    <h2 style="margin-top:5mm">What the ad shows, and what it leaves out</h2>
+    <p>The hero device is shown at <b>00:00</b>, with "Protection inactive" and every category <i>Active</i>. The ad treats running out as normal, even friendly: "Need a little longer? Add 1 Private Hour, $3.99." The three steps read <b>Choose a Plan → Take a Pause → Get Your Time Back</b>. In the ad, privacy is something you take a break into, not something you live in.</p>
+    <h2 style="margin-top:5mm">The fine print</h2>
+    <p class="small" style="border-left:.6mm solid var(--alert); padding-left:3mm; color:var(--ink)">*HUSH Home plan $19.99/month includes 20 shared Private Hours. Additional hours $3.99 each (60 minutes, whole home). Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed.</p>
+    <p class="small" style="margin-top:3mm">The asterisk on "20 Private Hours" carries the critique: the hours are shared, they depend on other companies taking part, and they cannot undo the past. Every number matches the interface and the quick-start guide.</p>
+  </div>
+</section>
+
+<!-- CAMPAIGN + ITERATION -->
+<section class="page">
+  <div class="kicker">08 · Process · Campaign variants and iterations</div>
+  <h1 style="font-size:20pt">One campaign, several placements.</h1>
+  <div class="grid4 var" style="grid-template-columns: repeat(3, 1fr) 1.15fr; gap:6mm">
+    <figure><img src="img/ad-04-lifestyle.jpg"><div class="cap"><b>Exhibition poster.</b> Warm night-time lifestyle version, printed and pinned above the model at the showcase.</div></figure>
+    <figure><img src="img/ad-07-magazine-full-page.jpg"><div class="cap"><b>Lifestyle magazine page.</b> Same line, quieter type, with the 00:00 screen in a living room.</div></figure>
+    <figure><img src="img/ad-05-white-no-antennas.jpg"><div class="cap"><b>Product shot.</b> First version of the white, antenna-free finished device.</div></figure>
+    <div>
+      <h2>How the insert was iterated</h2>
+      <p class="small" style="color:var(--ink)">Jinge sketched the final layout. The poster was then iterated with AI image generation over six rounds, each with written feedback:</p>
+      <p class="small" style="margin-top:2mm">v2 · swap the photo steps for silhouette icons, remove the black band behind the hero, show ethernet ports on the back<br>
+      v3 · rebuild on the new layout sketch<br>
+      v4 · "How It Works" redone as minimal 3D, not hand-drawn<br>
+      v5 · remove italics, rename step 1 "Choose a Plan", fix punctuation, add fine print<br>
+      v5c · back view redrawn so the stand and cable no longer hide the ports</p>
+    </div>
+  </div>
+  <div class="grid4 it" style="margin-top:5mm; grid-template-columns: repeat(4, 1fr) 1.15fr; gap:4mm">
+    <figure><img src="img/pv-v2.jpg"><div class="cap">v2</div></figure>
+    <figure><img src="img/pv-v3.jpg"><div class="cap">v3</div></figure>
+    <figure><img src="img/pv-v4.jpg"><div class="cap">v4</div></figure>
+    <figure><img src="img/pv-v5.jpg"><div class="cap">v5</div></figure>
+    <figure><img src="img/poster.jpg"><div class="cap"><b>v5c, final</b></div></figure>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Advertisement · process</span></div>
+</section>
+
+<!-- CRITICAL QUESTIONS -->
+<section class="page q">
+  <div class="kicker">09 · Critical questions</div>
+  <h1>Questions HUSH leaves on the shelf.</h1>
+  <p class="lead" style="margin-bottom:7mm">We don't answer these. The artefacts are built so that visitors reach them by using the device, not by reading a statement.</p>
+  <div class="grid3" style="gap:7mm 9mm">
+    <div class="card"><div class="n">Q1 · SAVING</div><h3>Is pausing to save hours a privacy choice or a tracking choice?</h3><p>The Pause button is the most responsible-feeling control on the device, and it is also the one that switches tracking back on. The scenario turns on that moment.</p></div>
+    <div class="card"><div class="n">Q2 · WORTH</div><h3>Which moments are "worth an hour"?</h3><p>A job search, a health question, a relationship, a late-night worry. Once privacy has a price, people start ranking their own lives by it. The guide even teaches how.</p></div>
+    <div class="card"><div class="n">Q3 · HOUSEHOLD</div><h3>Whose privacy is it when the clock is shared?</h3><p>One person's private moment spends everyone's allowance. <i>Keep me private</i> and <i>Step out</i> are polite settings for an argument the household will have anyway.</p></div>
+    <div class="card"><div class="n">Q4 · AFFORD</div><h3>Who can afford to be private?</h3><p>Personal, Home and Home+ turn privacy into a tier. Households that are already stretched will be tracked the most, and the report will show it as a number that grows each month.</p></div>
+    <div class="card"><div class="n">Q5 · PERMANENCE</div><h3>What does paying actually buy?</h3><p>Only the future. Every plan page and the fine print say it plainly: previously collected data is not removed. Privacy becomes something you can only buy in advance.</p></div>
+    <div class="card"><div class="n">Q6 · METADATA</div><h3>Does privacy itself leave a trace?</h3><p>HUSH keeps the start and end time of every session "for billing and service improvement". A log of when a household wanted privacy may say more than the searches would.</p></div>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Critical questions</span></div>
+</section>
+
+<!-- SLIDES DIVIDER -->
+<section class="page divider">
+  <div class="kicker">10 · Presentation slides</div>
+  <h1>Week 11 presentation</h1>
+  <p>"UNLIMITED: Visitors from 2046". The original Week 11 deck, included unchanged as presented. It shows the earlier wall-hub version of HUSH. The device, interface and campaign above are the revised versions made after that presentation's feedback.</p>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Presentation slides</span></div>
+</section>
+
+</body></html>

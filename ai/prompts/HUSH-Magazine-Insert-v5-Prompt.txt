@@ -1,0 +1,16 @@
+Edit the attached poster (poster-v4.png) with the image generation tool. Keep the layout, all images (hero device, red circle, close-up, device views, the three 3D How It Works renders), colours and watermark exactly as they are. Make ONLY these typography and copy changes:
+
+1. NO ITALICS ANYWHERE. Re-set every piece of text in an upright (roman) clean geometric sans-serif. Use weight contrast instead of slant: headlines bold/heavy, body text light/regular. This includes the big red "HUSH" logo (keep it big, bold and red, but upright), "Your apps know enough." (bold upright), "Give them some time off." (light upright), section titles "Meet HUSH", "Device Views", "How It Works", the step titles, "20 Private Hours.", "One connected home.", "Need a little longer?", "Add 1 Private Hour", "$3.99", and ALL text on the device screens (hero and front view) — the screen UI must be upright and light like a real app interface.
+
+2. How It Works step titles: change to
+   1 "Choose a Plan"
+   2 "Take a Pause"
+   3 "Get Your Time Back"
+
+3. Top-right tagline: "PRIVACY. CONTROL. BALANCE." — no space before each full stop.
+
+4. Fine print: make the big number read "20 Private Hours.*" with a small asterisk. Add a fine-print block at the very bottom of the poster (small, light grey, upright, 2 lines, left aligned under the How It Works section, above or overlapping the faint watermark area so it stays readable):
+   "*HUSH Home plan $19.99/month includes 20 shared Private Hours. Additional hours $3.99 each (60 minutes, whole home).
+   Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed."
+
+Spell every word exactly as given. Same portrait size. Save as poster-v5.png in the current folder. Do not create other files.

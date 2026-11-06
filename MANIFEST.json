@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 120,
-      "sha256": "adac2a92fe8ea54d1f83117424f531660a9f1c8dd29d65d4e6c254ca9e45fa48"
+      "bytes": 136,
+      "sha256": "6df903b4c388aeff819a70c22d27f57b692e29dab18133fd85f8ce4b99bec44a"
     },
     {
       "path": "AGENTS.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4070,
-      "sha256": "413caa555df286e654288407d4bdcc8c6a426d264198b69c7dfee9ee55069084"
+      "bytes": 4248,
+      "sha256": "f7a1f4737b6bea367597386038b3aaa62705b88d70b4c153696788c2b6ce3072"
     },
     {
       "path": "START_HERE.md",
@@ -34,18 +34,18 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 8172,
-      "sha256": "fe1b51ef8e6aa0f2f5b6f86c2c6e21258c9fdbe970faf72bd8987b9dac2bfc1a"
+      "bytes": 9046,
+      "sha256": "1a4bc1069111981d16a37e318e6655931f30279fc66611ab588b3dfb9138270d"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 8810,
-      "sha256": "0c16387ab4a00b7625e75fef5b627ebf947ced457f56bf703fcce9082fbb1ac0"
+      "bytes": 10177,
+      "sha256": "2f1a824ee6e82c40bbe4320c785421bc18fe2d18f41727f2b51ad3984a39cefe"
     },
     {
       "path": "ai/USAGE.md",
-      "bytes": 3259,
-      "sha256": "7ce9defb7b57b657690b5eddddf45a71bd84c7eb21ebf02a28653c609e44d916"
+      "bytes": 4158,
+      "sha256": "87d0c3fd8180cf0867503f9e9c459da0ba5a07eeb310b4fe73775120543c7af8"
     },
     {
       "path": "ai/prompts/HUSH-Advertisement-Future-Product-Prompt.txt",
@@ -83,14 +83,44 @@
       "sha256": "d345b3d7a3a67b19f051c748895774f19aa5a518cc5160f96a7068e7a1ad81bb"
     },
     {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v2-Prompt.txt",
+      "bytes": 1873,
+      "sha256": "024ec7a0f740bd9bbb5a8863327d00d9e5879c4920d13f8142edf64bc84af520"
+    },
+    {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v3-Prompt.txt",
+      "bytes": 2545,
+      "sha256": "5d99e86bb19fd692ff338e2a22eb64ef1a86bb0bf3af964bb6b2dff2e5948e48"
+    },
+    {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v4-Prompt.txt",
+      "bytes": 1452,
+      "sha256": "4f6d4d4be5308b928302ace8d11bc1fc8442deb6f35a5a1cdf38ea51ec3f38ec"
+    },
+    {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v5-Prompt.txt",
+      "bytes": 1826,
+      "sha256": "fbe40f0e2c7ca311f554a58efcf1f343d74de76fce01f3958f8b46edc2205854"
+    },
+    {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v5b-Prompt.txt",
+      "bytes": 1076,
+      "sha256": "7d5511f202721fcd40164c5a595ce6efebb4e9b798ed19f95ab9d74ce5356593"
+    },
+    {
+      "path": "ai/prompts/HUSH-Magazine-Insert-v5c-Prompt.txt",
+      "bytes": 1030,
+      "sha256": "75a41b0512dae55ebe02a8ca2240e5c541ddfaeff2f812747957be213046a003"
+    },
+    {
       "path": "ai/prompts/HUSH-Physical-Prototype-Prompt.txt",
       "bytes": 3259,
       "sha256": "7670bf2479408729f40d8ac7844d03f0b980525b0cae914585572ad2cc4c70c8"
     },
     {
       "path": "assets/INDEX.md",
-      "bytes": 3261,
-      "sha256": "f3653c55e566bc7a6d5f5817d60d57180178d817c84d234e21c61dca697ebddc"
+      "bytes": 3736,
+      "sha256": "acf506c6c1256f8758519b103199a7623c74abf311b0c16f85b7ebc333197abe"
     },
     {
       "path": "assets/advertisements/01-craft-product.jpg",
@@ -316,6 +346,181 @@
       "path": "prototype/style.css",
       "bytes": 16852,
       "sha256": "c6c22057efeeea999c806250a2aa4774c9b3b8415bacd7bf9f49b5c17636de33"
+    },
+    {
+      "path": "submission/HUSH_A4_Submission_DRAFT.pdf",
+      "bytes": 17425058,
+      "sha256": "4f9ba4456d69fd50ba58e18b69ebc3189cfe62c20a8ac87f2e41deebe463c35a"
+    },
+    {
+      "path": "submission/README.md",
+      "bytes": 3549,
+      "sha256": "5990662ab0211ff2e379ca98fd671d0c0a01f377d66705bdf33a9b2dde6f2eb1"
+    },
+    {
+      "path": "submission/build.ps1",
+      "bytes": 1549,
+      "sha256": "62285f4a8fc6f9db431a3388ce6dfabfdfa973f5dc37ed168f67cef7972fdbf3"
+    },
+    {
+      "path": "submission/img/ad-02-future-product.jpg",
+      "bytes": 173466,
+      "sha256": "bb756fca69da3727aca0e30bfaef6e253f7c9ee91edd325bcbff511bd6aa12b5"
+    },
+    {
+      "path": "submission/img/ad-04-lifestyle.jpg",
+      "bytes": 229232,
+      "sha256": "f0d8c97b12e1759c1b5a27003fddcfe56fd77c69226cf166df71fcf5b981db3e"
+    },
+    {
+      "path": "submission/img/ad-05-white-no-antennas.jpg",
+      "bytes": 237835,
+      "sha256": "eb621349deddf7c8e723fd6c787761863741f14e2e804b0c423a83b0441d530d"
+    },
+    {
+      "path": "submission/img/ad-07-magazine-full-page.jpg",
+      "bytes": 231155,
+      "sha256": "e59488fab93ebbd8e52eb7ca9cece06399138ba00c6861daf90154fa51b653b3"
+    },
+    {
+      "path": "submission/img/c-01-initial.jpg",
+      "bytes": 54464,
+      "sha256": "ddb1c6325696d67d0fbd9491f8bd5b4ee0298242d90d558dc533ae588b7d3200"
+    },
+    {
+      "path": "submission/img/c-02-frame-mat.jpg",
+      "bytes": 57254,
+      "sha256": "176227830e61968dbcc90580370a2ac2b7c6182fe5f60bf0b0d34c4f0ba8c39c"
+    },
+    {
+      "path": "submission/img/c-03-teal-coral.jpg",
+      "bytes": 56230,
+      "sha256": "7b360b6822d49909f8a1111d77c2a579156ff037b33fc37ce6c15a309395970e"
+    },
+    {
+      "path": "submission/img/c-04-colourful-frame.jpg",
+      "bytes": 63514,
+      "sha256": "ebc52ab92a375cf4b9eaa6909ffb6edab27bd3f48cee0bdc4334a21f8c82542e"
+    },
+    {
+      "path": "submission/img/exhibition.jpg",
+      "bytes": 464403,
+      "sha256": "c1ac96531a879c04e753f75c0930d1baaa9af571cd2b673e11e11753aa20e37a"
+    },
+    {
+      "path": "submission/img/front.jpg",
+      "bytes": 118104,
+      "sha256": "7eb055207a3dac2dc4a205b4d3f0e7c0e2ce02c5b06824fef56d21dde95f2b64"
+    },
+    {
+      "path": "submission/img/poster.jpg",
+      "bytes": 307547,
+      "sha256": "4464d10fe72a6391ed8c977b53c2534aa10454c67c4cebfa99b2096c60056361"
+    },
+    {
+      "path": "submission/img/pv-v2.jpg",
+      "bytes": 80775,
+      "sha256": "43b7f286b97cc6e759f0fff1d6fd30131d41facef8cb2565cf480cffe823fc2b"
+    },
+    {
+      "path": "submission/img/pv-v3.jpg",
+      "bytes": 80028,
+      "sha256": "f8de61ea9c066879ae2c5260d31bdd69416b5ca7ecca7c7eb1bc9414857e7ba0"
+    },
+    {
+      "path": "submission/img/pv-v4.jpg",
+      "bytes": 80391,
+      "sha256": "84bc8e7bcc28f00caaee9db865e6e95ffcae594fbc7dcccbebc8f0f128c477bc"
+    },
+    {
+      "path": "submission/img/pv-v5.jpg",
+      "bytes": 84733,
+      "sha256": "d361bb4405292ccb9fa172d74b2bca060a7a8a47fd582e5c5a6b5ca7cb3c7f80"
+    },
+    {
+      "path": "submission/img/w11-hub.jpg",
+      "bytes": 106198,
+      "sha256": "2e41e502b18560e8dc5b6a47650adc86b09fdf9b76de1a3a4458b4b2c3d45671"
+    },
+    {
+      "path": "submission/make_part3.py",
+      "bytes": 6618,
+      "sha256": "fe690063c75ff0caad32894b44c3675b91e33c119d9763dfc5d501fb0acf2758"
+    },
+    {
+      "path": "submission/merge.py",
+      "bytes": 2144,
+      "sha256": "f17f30cad4d8a28b838e21340992311bc173e2120bcdf3f1f728e10b1eeea196"
+    },
+    {
+      "path": "submission/part1.html",
+      "bytes": 21849,
+      "sha256": "cee0d626b0bcce6fe9aecb924b809dfd698b792f0eadc51783cad4ae13cd0eb2"
+    },
+    {
+      "path": "submission/part2.html",
+      "bytes": 7219,
+      "sha256": "7b4b5dd77f58e85b4361fc471bebd2d8da167e4aef51abbbf58e0ff47e26090d"
+    },
+    {
+      "path": "submission/part3.html",
+      "bytes": 44291,
+      "sha256": "3a868c365a9cd2b034ff463c9a3328c82014496b66f3ffb1382e5a0eed420acd"
+    },
+    {
+      "path": "submission/shots/f1-home-active.png",
+      "bytes": 98979,
+      "sha256": "cdcffa669412f51c4b6483ef816ca5ae170eacd9523895fc463d5b9be3e9072f"
+    },
+    {
+      "path": "submission/shots/f2-plans.png",
+      "bytes": 139410,
+      "sha256": "c2adf4dd722110b35b81f8b9b36ecdcc7193fa3d7caf22b74468d27b301d2540"
+    },
+    {
+      "path": "submission/shots/f3-paused.png",
+      "bytes": 100074,
+      "sha256": "9da5977d3aa8caa94aa4c5e715593e4ca238901ef5e3211b518dd97e16ca6d48"
+    },
+    {
+      "path": "submission/shots/f4-hours.png",
+      "bytes": 107576,
+      "sha256": "b216b6a3e13bd5572da904ea2822bd0b7c1945ec3d624bc151627018a641bf33"
+    },
+    {
+      "path": "submission/shots/f6-report.png",
+      "bytes": 1239541,
+      "sha256": "34394c933fd7db2cfa0228f0927f009a166259bf19f5177f637bd8b8d3b661fa"
+    },
+    {
+      "path": "submission/shots/p1-browser.png",
+      "bytes": 756548,
+      "sha256": "88ba2bbdc544c8c6d7bb69351a31a67f27c0850af23dce11ca5ee68660d42cf7"
+    },
+    {
+      "path": "submission/shots/p2-results.png",
+      "bytes": 157287,
+      "sha256": "966cdd7bd293a8d94afcfb3ae5dc208833b891d672df5a6262065a57f22b2a30"
+    },
+    {
+      "path": "submission/shots/p3-linkedin.png",
+      "bytes": 154543,
+      "sha256": "a0cc6e793bf52568f429371531711636c39de31950a401d00ae48867ff5a0c5e"
+    },
+    {
+      "path": "submission/shots/p4-later.png",
+      "bytes": 190436,
+      "sha256": "d1264d1628d95daf75018b762d1d1f29491483344c94bdc3b10d3864b74722c1"
+    },
+    {
+      "path": "submission/slides/W11-presentation.pdf",
+      "bytes": 7203605,
+      "sha256": "33565c78acf424e61276340b84c0c46e0456c6cab796f89ec0eb450af2902d31"
+    },
+    {
+      "path": "submission/style.css",
+      "bytes": 3006,
+      "sha256": "23afeab4b27d7ad8c7e4fab9fcd819b29a9de30b68643c907b3a0b4cb28daea3"
     }
   ]
 }

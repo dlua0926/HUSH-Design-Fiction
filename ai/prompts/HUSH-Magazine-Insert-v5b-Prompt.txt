@@ -1,0 +1,5 @@
+Edit the attached poster (poster-v5.png) with the image generation tool. Change NOTHING except making these remaining italic texts fully upright (roman, no slant), keeping their size, weight, colour and position:
+- Section titles "Meet HUSH", "Device Views", "How It Works" (bold, upright).
+- Step 3 title "Get Your Time Back" (both lines upright, same as "Choose a Plan").
+- ALL text on the hero device screen and the small FRONT VIEW screen: "HUSH HOME", "8:42 PM", "PRIVATE HOURS", "00:00", "remaining", "0", "HRS", "MONTHLY USAGE", "20 / 20 hours", "NEXT RENEWAL", "3 days", "CONNECTED", "11 devices", "PROTECTION INACTIVE", "NOW", "App Tracking", "Browser Profiling", "Device Data Sharing", "Ad Personalisation", "Active". Screen text must be upright, light and regular weight like a calm, real app interface (thin upright numerals for 00:00).
+Leave the faint background "HUSH" watermark as it is. Everything else (images, layout, other text, fine print) stays identical. Spell every word exactly. Save as poster-v5b.png in the current folder. Do not create other files.
