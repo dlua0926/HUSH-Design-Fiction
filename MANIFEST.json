@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-06",
   "timezone": "Australia/Sydney",
   "files": [
     {
@@ -24,23 +24,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 2677,
-      "sha256": "09868441618e6cf7e1a2619ee95ddd63cf79418764d0f66c0d269ddc18893aab"
+      "bytes": 2863,
+      "sha256": "82d77a58e0364fe93b743b1ca2064b3a9b0b38e3897c360ab9d00d4dfc77816a"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2721,
-      "sha256": "3a450c3126c7c633aa0bbfad1261fa1a20dc24ad92969569623e6dbcc96cd9c4"
+      "bytes": 3048,
+      "sha256": "25abb2bc776b2c5457de71e9add5dfaf65fb4c184e42dec98834ee8a941fb125"
     },
     {
       "path": "STATUS.md",
-      "bytes": 6058,
-      "sha256": "a8dadbb1faa57673c566b03c6fa11aafacffaf043d99f3265856293e10387d53"
+      "bytes": 6389,
+      "sha256": "ed575a449aacde9e5984f99772b5b0030c71e2ba01ecf5ee5411706352d18a00"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 5019,
-      "sha256": "a1c44cd54bb41149c12ea04bfa645d98ef6ae1fe9f8ef99847605cc6a2cbb742"
+      "bytes": 5456,
+      "sha256": "afe7b56492cbc928b6ac5ad4f06882b4b140e86d94ac349a4d215ddda526ca3f"
     },
     {
       "path": "ai/USAGE.md",

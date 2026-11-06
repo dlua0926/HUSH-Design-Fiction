@@ -1,6 +1,11 @@
 # Current project status
 
-Last updated: **2026-11-04 · Australia/Sydney**
+Last updated: **2026-11-06 · Australia/Sydney**
+
+## User-provided prototype links — 2026-11-06
+- HUSH page: https://banner-dish-90173388.figma.site
+- Phone simulation: https://feed-test-35321007.figma.site
+- Both returned HTTP 200. This confirms the sites responded; their complete interactive flows, content, and any integration between them were not verified in this update.
 
 ## Final prototype — user-confirmed
 - **Final:** https://banner-dish-90173388.figma.site

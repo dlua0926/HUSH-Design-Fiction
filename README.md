@@ -35,6 +35,10 @@ HUSH 是一台带屏幕的家庭 Wi-Fi 隐私路由器。在这个虚构未来�
 
 ## 原型预览
 
+- **[HUSH 页面](https://banner-dish-90173388.figma.site)**：家庭设备界面。
+- **[手机模拟](https://feed-test-35321007.figma.site)**：用户提供的手机模拟页面。
+
+
 **[打开用户指定的最终版原型](https://banner-dish-90173388.figma.site)**。已检查首页；完整交互与可编辑源码尚未核实。仓库 `prototype/` 和 `assets/prototype/` 为先前被用户否决的历史版本，不得作为最终作品。
 
 ## 最新广告方向

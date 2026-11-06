@@ -42,3 +42,8 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Reopened the user-selected Figma prototype and inspected its cream/black exhausted home screen.
 - Generated a new lifestyle-ad draft with a refined white unibody and no external antennas. UI shows00:00/protectioninactive; service-benefit bubbles use conditional “Pause with HUSH”.
 - Added assets/advertisements/05-white-no-antennas.jpg and exact generation prompt; updated ad notes, status and inventory. Image remains a draft; no physical build completion or final approval is implied.
+
+## 2026-11-06 — Codex — Add phone simulation link
+- User identified https://banner-dish-90173388.figma.site as the HUSH page and https://feed-test-35321007.figma.site as the phone simulation.
+- Added both links to README.md, START_HERE.md and STATUS.md; refreshed the manifest.
+- Both URLs returned HTTP 200. This update did not audit the pages' content or interactions and does not establish technical integration between the two.

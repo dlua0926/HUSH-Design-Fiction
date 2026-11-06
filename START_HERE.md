@@ -8,6 +8,12 @@ Read in this order:
 5. Your workstream document: `PHYSICAL.md`, `ADVERTISEMENT.md`, or `prototype/README.md`.
 6. `AGENTS.md`, `CONTRIBUTING.md`, and recent `WORK_LOG.md` entries before editing.
 
+## User-provided live prototypes
+
+- HUSH home page: https://banner-dish-90173388.figma.site
+- Phone simulation: https://feed-test-35321007.figma.site
+- Both URLs returned HTTP 200 on 2026-11-06; screen content and full interactive flows were not audited in this update. Do not assume the two sites are technically integrated.
+
 ## Critical context
 
 - Read `docs/PRIOR_HUSH_CONTEXT.md` for the earlier HUSH master summary: group UNLIMITED, HUSH does not listen to rooms, and session-pattern metadata is an open question.
