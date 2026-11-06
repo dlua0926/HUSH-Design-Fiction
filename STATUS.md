@@ -1,6 +1,12 @@
 # Current project status
 
-Last updated: **2026-11-06 · Australia/Sydney**
+Last updated: **2026-11-07 · Australia/Sydney**
+
+## Instruction set draft — 2026-11-07
+- `instructions/HUSH_Quick_Start_Guide.pdf` (8 × A5) with editable source `instructions/guide.html` and render scripts. Read `instructions/README.md` before editing.
+- Follows the final Figma prototype tiers (Personal 10 h $9.99, Home 20 h $19.99, Home+ 40 h $29.99; extra hour $3.99; pause/resume).
+- New rules introduced here and awaiting team review: subscribe before first use; household pause requests / Keep me private / Step out / per-member limits; unused hours expire; session times retained; display sync delay. Open: whether plans should include 80 h.
+- Group decision (Jinge): submit the original W11 slides unchanged; use the exhibition photo as artefact evidence.
 
 ## User-provided prototype links — 2026-11-06
 - HUSH page: https://banner-dish-90173388.figma.site
@@ -43,7 +49,7 @@ Last updated: **2026-11-06 · Australia/Sydney**
 | P0 | Privacy/world rules review | OPEN | Unassigned | Team approves scope, timing, base plan, charge rules and service mechanism |
 | P1 | Validate final Figma prototype on iPad | OPEN | Unassigned | Test user-selected Figma final version on actual iPad and check interaction; do not use rejected green build |
 | P1 | Physical prototype and documentation | COMPLETED per user; photos received | Group | Completed model evidenced by front and exhibition photos; touch/charge tests and rear views not independently verified |
-| P1 | Instruction set | OPEN | Unassigned | In-world quick-start + depleted-hours behaviour + history limitation |
+| P1 | Instruction set | DRAFT READY (Jinge) | Jinge Gao | 8-page A5 quick-start in `instructions/` (subscribe-first setup, household pause rules, run-out behaviour, troubleshooting, fine print). Team to review added rules and the 10/20/40 vs 80 h plan question; see instructions/README.md |
 | P1 | Advertisement review and editable finish | DRAFT READY | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
 | P1 | Presentation/rehearsal | OPEN | Group | Continuous speaker blocks, reliable device cues, no early what-if reveal |
 | P1 | Final PDF | OPEN | Group | Artefact photos, instruction set, ad, slides, AI record; proofread and visually checked |

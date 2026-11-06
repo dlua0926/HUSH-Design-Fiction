@@ -21,3 +21,6 @@ Earlier physical and ad renders are AI-generated concepts; 05-actual-exhibition 
 
 ## Latest draft — 2026-11-04
 [05-white-no-antennas.jpg](advertisements/05-white-no-antennas.jpg): AI-generated modern white device with hidden antennas and the final Figma homepage visual design; latest advertising draft, pending user review. Earlier antenna-based ads remain historical iterations.
+
+## Instruction set — 2026-11-07
+Line illustrations for the quick-start guide live in [instructions/img](../instructions/img) (AI-generated with Codex, text-free). `instructions/ref/screen-home.jpg` is a browser capture of the final Figma home screen. See [instructions/README.md](../instructions/README.md).

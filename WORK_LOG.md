@@ -57,3 +57,12 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - User supplied two photographs and identified them as the finished physical prototype. Added exhibition and front-view JPEG previews; original HEIC files remain with user. EXIF metadata was not carried into the converted previews.
 - Updated README, STATUS.md, docs/PHYSICAL.md and asset inventory to distinguish real photographs from earlier generated colourful concepts. The actual pictured frame is white, with no external antennas visible; exhibition photo also shows printed ad and computer.
 - Photos establish visible appearance, not independent verification of all interactions, charging, internal construction or real privacy protection. Preserved other open tasks.
+
+## 2026-11-07 — Claude (Jinge Gao's session) — Instruction set draft
+- Added `instructions/`: 8-page A5 HUSH Home Quick Start Guide (PDF), editable `guide.html`, portable `render.ps1` / `render.sh`, 9 line illustrations in `img/`, Figma screen reference, and README with page plan, world rules used and open decisions.
+- Content checked against the live final Figma prototype (home, privacy status, change plan, monthly report, extra hour, active session, pause/resume) on 2026-11-06. Plan tiers follow Figma (10/20/40 h).
+- Per Jinge: setup now requires choosing and paying for a plan before protection can start; added household rules for when one member wants to pause and another doesn't (pause request with 30 s timeout, Keep me private, Step out, member limits).
+- Illustrations generated with Codex image generation; prompts saved in `ai/prompts/HUSH-Instructions-Illustrations-*-Prompt.txt`.
+- Validation: rendered all 8 pages with headless Edge and visually checked each page for overflow and alignment; repo copy of render.ps1 tested on Windows. render.sh not tested on macOS.
+- Open: team review of added rules; 80 h plan question; AI usage record from other members.
+

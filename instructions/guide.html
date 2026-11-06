@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HUSH Home — Quick Start Guide</title>
+<style>
+  @page { size: 148mm 210mm; margin: 0; }
+  :root {
+    --paper: #F4F2ED;
+    --ink: #1E2421;
+    --soft: #6B6F6A;
+    --line: #D9D5CC;
+    --accent: #2E4238;
+    --alert: #C4553B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #888; }
+  body { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 148mm; height: 210mm; background: var(--paper); position: relative;
+          overflow: hidden; page-break-after: always; padding: 13mm 12mm 11mm; }
+  .page:last-child { page-break-after: auto; }
+  .wordmark { font-weight: 300; letter-spacing: 0.55em; font-size: 15pt; }
+  .eyebrow { font-size: 6.5pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--soft); font-weight: 600; }
+  h1 { font-weight: 300; font-size: 25pt; line-height: 1.08; letter-spacing: -0.01em; }
+  h2 { font-weight: 400; font-size: 15pt; line-height: 1.15; margin-bottom: 4mm; }
+  h3 { font-weight: 600; font-size: 8.6pt; margin-bottom: 1mm; }
+  p, li { font-size: 7.6pt; line-height: 1.45; }
+  .folio { position: absolute; bottom: 6mm; left: 12mm; right: 12mm; display: flex;
+           justify-content: space-between; font-size: 6pt; letter-spacing: 0.2em; color: var(--soft); }
+  .rule { border-top: 0.25mm solid var(--line); margin: 4mm 0; }
+
+  /* Cover */
+  .cover { background: var(--ink); color: #EDEBE6; padding: 16mm 13mm; }
+  .cover .wordmark { font-size: 20pt; }
+  .cover .eyebrow { color: #9BA39D; }
+  .cover h1 { margin-top: 40mm; font-size: 29pt; }
+  .cover .sub { margin-top: 5mm; font-size: 9pt; color: #B9BDB7; font-weight: 300; }
+  .cover .device { position: absolute; left: 13mm; right: 13mm; bottom: 34mm; height: 52mm;
+                   border: 0.3mm solid #4A534D; border-radius: 3mm; display: flex; align-items: center;
+                   justify-content: center; flex-direction: column; gap: 3mm; }
+  .cover .device .scr { width: 64%; height: 58%; border-radius: 1.2mm; background: #EDEBE6;
+                        display: flex; align-items: center; justify-content: center; }
+  .cover .device .scr span { font-size: 15pt; font-weight: 300; color: var(--ink); letter-spacing: 0.02em; }
+  .cover .device .wm { font-size: 7pt; letter-spacing: 0.6em; color: #EDEBE6; font-weight: 300; }
+  .cover .bottom { position: absolute; bottom: 14mm; left: 13mm; right: 13mm; display: flex; justify-content: space-between;
+                   font-size: 6.4pt; letter-spacing: 0.18em; color: #9BA39D; text-transform: uppercase; }
+  .cover .folio { color: #6E766F; }
+
+  /* In the box */
+  .box { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 4mm; margin-top: 3mm; }
+  .box .item { font-size: 7pt; line-height: 1.35; }
+  .box .item b { display: block; font-weight: 600; }
+  .ill { width: 100%; display: block; mix-blend-mode: multiply; }
+  .ill.box-ill { width: 62mm; margin: 0 auto 1mm; }
+
+  /* Screen diagram */
+  .devframe { margin: 3mm auto 0; width: 104mm; background: #FBFAF7; border: 0.3mm solid #C9C4B9; border-radius: 2.4mm;
+              padding: 4.5mm 6mm 3mm; position: relative; box-shadow: 0 0.6mm 0 #E2DED5; }
+  .devframe img { width: 100%; display: block; border-radius: 0.6mm; border: 0.2mm solid #BDB8AD; }
+  .devframe .wm { text-align: center; font-size: 7pt; letter-spacing: 0.6em; font-weight: 300; margin-top: 2.6mm; padding-left: 0.6em; }
+  .callout { position: absolute; width: 4.6mm; height: 4.6mm; border-radius: 50%; background: var(--accent); color: #fff;
+             font-size: 6.4pt; font-weight: 700; display: flex; align-items: center; justify-content: center;
+             box-shadow: 0 0 0 0.6mm #FBFAF7; }
+  .legend { margin-top: 4mm; display: grid; grid-template-columns: 1fr 1fr; gap: 2.2mm 5mm; }
+  .legend div { display: flex; gap: 2mm; align-items: flex-start; font-size: 7pt; line-height: 1.35; }
+  .legend .n { flex: 0 0 4mm; height: 4mm; border-radius: 50%; background: var(--accent); color: #fff; font-size: 6pt;
+               font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.3mm; }
+  .lights { display: flex; gap: 5mm; margin-top: 2mm; }
+  .lights div { display: flex; align-items: center; gap: 1.6mm; font-size: 6.8pt; }
+  .dot { width: 2.4mm; height: 2.4mm; border-radius: 50%; display: inline-block; }
+
+  /* Steps */
+  .step { display: grid; grid-template-columns: 40mm 1fr; gap: 4mm; align-items: center; padding: 3mm 0;
+          border-bottom: 0.25mm solid var(--line); }
+  .step:last-of-type { border-bottom: none; }
+  .step .num { font-size: 18pt; font-weight: 200; color: var(--accent); line-height: 1; margin-bottom: 1.2mm; }
+  .note { background: #E8E5DE; border-radius: 1.4mm; padding: 3mm 3.5mm; margin-top: 3mm; }
+  .note p { font-size: 7.2pt; }
+  .note .eyebrow { margin-bottom: 1.2mm; }
+  .worth { display: flex; flex-wrap: wrap; gap: 1.5mm; margin-top: 1.8mm; }
+  .worth span { font-size: 6.6pt; border: 0.25mm solid #B9B4A9; border-radius: 3mm; padding: 0.6mm 2.4mm; background: var(--paper); }
+
+  /* Run-out */
+  .runout { background: var(--ink); color: #EDEBE6; border-radius: 2mm; padding: 4mm 4.5mm; display: grid;
+            grid-template-columns: 30mm 1fr; gap: 4mm; align-items: center; }
+  .runout .ill { mix-blend-mode: normal; background: #fff; border-radius: 1.4mm; }
+  .runout h3 { color: #fff; font-size: 9pt; }
+  .runout ul { list-style: none; }
+  .runout li { font-size: 7pt; padding-left: 3mm; position: relative; color: #D3D6D1; margin-bottom: 0.8mm; }
+  .runout li::before { content: ""; position: absolute; left: 0; top: 1.6mm; width: 1.2mm; height: 1.2mm; border-radius: 50%; background: var(--alert); }
+  .runout .zero { font-size: 17pt; font-weight: 200; letter-spacing: 0.04em; color: #fff; }
+  .faq { margin-top: 3.5mm; }
+  .faq .q { font-weight: 600; font-size: 7.6pt; margin-top: 2.4mm; }
+  .faq .a { font-size: 7.1pt; color: #3B403C; line-height: 1.42; }
+
+  /* Back */
+  .fine p, .fine li { font-size: 6.1pt; line-height: 1.5; color: #4A4F4B; }
+  .fine li { margin-bottom: 1mm; list-style: none; padding-left: 2.6mm; position: relative; }
+  .fine li::before { content: "—"; position: absolute; left: 0; }
+  .specs { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4mm 4mm; font-size: 6.4pt; margin-top: 2mm; }
+  .specs span { color: var(--soft); }
+  .backfoot { position: absolute; left: 12mm; right: 12mm; bottom: 12mm; }
+  .backfoot .tag { font-size: 10pt; font-weight: 300; margin-bottom: 4mm; }
+  .icons { display: flex; gap: 3mm; margin-top: 3mm; font-size: 5.6pt; color: var(--soft); letter-spacing: 0.08em; }
+  .icons div { border: 0.25mm solid #B9B4A9; padding: 0.8mm 1.6mm; border-radius: 0.8mm; }
+  .plans { width:100%; border-collapse:collapse; margin-top:3mm; font-size:7pt; }
+  .plans th { font-weight:600; font-size:6.6pt; text-align:center; padding:1.4mm 1mm; border-bottom:0.25mm solid var(--line); }
+  .plans td { text-align:center; padding:1.2mm 1mm; border-bottom:0.25mm solid var(--line); }
+  .plans td:first-child { text-align:left; color:var(--soft); }
+  .plans .cur { background:#E3E8E3; }
+  .small { font-size:6.6pt; color:var(--soft); }
+  .rules { margin-top:3mm; }
+  .rule-item { display:grid; grid-template-columns:7mm 1fr; gap:3mm; padding:2.4mm 0; border-bottom:0.25mm solid var(--line); }
+  .rn { width:6mm; height:6mm; border-radius:50%; border:0.3mm solid var(--accent); color:var(--accent); font-size:7.5pt; font-weight:600; display:flex; align-items:center; justify-content:center; }
+</style>
+</head>
+<body>
+
+<!-- 1. COVER -->
+<section class="page cover">
+  <div class="wordmark">HUSH</div>
+  <div class="eyebrow" style="margin-top:2mm">Home · Model H-20</div>
+  <h1>Quick Start<br>Guide</h1>
+  <div class="sub">Private time for your connected home.</div>
+  <div class="device"><div class="scr"><span>20:00:00</span></div><div class="wm">HUSH</div></div>
+  <div class="bottom"><span>Read before setup</span><span>EN · 2046 edition</span></div>
+</section>
+
+<!-- 2. IN THE BOX + MEET YOUR SCREEN -->
+<section class="page">
+  <div class="eyebrow">Welcome home</div>
+  <h2 style="margin-top:1.5mm">What's in the box</h2>
+  <div style="display:grid; grid-template-columns:44mm 1fr; gap:5mm; align-items:center">
+    <img class="ill" src="img/inbox.png" alt="">
+    <div class="box" style="grid-template-columns:1fr; gap:2mm; margin-top:0">
+      <div class="item"><b>HUSH Home</b>Wi-Fi router with 10.9" display</div>
+      <div class="item"><b>Power adapter</b>USB-C, 30 W</div>
+      <div class="item"><b>Network cable</b>1.5 m</div>
+      <div class="item"><b>This guide</b>Keep it near your router</div>
+    </div>
+  </div>
+  <div class="rule"></div>
+  <h2 style="margin-bottom:0">Meet your screen</h2>
+  <div class="devframe">
+    <img src="ref/screen-home.jpg" alt="">
+    <div class="wm">HUSH</div>
+    <div class="callout" style="left:22mm; top:31mm">1</div>
+    <div class="callout" style="left:77mm; top:25mm">2</div>
+    <div class="callout" style="left:9mm; top:56.5mm">3</div>
+    <div class="callout" style="left:9mm; top:67mm">4</div>
+  </div>
+  <div class="legend">
+    <div><span class="n">1</span><span><b>Private Hours remaining</b><br>One balance for the whole home.</span></div>
+    <div><span class="n">2</span><span><b>Start / Pause</b><br>One tap for every connected device.</span></div>
+    <div><span class="n">3</span><span><b>Plan, price and renewal</b><br>Tap <i>Change</i> to compare plans.</span></div>
+    <div><span class="n">4</span><span><b>Live status</b><br>What is blocked, or active, right now.</span></div>
+  </div>
+  <div class="lights">
+    <div><span class="dot" style="background:#5E7D6B"></span>Protection active</div>
+    <div><span class="dot" style="background:#9A9C97"></span>Paused · time saved</div>
+    <div><span class="dot" style="background:var(--alert)"></span>Unavailable · 0 hours</div>
+  </div>
+  <div class="folio"><span>HUSH HOME</span><span>02</span></div>
+</section>
+
+<!-- 3. SET UP -->
+<section class="page">
+  <div class="eyebrow">Set up · about 5 minutes</div>
+  <h2 style="margin-top:1.5mm">Get started</h2>
+  <div class="step">
+    <img class="ill" src="img/step1-plug.png" alt="">
+    <div><div class="num">01</div><h3>Connect</h3>
+      <p>Plug the network cable into your wall socket and the power adapter into the back of HUSH. The screen lights up in about a minute.</p></div>
+  </div>
+  <div class="step">
+    <img class="ill" src="img/step2-join.png" alt="">
+    <div><div class="num">02</div><h3>Join HUSH Wi-Fi</h3>
+      <p>Scan the code on the screen with your phone to join HUSH Wi-Fi and download the HUSH app.</p>
+      <p style="color:var(--soft); margin-top:1mm">Mobile data and other networks are not covered.</p></div>
+  </div>
+  <div class="step">
+    <img class="ill" src="img/step-plan.png" alt="">
+    <div><div class="num">03</div><h3>Choose a plan</h3>
+      <p>Private Hours are only available with an active plan. Choose one in the app and confirm payment. Until then, the screen shows <i>Choose a plan to start</i> and the start button stays locked.</p></div>
+  </div>
+  <table class="plans">
+    <tr><th></th><th>HUSH Personal</th><th class="cur">HUSH Home</th><th>HUSH Home+</th></tr>
+    <tr><td>Private Hours / month</td><td>10</td><td class="cur">20</td><td>40</td></tr>
+    <tr><td>Devices covered</td><td>up to 10</td><td class="cur">up to 20</td><td>up to 40</td></tr>
+    <tr><td>Monthly price</td><td>$9.99</td><td class="cur">$19.99</td><td>$29.99</td></tr>
+  </table>
+  <p class="small" style="margin-top:1.6mm">All plans: additional Private Hours $3.99 each · change or cancel anytime in the app.</p>
+  <div class="folio"><span>HUSH HOME</span><span>03</span></div>
+</section>
+
+<!-- 4. EVERYDAY USE -->
+<section class="page">
+  <div class="eyebrow">Everyday use</div>
+  <h2 style="margin-top:1.5mm">Use your hours</h2>
+  <div class="step">
+    <img class="ill" src="img/step3-start.png" alt="">
+    <div><div class="num">04</div><h3>Start a Private Hour</h3>
+      <p>Tap <b>▶</b>. The household timer starts counting down. App tracking, browser profiling, identifiable data sharing and ad personalisation are blocked on participating services, for every device on HUSH Wi-Fi.</p></div>
+  </div>
+  <div class="step">
+    <img class="ill" src="img/step4-pause.png" alt="">
+    <div><div class="num">05</div><h3>Pause to save time</h3>
+      <p>Tap <b>❙❙</b> when you are done. Unused time stays in this month's allowance. Someone else still browsing? See <i>Sharing with your household</i>, next page.</p></div>
+  </div>
+  <div class="step">
+    <img class="ill" src="img/step5-report.png" alt="">
+    <div><div class="num">06</div><h3>Check your monthly report</h3>
+      <p>Tap the HUSH logo on the screen to see hours used, tracking requests detected and advertising profile updates across your home.</p></div>
+  </div>
+  <div class="note">
+    <div class="eyebrow">Before you start a session</div>
+    <p><b>Is this worth an hour?</b> One Private Hour is 60 minutes for the whole home, not for each device. Most households save their hours for:</p>
+    <div class="worth"><span>Health questions</span><span>Banking</span><span>Job searching</span><span>Personal messages</span><span>Gifts &amp; surprises</span></div>
+  </div>
+  <div class="folio"><span>HUSH HOME</span><span>04</span></div>
+</section>
+
+<!-- 5. HOUSEHOLD -->
+<section class="page">
+  <div class="eyebrow">One home, one timer</div>
+  <h2 style="margin-top:1.5mm">Sharing with your household</h2>
+  <div style="display:grid; grid-template-columns:44mm 1fr; gap:5mm; align-items:center">
+    <img class="ill" src="img/household.png" alt="">
+    <p>Private Hours belong to the whole home. While protection is on, every device on HUSH Wi-Fi is covered and the household balance counts down — whether one person is using it or five.</p>
+  </div>
+  <div class="rules">
+    <div class="rule-item"><div class="rn">A</div><div><h3>Pause requests</h3>
+      <p>If you tap Pause while other members are still active, they receive a request: <i>"Someone at home wants to pause Private Protection."</i> If nobody answers within 30 seconds, the home pauses.</p></div></div>
+    <div class="rule-item"><div class="rn">B</div><div><h3>Keep me private</h3>
+      <p>Any active member can tap <b>Keep me private</b>. Protection stays on for the whole home and the timer keeps running for everyone.</p></div></div>
+    <div class="rule-item"><div class="rn">C</div><div><h3>Step out</h3>
+      <p>Done, but don't want to stop anyone else? Tap <b>Step out</b> in the app. Your device leaves the session and is no longer protected. The household timer keeps running.</p></div></div>
+    <div class="rule-item"><div class="rn">D</div><div><h3>Member limits</h3>
+      <p>The account holder can set a monthly limit for each member in <i>Settings › Household</i>, so one person can't use the family's hours.</p></div></div>
+  </div>
+  <div class="note" style="background:transparent; border:0.25mm solid var(--line)">
+    <div class="eyebrow">Household tip</div>
+    <p>Agree on a routine. A session someone else keeps open still counts against everyone's hours.</p>
+  </div>
+  <div class="folio"><span>HUSH HOME</span><span>05</span></div>
+</section>
+
+<!-- 6. RUN OUT + TROUBLESHOOTING -->
+<section class="page">
+  <div class="eyebrow">When things don't go as planned</div>
+  <h2 style="margin-top:1.5mm">When your hours run out</h2>
+  <div class="runout">
+    <img class="ill" src="img/empty.png" alt="">
+    <div>
+      <div class="zero">00:00</div>
+      <ul style="margin-top:1.5mm">
+        <li>The status light turns coral: <i>Private Protection Unavailable</i>.</li>
+        <li>Wi-Fi keeps working. Nothing switches off.</li>
+        <li>Each service returns to its normal tracking and sharing settings.</li>
+        <li>Add 1 Private Hour for $3.99, change plan, or wait for renewal.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="faq">
+    <h3 style="font-size:9pt; margin-top:4mm">Troubleshooting</h3>
+    <div class="q">The start button is greyed out.</div>
+    <div class="a">Your household has no active plan, or your last payment didn't go through. Check <i>Plans &amp; Billing</i> in the app.</div>
+    <div class="q">My phone says "Hush Disconnected" but the screen says protection is active.</div>
+    <div class="a">Your phone is on mobile data or another network, or you tapped <i>Step out</i>. HUSH only covers devices in the current session on HUSH Wi-Fi.</div>
+    <div class="q">My phone and the router show different hours remaining.</div>
+    <div class="a">Displays sync every few minutes. The router screen shows your household's official balance.</div>
+    <div class="q">I paused, but the timer is still running.</div>
+    <div class="a">Another member tapped <i>Keep me private</i>. Use <i>Step out</i> to leave the session yourself.</div>
+    <div class="q">My job recommendations changed after one search.</div>
+    <div class="a">Activity outside a Private Hour is shared under each service's normal settings. Starting a session later does not remove profiles that were already updated.</div>
+    <div class="q">A website still knew who I was during a session.</div>
+    <div class="a">Information you choose to send — logins, bookings, payments, messages — still reaches that service. Protection is not anonymity.</div>
+  </div>
+  <div class="folio"><span>HUSH HOME</span><span>06</span></div>
+</section>
+
+<!-- 7. FINE PRINT -->
+<section class="page">
+  <div class="eyebrow">Good to know</div>
+  <h2 style="margin-top:1.5mm">The small print</h2>
+  <ul class="fine" style="margin-top:2mm">
+    <li>Private Hours are available only with an active HUSH plan. Plans are billed monthly in advance to the household payment method and renew automatically. Unused Private Hours expire at renewal.</li>
+    <li>HUSH Personal: 10 Private Hours, up to 10 devices, $9.99/month. HUSH Home: 20 Private Hours, up to 20 devices, $19.99/month. HUSH Home+: 40 Private Hours, up to 40 devices, $29.99/month.</li>
+    <li>Additional Private Hours: $3.99 each (60 minutes, whole home). Additional hours start immediately.</li>
+    <li>One Private Hour is counted once for the whole household, however many devices or members are in the session. Time keeps counting while any member keeps protection on.</li>
+    <li>Pause requests expire after 30 seconds. A member who steps out of a session is not protected for the remainder of it.</li>
+    <li>Protection applies to new tracking, profiling and identifiable data sharing by participating services on HUSH Wi-Fi during an active session. Participating services are listed at hush.home/participating and may change monthly.</li>
+    <li>Previously collected data and existing profiles are not removed by starting a session, buying additional hours or changing plans.</li>
+    <li>HUSH does not listen to your home and does not read the content of your activity. Session start and end times are retained for billing and service improvement.</li>
+    <li>Emergency services may access your connection at any time, including during a Private Hour.</li>
+  </ul>
+  <div class="rule"></div>
+  <div class="eyebrow">Specifications</div>
+  <div class="specs">
+    <div><span>Model</span><br>HUSH Home H-20</div>
+    <div><span>Display</span><br>10.9" touch, always on</div>
+    <div><span>Wireless</span><br>Wi-Fi 9 · tri-band</div>
+    <div><span>Ports</span><br>2 × 10 GbE · USB-C power</div>
+    <div><span>Power</span><br>30 W adapter included</div>
+    <div><span>Use</span><br>Indoor only. Do not cover the display.</div>
+  </div>
+  <div class="folio"><span>HUSH HOME</span><span>07</span></div>
+</section>
+
+<!-- 8. BACK COVER -->
+<section class="page cover">
+  <div class="wordmark">HUSH</div>
+  <div class="eyebrow" style="margin-top:2mm">Privacy starts at home</div>
+  <h1 style="margin-top:62mm; font-size:21pt">Your apps know enough.<br>Give them some time off.</h1>
+  <div class="sub">Manage your plan, hours and household at hush.home</div>
+  <div style="position:absolute; left:13mm; right:13mm; bottom:14mm">
+    <p style="font-size:5.8pt; color:#9BA39D; line-height:1.5">© 2046 HUSH Home Pty Ltd, Sydney NSW. HUSH and Private Hours are trademarks of HUSH Home Pty Ltd. Printed on recycled paper. Part no. QSG-H20-EN-03</p>
+    <div class="icons" style="color:#9BA39D"><div style="border-color:#4A534D">CE</div><div style="border-color:#4A534D">RCM</div><div style="border-color:#4A534D">Wi-Fi 9</div><div style="border-color:#4A534D">♻ 05</div></div>
+  </div>
+</section>
+
+</body>
+</html>

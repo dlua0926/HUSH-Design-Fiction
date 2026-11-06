@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-06",
+  "snapshot_date": "2026-11-07",
   "timezone": "Australia/Sydney",
   "files": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3805,
-      "sha256": "f6461581a9b417387663506d1fbb5363f284efa025f914ae4ec2b8ccc58054b1"
+      "bytes": 4070,
+      "sha256": "413caa555df286e654288407d4bdcc8c6a426d264198b69c7dfee9ee55069084"
     },
     {
       "path": "START_HERE.md",
@@ -34,18 +34,18 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 6774,
-      "sha256": "6d6998622a4a8c23e7d79b3398adbe75ac8a4cb01f6068e5cf1bcbe2ee9968a6"
+      "bytes": 7670,
+      "sha256": "f240f3d17ec7e5217ee13d9808228319c4f05408830644063278b8ff95b3a372"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 6851,
-      "sha256": "5286bce20972716bdc9251b883f56fbf2941b225c0ef0fae64a7660d3592338a"
+      "bytes": 8036,
+      "sha256": "ef2cec002f76ae0459edd5e680cd7480fe3c508ad144a7ceab83580f10ff30a6"
     },
     {
       "path": "ai/USAGE.md",
-      "bytes": 2382,
-      "sha256": "f76984737fe3a11fec64e86bef6fde95b8d541754edf1f3236c448e2ad72612b"
+      "bytes": 2782,
+      "sha256": "6db5e9172bdf58477b4ce1ec2d27356fe816850eb41d257f040b51879f40a82f"
     },
     {
       "path": "ai/prompts/HUSH-Advertisement-Future-Product-Prompt.txt",
@@ -68,14 +68,24 @@
       "sha256": "cc4447235145efe370de264c6d866c90a554a233f89c9d984ba7203272ae85f2"
     },
     {
+      "path": "ai/prompts/HUSH-Instructions-Illustrations-1-Prompt.txt",
+      "bytes": 2394,
+      "sha256": "511be36870a943dae784c933496e4727a28c569333e918031208b65ad6b82d86"
+    },
+    {
+      "path": "ai/prompts/HUSH-Instructions-Illustrations-2-Prompt.txt",
+      "bytes": 1317,
+      "sha256": "db306fbaa5166933638e179ee645738543f31f5a041fac5127b0cb4f2f7fe6bf"
+    },
+    {
       "path": "ai/prompts/HUSH-Physical-Prototype-Prompt.txt",
       "bytes": 3259,
       "sha256": "7670bf2479408729f40d8ac7844d03f0b980525b0cae914585572ad2cc4c70c8"
     },
     {
       "path": "assets/INDEX.md",
-      "bytes": 2586,
-      "sha256": "fa5dd8337bb90915afa01c1f4776b3c47f305c65dff3026bc57c3ddbf04d8d01"
+      "bytes": 2897,
+      "sha256": "fec8e3af865b42dee6faaf49669ed1b618b734f79d7b8aceb0d0d1129c1ed51f"
     },
     {
       "path": "assets/advertisements/01-craft-product.jpg",
@@ -191,6 +201,91 @@
       "path": "docs/WORLD_RULES.md",
       "bytes": 3716,
       "sha256": "2c28ce478b0f37c988925972acd4b6efffa69f85f8700ec31073181261e7a3f6"
+    },
+    {
+      "path": "instructions/HUSH_Quick_Start_Guide.pdf",
+      "bytes": 5169168,
+      "sha256": "2d7bab84f8e7c54f0f4d595cbc15f2d02856f33b89075072068447c96e72de0f"
+    },
+    {
+      "path": "instructions/README.md",
+      "bytes": 4265,
+      "sha256": "3432fe0994f078fcb4a8f413687bc61a739be1340e3fa0f00e6292a3e04330ee"
+    },
+    {
+      "path": "instructions/guide.html",
+      "bytes": 20694,
+      "sha256": "400ea5ba8c61e80cff3f7940b1d6e215450ac08342d9f2e3ace842837b97b8fe"
+    },
+    {
+      "path": "instructions/img/empty.png",
+      "bytes": 640014,
+      "sha256": "193398330439ff3ed8bcfb11283f0bc6751aeb157169c1295cb7d82ee665150c"
+    },
+    {
+      "path": "instructions/img/household.png",
+      "bytes": 673787,
+      "sha256": "af1e72686ded60e95d91157f1ba7d71acf99aa82174454e10f73f22d3b77d662"
+    },
+    {
+      "path": "instructions/img/inbox.png",
+      "bytes": 684365,
+      "sha256": "5016349c21dbd47d8b48bcdaaf52c18f0bd7e116050e423f9644d708e6ff820b"
+    },
+    {
+      "path": "instructions/img/step-plan.png",
+      "bytes": 678737,
+      "sha256": "6a92f658f175f478a29c7d1cdf93e6a8c64d9652cca7221e92497690bea28dfa"
+    },
+    {
+      "path": "instructions/img/step1-plug.png",
+      "bytes": 692693,
+      "sha256": "28cc65d133d3e54dc27178101227d72ae02c5ab3d36e0cb26d3d7afe15647e5e"
+    },
+    {
+      "path": "instructions/img/step2-join.png",
+      "bytes": 701227,
+      "sha256": "2c20079b518a90b8dc81021a2a9b6fe940dca6087d772b6c911b2f10aa7de70b"
+    },
+    {
+      "path": "instructions/img/step3-start.png",
+      "bytes": 661275,
+      "sha256": "0c44ee5169942588440e1b967a0e1252678884ff38570f5e5ad475fc4bd4b0e3"
+    },
+    {
+      "path": "instructions/img/step4-pause.png",
+      "bytes": 651541,
+      "sha256": "3641344c8779c170550f311afb6d91e7ce755602ac41e528b4a6649b047446ef"
+    },
+    {
+      "path": "instructions/img/step5-report.png",
+      "bytes": 692041,
+      "sha256": "9bcb0396566828b1c3dd75633218952210488859fe237a8d1a02beacc0a95676"
+    },
+    {
+      "path": "instructions/preview/all-pages.png",
+      "bytes": 164269,
+      "sha256": "f22336b56a625a21a04ccb4ddcf467f80074e7153690f51ea353e6967f4a86b1"
+    },
+    {
+      "path": "instructions/ref/device-reference.png",
+      "bytes": 206286,
+      "sha256": "0a1494e52538ca52209940d06bd44bdf74e4778033e678dbe0c5da94a7d5b71a"
+    },
+    {
+      "path": "instructions/ref/screen-home.jpg",
+      "bytes": 19807,
+      "sha256": "eaa281d06029a51fc9ee692a34bae5cb018f4a7fa217a09099dd78e44790f5c6"
+    },
+    {
+      "path": "instructions/render.ps1",
+      "bytes": 884,
+      "sha256": "ec1cba8efa74619424c94ecb191dac3ef056205178496ca836103bc73770716b"
+    },
+    {
+      "path": "instructions/render.sh",
+      "bytes": 725,
+      "sha256": "2f6caa9efbde1ab25e8f136ff309d805501541892911ee37da52a3024a46d6a8"
     },
     {
       "path": "prototype/README.md",

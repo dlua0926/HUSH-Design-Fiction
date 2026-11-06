@@ -1,0 +1,18 @@
+Create 7 minimalist instruction-manual line illustrations for a fictional home device called HUSH (a home Wi-Fi router with a built-in landscape touch screen). The attached photo shows the device: a white rectangular body that stands upright on a desk like a thick picture frame, a landscape screen inset in the upper part, and a wide plain border below the screen where the wordmark sits.
+
+Use the image generation tool. Style for ALL images (must be consistent, like an IKEA / Apple quick-start guide):
+- Pure white background, single-weight black line art (about 3px at 1024px), no shading, no gradients, no colour except ONE accent colour, dark green #2E4238, used sparingly (e.g. a button or a small highlight).
+- Absolutely NO text, letters, numbers or logos anywhere in the images (leave screens with simple icons/shapes only). Leave the area below the screen blank.
+- Square 1024x1024, subject centred with generous white margin.
+- No antennas on the device.
+
+Images (save each as PNG with exactly these filenames into the folder instructions/img relative to the working directory):
+1. inbox.png - flat-lay "in the box": the device lying face up, a small power adapter with cable, a flat network cable, a small folded card.
+2. step1-plug.png - the device seen from behind at three-quarter angle on a desk, a power cable and a network cable plugged into ports at the back, the network cable going to a wall socket.
+3. step2-join.png - a hand holding a smartphone in front of the device; the device screen shows a QR-code-like square pattern; small Wi-Fi arcs between phone and device.
+4. step3-start.png - the device front view, its screen shows a large circle button (filled accent green) with a play triangle, a fingertip touching it.
+5. step4-pause.png - the device front view, screen shows a circle button with two vertical pause bars, a fingertip touching it, and a small hourglass icon floating beside the device.
+6. step5-report.png - a hand holding a smartphone showing a simple ring chart and three horizontal bars (no text).
+7. empty.png - the device front view with its screen showing an EMPTY thin circular ring (nothing left); next to it a laptop and a phone that still show Wi-Fi arcs, and small dotted lines with tiny eye icons drifting away from the laptop and phone (data still travelling).
+
+After saving, list the files with their sizes. Do not create any other files.

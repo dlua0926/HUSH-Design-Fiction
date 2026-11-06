@@ -1,0 +1,7 @@
+Create 2 more minimalist instruction-manual line illustrations, matching EXACTLY the style of the existing images in instructions/img (look at instructions/img/step2-join.png and step4-pause.png first): pure white background, single-weight black line art, no shading, one accent colour dark green #2E4238 used sparingly, absolutely NO text, letters or numbers, square 1024x1024, generous margins.
+
+Use the image generation tool. Save as PNG into instructions/img with exactly these filenames:
+1. step-plan.png - a hand holding a smartphone; the phone screen shows three plan cards side by side as simple rectangles (small, medium, large, the middle one highlighted with the accent green outline), and below them a wide filled accent-green button; a small padlock icon that is shown OPEN floats next to the phone (payment unlocks the service).
+2. household.png - two smartphones held by two different hands, facing each other on left and right. The left phone shows a large pause icon (two bars). The right phone shows a notification card with two rounded buttons, one filled accent green and one outline. A small dotted arc connects the two phones. Behind them, small and faint, the HUSH device outline (white frame with a landscape screen, no antennas).
+
+After saving, list the files. Do not modify any other files.
