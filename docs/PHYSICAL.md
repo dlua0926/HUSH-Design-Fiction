@@ -1,14 +1,22 @@
 # Physical model
 
-## User-reported materials and constraints
+## Finished physical model — user-supplied photographs
+
+The user identified these as photographs of the finished physical work:
+- [Exhibition setup](../assets/physical/05-actual-exhibition.jpg): white-framed screen, printed advertisement and laptop shown together.
+- [Front view](../assets/physical/06-actual-front.jpg): white exterior, screen and HUSH lettering.
+
+The photographed final model has a white exterior and no visible external antennas, unlike the colourful AI concept below. The photos establish appearance and presentation; they do not independently verify real privacy protection, all touch interactions, rear support, dimensions or charging.
+
+## Earlier user-reported materials and constraints
 - White picture frame to fit around a landscape iPad.
 - Left/right fit acceptable; gaps remain above and below.
 - Dough colours: yellow, blue, purple, pink, teal green, peach/coral.
 - White dough is not available and cannot be mixed from these colours.
 - User explicitly wants more colour on outer frame; all-white felt boring.
-- No exact frame or iPad dimensions supplied. No finished-build photograph received.
+- No exact frame or iPad dimensions supplied. Two finished-build photographs were later supplied.
 
-## Current colourful concept
+## Earlier colourful concept (not final physical appearance)
 See `assets/physical/04-colourful-frame.jpg` (generated concept, not build evidence).
 - Teal side rails and short round-tipped antennas.
 - Purple top rail.
@@ -28,4 +36,4 @@ Latest selected reference: `assets/ui/selected-cream-screen.jpg`. Cream main pan
 For presentation, expose the actual device UI rather than website navigation and marketing text. Use the user-selected final Figma prototype. The earlier green web app is rejected and is historical only. Check full-screen operation and touch on the actual iPad.
 
 ## Final evidence needed
-Photos of the assembled object from front, side and rear, plus an interaction photo. Record how it is operated in performance and any practical limits. A rendered mockup does not replace these photos.
+Front and exhibition photographs have been supplied. Side/rear construction and interaction documentation may be added if helpful for the presentation. Record performance operation and practical limits; the generated mockup is not the final physical object.

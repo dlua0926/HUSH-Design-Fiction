@@ -52,3 +52,8 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - User requested the latest advertisement and prototype illustration be updated in GitHub.
 - Confirmed the latest white antenna-free advertisement and colourful frame/iPad physical concept were already present in assets. Updated README to display both, and corrected outdated asset/status labels that pointed to the older antenna-based advertisement.
 - Both pictures are AI-generated concepts; the physical illustration is not a photograph of a completed model. Full-resolution PNG originals remain outside this repository; existing JPEG previews retain the complete images.
+
+## 2026-11-06 — Codex — Final physical prototype photographs
+- User supplied two photographs and identified them as the finished physical prototype. Added exhibition and front-view JPEG previews; original HEIC files remain with user. EXIF metadata was not carried into the converted previews.
+- Updated README, STATUS.md, docs/PHYSICAL.md and asset inventory to distinguish real photographs from earlier generated colourful concepts. The actual pictured frame is white, with no external antennas visible; exhibition photo also shows printed ad and computer.
+- Photos establish visible appearance, not independent verification of all interactions, charging, internal construction or real privacy protection. Preserved other open tasks.

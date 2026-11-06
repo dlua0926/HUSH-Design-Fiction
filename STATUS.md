@@ -24,14 +24,14 @@ Last updated: **2026-11-06 · Australia/Sydney**
 - User-selected device: screen-equipped Wi-Fi router.
 - User has a white frame and six clay colours: yellow, blue, purple, pink, teal and coral. White clay cannot be mixed from the available colours.
 - User selected a cream/black iPad screen reference.
-- User wants colourful decoration across frame, not only antennas.
+- A colourful frame was explored as a concept; user later supplied photographs of the finished physical model, which has a white exterior and no visible antennas.
 - Advertising should use a fictional finished consumer product, rather than requiring the handmade model appearance.
 - Latest request: use a warm nighttime lifestyle-ad style with relaxed person, dog, glass badges and a router in the home.
 
 ## Delivered
 - Clickable prototype source, device list, simulated checkout, countdown, browsing ledger, network boundary, report and demo controls.
 - Browser checks passed for protected/unprotected paths, historical-event retention, expiry, renewal and mobile overflow; source syntax checked. Screenshot references included. These checks apply to this source snapshot, not future edits.
-- Physical concept iterations and gap-filling advice.
+- Physical prototype assembled per user; front and exhibition photos supplied. White exterior, displayed iPad interface and printed advertisement are visible.
 - Poster iterations, including latest lifestyle ad (awaiting review).
 - Collaboration documents, executable source and 12 asset previews uploaded to GitHub; onboarding and manifest read back successfully.
 
@@ -42,7 +42,7 @@ Last updated: **2026-11-06 · Australia/Sydney**
 | P0 | Final narrative and immediate unpaid consequence | OPEN | Unassigned | Student-relevant need, credible collector/recipient/incentive, tangible consequence and consistent paid branch |
 | P0 | Privacy/world rules review | OPEN | Unassigned | Team approves scope, timing, base plan, charge rules and service mechanism |
 | P1 | Validate final Figma prototype on iPad | OPEN | Unassigned | Test user-selected Figma final version on actual iPad and check interaction; do not use rejected green build |
-| P1 | Physical construction | IN PROGRESS, self-reported materials only | Group | Stable assembled model, touch access, charge access, photos |
+| P1 | Physical prototype and documentation | COMPLETED per user; photos received | Group | Completed model evidenced by front and exhibition photos; touch/charge tests and rear views not independently verified |
 | P1 | Instruction set | OPEN | Unassigned | In-world quick-start + depleted-hours behaviour + history limitation |
 | P1 | Advertisement review and editable finish | DRAFT READY | Unassigned | Team checks copy/world rules, replaces generated text if needed, exports final |
 | P1 | Presentation/rehearsal | OPEN | Group | Continuous speaker blocks, reliable device cues, no early what-if reveal |
@@ -53,7 +53,7 @@ Last updated: **2026-11-06 · Australia/Sydney**
 - Precise participating-service protocol (a fictional assumption, not existing router capability).
 - Whether one extra hour can pause; current implementation starts a continuous hour immediately.
 - Whether to include Home Plus (80 h) or other legacy tiers, and how to reconcile tier naming/pricing; the story's Home allowance stays 20 h unless changed.
-- Actual frame/iPad dimensions and material attachment behaviour.
+- Actual frame/iPad dimensions, rear construction and touch/charge tests are not verified.
 - Final advertisement approval remains open; the latest white antenna-free advertisement shows the 00:00 inactive home screen. The earlier 59:59 lifestyle ad is historical.
 
 ## Collaboration state

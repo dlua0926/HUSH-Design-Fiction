@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3286,
-      "sha256": "25ab0ef13941a7cd25febae6cc6d73d038b4cfb2c110b1483512115a30e8c45a"
+      "bytes": 3805,
+      "sha256": "f6461581a9b417387663506d1fbb5363f284efa025f914ae4ec2b8ccc58054b1"
     },
     {
       "path": "START_HERE.md",
@@ -34,13 +34,13 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 6480,
-      "sha256": "c21e2b61eff71b691abeada7905580a0d4263edc05416a7621afe2e01f112967"
+      "bytes": 6774,
+      "sha256": "6d6998622a4a8c23e7d79b3398adbe75ac8a4cb01f6068e5cf1bcbe2ee9968a6"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 6111,
-      "sha256": "ed4d553a38d9fe0827303723eb95623fa5f1539945f8c326df245892e0c5bb5a"
+      "bytes": 6851,
+      "sha256": "5286bce20972716bdc9251b883f56fbf2941b225c0ef0fae64a7660d3592338a"
     },
     {
       "path": "ai/USAGE.md",
@@ -74,8 +74,8 @@
     },
     {
       "path": "assets/INDEX.md",
-      "bytes": 2092,
-      "sha256": "cc81e5738a216d4e97e57edaec5791ecdb3e2fdb94094222ebb87c725cdc9945"
+      "bytes": 2586,
+      "sha256": "fa5dd8337bb90915afa01c1f4776b3c47f305c65dff3026bc57c3ddbf04d8d01"
     },
     {
       "path": "assets/advertisements/01-craft-product.jpg",
@@ -116,6 +116,16 @@
       "path": "assets/physical/04-colourful-frame.jpg",
       "bytes": 126395,
       "sha256": "3521db4ee831fac368adea036b51c35677361531078e7bf91e05c57a57a13eef"
+    },
+    {
+      "path": "assets/physical/05-actual-exhibition.jpg",
+      "bytes": 382232,
+      "sha256": "d7be9de7a4ff9443745f344dc71b6a5d426a2b2d6f411b192cc51f056d0c8d6f"
+    },
+    {
+      "path": "assets/physical/06-actual-front.jpg",
+      "bytes": 118104,
+      "sha256": "7eb055207a3dac2dc4a205b4d3f0e7c0e2ce02c5b06824fef56d21dde95f2b64"
     },
     {
       "path": "assets/prototype/browser.jpg",
@@ -169,8 +179,8 @@
     },
     {
       "path": "docs/PHYSICAL.md",
-      "bytes": 2524,
-      "sha256": "b72336a4e4b60d0adf20a744c39638b17e39ffb4e0d89f24eed244f8f53c0359"
+      "bytes": 3295,
+      "sha256": "12f2c14693fc1bad6fb4d088b3cf8d785a76e68cfb48dd87a79a2655e2d05b81"
     },
     {
       "path": "docs/PRIOR_HUSH_CONTEXT.md",
