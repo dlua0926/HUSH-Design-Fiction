@@ -54,7 +54,7 @@ Last updated: **2026-11-06 · Australia/Sydney**
 - Whether one extra hour can pause; current implementation starts a continuous hour immediately.
 - Whether to include Home Plus (80 h) or other legacy tiers, and how to reconcile tier naming/pricing; the story's Home allowance stays 20 h unless changed.
 - Actual frame/iPad dimensions and material attachment behaviour.
-- Final advertisement approval; latest generated ad uses an active 59:59 session.
+- Final advertisement approval remains open; the latest white antenna-free advertisement shows the 00:00 inactive home screen. The earlier 59:59 lifestyle ad is historical.
 
 ## Collaboration state
 Repository is public at the user's supplied URL. No teammates have been invited by this assistant. Each teammate needs appropriate repository and connector access. An AI session is not a background watcher; updates are committed when an assistant or person actually works on the project.

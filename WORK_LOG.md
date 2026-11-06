@@ -47,3 +47,8 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - User identified https://banner-dish-90173388.figma.site as the HUSH page and https://feed-test-35321007.figma.site as the phone simulation.
 - Added both links to README.md, START_HERE.md and STATUS.md; refreshed the manifest.
 - Both URLs returned HTTP 200. This update did not audit the pages' content or interactions and does not establish technical integration between the two.
+
+## 2026-11-06 — Codex — Highlight latest advertising and physical concepts
+- User requested the latest advertisement and prototype illustration be updated in GitHub.
+- Confirmed the latest white antenna-free advertisement and colourful frame/iPad physical concept were already present in assets. Updated README to display both, and corrected outdated asset/status labels that pointed to the older antenna-based advertisement.
+- Both pictures are AI-generated concepts; the physical illustration is not a photograph of a completed model. Full-resolution PNG originals remain outside this repository; existing JPEG previews retain the complete images.

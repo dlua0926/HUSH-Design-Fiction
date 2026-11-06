@@ -16,7 +16,7 @@ HUSH 是一台带屏幕的家庭 Wi-Fi 隐私路由器。在这个虚构未来�
 | 产品形态 | 带屏 Wi-Fi 路由器，保护范围取决于网络连接和保护时段 |
 | 最终点击原型 | [用户指定的 Figma 最终版](https://banner-dish-90173388.figma.site)；此前绿色版本已弃用 |
 | 实体制作 | 已购买白色相框和六色黏土，计划套在横放 iPad 外；未收到完成照 |
-| 最新广告 | [暖色夜景生活方式海报](assets/advertisements/04-lifestyle.jpg)，待组内审核 |
+| 最新广告 | [白色无天线生活方式海报](assets/advertisements/05-white-no-antennas.jpg)，待组内审核 |
 | 最大待定项 | 未付费的具体生活后果和最终演示故事 |
 | 交付缺口 | 说明书、最终实体照片、最终 slides、整理后的提交 PDF |
 
@@ -43,9 +43,15 @@ HUSH 是一台带屏幕的家庭 Wi-Fi 隐私路由器。在这个虚构未来�
 
 ## 最新广告方向
 
-![Lifestyle advertisement](assets/advertisements/04-lifestyle.jpg)
+![White antenna-free HUSH lifestyle advertisement](assets/advertisements/05-white-no-antennas.jpg)
 
-此图为 AI 生成的未来正式产品广告，不是实体相框制作照片。海报未被用户最终确认。所有图像的状态和历史见素材目录。
+此图为 AI 生成的未来正式产品广告，不是实体相框制作照片。海报未被用户最终确认。
+
+## 实体 prototype 示意图
+
+![Colourful frame physical prototype concept](assets/physical/04-colourful-frame.jpg)
+
+[查看相框与彩色黏土实体 prototype 示意图](assets/physical/04-colourful-frame.jpg)。该图为 AI 制作的制作方向，展示相框、iPad、内衬和材料配色，不是实际完成品照片；与上方未来产品广告采用不同外观。其他版本见[素材目录](assets/INDEX.md)。
 
 ## 范围与来源
 

@@ -10,7 +10,7 @@ All JPEGs are collaboration previews converted from original PNGs; no design cha
 | [assets/physical/04-colourful-frame.jpg](physical/04-colourful-frame.jpg) | latest proposed colourful physical build |
 | [assets/advertisements/01-craft-product.jpg](advertisements/01-craft-product.jpg) | superseded ad with handmade model |
 | [assets/advertisements/02-future-product.jpg](advertisements/02-future-product.jpg) | finished future-router ad |
-| [assets/advertisements/04-lifestyle.jpg](advertisements/04-lifestyle.jpg) | latest lifestyle draft pending review |
+| [assets/advertisements/04-lifestyle.jpg](advertisements/04-lifestyle.jpg) | earlier lifestyle draft with antennas; superseded by 05-white-no-antennas |
 | [assets/prototype/home.jpg](prototype/home.jpg) | implemented earlier green UI |
 | [assets/prototype/browser.jpg](prototype/browser.jpg) | implemented browser ledger |
 | [assets/prototype/report.jpg](prototype/report.jpg) | implemented privacy report |
