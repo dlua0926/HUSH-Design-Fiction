@@ -1,0 +1,38 @@
+Use case: ads-marketing.
+Create ONE finished single-page MAGAZINE PRINT ADVERTISEMENT for HUSH, portrait A4-ish 210:297 aspect ratio, high resolution. Image 1 is an established campaign style reference only; image 2 is the authoritative cream-and-charcoal HUSH screen visual reference. This is a new premium magazine layout, not an edit that must preserve previous composition.
+Deliver a flat rectangular page, edge to edge, front-facing artwork ready to place as an ad in a lifestyle/design magazine. Do NOT show a magazine object, page curls, hands, a spread mockup, editorial article, masthead, page numbers, guides or production notes.
+
+Art direction: sophisticated emotionally welcoming consumer advertising in a believable near future. Beautiful architectural lifestyle photography and meticulously composed typography, generous negative space, expensive restrained layout. Use a coherent grid. Remove all floating glass bubbles, UI pricing cards and icon grids from the earlier campaign. One powerful headline, one exceptionally photographed domestic scene, discreet offer and meaningful fine print. The advertising mood is calm and ordinary, making limited privacy feel like a household utility.
+
+Photography occupies upper 75% full bleed. A warm amber-lit contemporary home at blue hour with soft dark window reflections and natural textures. A relaxed young adult woman seated on a textured sofa in the middle distance, with a golden retriever resting beside her, both naturally posed and unobtrusive. A laptop can rest closed nearby. A modern WHITE HUSH household router sits prominently on a walnut side table nearer the camera at right, large enough that the screen can be read, physically supported and beautifully integrated in the room, not a separate floating product render. It should feel intimate and credible, not a dramatic dystopia. Natural depth, crisp device, gentle background softness, no exaggerated blur.
+
+Product: refined manufactured white unibody home Wi-Fi privacy router with integrated landscape touchscreen, softly rounded corners, slim uniform white bezel, shallow depth, discreet integrated support foot. NO EXTERNAL ANTENNAS whatsoever. No coloured clay, craft frame, mitered joints, neon, exposed wires, or holograms. Small HUSH wordmark on lower edge. Realistic high-end electronics materials and perspective.
+
+Screen follows image2: cream main area, black/dark-charcoal status footer. Small HUSH HOME header and 8:42 PM, prominent PRIVATE HOURS / 00:00 / remaining at left, thin circle at right with 0 HRS, bottom info 20/20 hours used / renewal 3 days / 11 devices. Footer says PROTECTION INACTIVE and tracking categories Active. Accurate digital UI, no webpage background or second external frame. Do NOT label protection active or show 59:59. The advertisement offers additional private time while the device's allowance is depleted.
+
+Text layout and EXACT copy:
+Top at safe 6% margins: moderately sized spaced "HUSH", with small right aligned "HOME PRIVACY UTILITY".
+Below in the dark negative space at upper left, huge elegant cream sans-serif headline:
+"Your apps
+know enough."
+Immediately beneath, smaller lighter-weight line:
+"Give them some time off."
+No other copy overlays the person or device.
+
+Lower 25% of page is warm ivory uncoated-paper-looking space. Carefully aligned editorial typography, not web UI.
+Main left text:
+"20 Private Hours.
+One connected home."
+Below in small body type:
+"Choose when to pause new tracking across your home.
+20 shared hours included each month with HUSH Home."
+Right aligned offer, visually separated only by a fine vertical rule:
+"Need a little longer?"
+"Add 1 Private Hour"
+"$3.99"
+At bottom, a slim horizontal hairline and small spaced brand signoff:
+"PRIVACY STARTS AT HOME."
+Very small but readable legal line:
+"Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed."
+
+Use accurate spelling, balanced headline line breaks, cream/charcoal typography, warm amber and navy photography. No recurring monthly price, no 80-hour tier, no unlimited claim, no invented web address, no QR code. All important content inside safe margins. The result must look like a considered full-page printed magazine ad with subtle unsettling commercial terms, not a dashboard, generic AI marketing collage, or product brochure.

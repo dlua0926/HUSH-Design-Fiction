@@ -23,3 +23,6 @@ AI assistance in the source chat included concept critique, narrative brainstorm
 | Instruction illustrations (9) | Codex image generation | Prompts in ai/prompts/HUSH-Instructions-Illustrations-*; real model photo crop as reference | Used in guide; no text in images |
 
 Before submission, record team edits, final exports, the actual final prompt history and any AI assistance by other teammates. Label reconstructed notes honestly. Generated text/UI should be checked and preferably redrawn in an editable tool for final typography control.
+
+## 2026-11-06 — Magazine full-page preview
+Built-in image generation, with the earlier white antenna-free campaign image as style reference and a prior captured final Figma home screen as UI reference. Exact prompt: prompts/HUSH-Magazine-Advertisement-Prompt.txt. Output: assets/advertisements/07-magazine-full-page.jpg. Generated appearance/copy visually inspected; editable type and production export remain future work. No new world rule or monthly price was introduced.

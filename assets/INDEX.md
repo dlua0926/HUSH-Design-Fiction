@@ -24,3 +24,6 @@ Earlier physical and ad renders are AI-generated concepts; 05-actual-exhibition 
 
 ## Instruction set — 2026-11-07
 Line illustrations for the quick-start guide live in [instructions/img](../instructions/img) (AI-generated with Codex, text-free). `instructions/ref/screen-home.jpg` is a browser capture of the final Figma home screen. See [instructions/README.md](../instructions/README.md).
+
+## Magazine full-page preview — 2026-11-06
+[07-magazine-full-page.jpg](advertisements/07-magazine-full-page.jpg): new AI-generated full-page magazine-ad draft for user review. White antenna-free finished-product render, warm home scene,20sharedhours and$3.99extra hour. Earlier printed ad remains available; this preview is not automatically selected as final.

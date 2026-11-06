@@ -79,3 +79,8 @@ All issues are open and unassigned at setup; claim an issue before parallel work
 - User requested modern white finished hardware with no exposed antennas, based on the final Figma interface.
 - Draft: assets/advertisements/05-white-no-antennas.jpg; pending user review. Earlier teal-antenna ad is a previous version.
 - Figma homepage rechecked; full interactive flow was not retested. The new advertising hardware request does not itself establish a completed change to the physical model.
+
+## Magazine advertisement preview — 2026-11-06
+- New full-page magazine-style draft: assets/advertisements/07-magazine-full-page.jpg. Warm lifestyle photograph, white antenna-free device, restrained print typography and service fine print.
+- Shows the exhausted cream/black home screen; 20 shared monthly hours and $3.99 extra-hour offer. No recurring price or new subscription rule added.
+- Pending user review. Earlier printed/lifestyle advertisement and teammate instruction draft are preserved.

@@ -66,3 +66,9 @@ Append entries; keep prior history. Dates use Australia/Sydney.
 - Validation: rendered all 8 pages with headless Edge and visually checked each page for overflow and alignment; repo copy of render.ps1 tested on Windows. render.sh not tested on macOS.
 - Open: team review of added rules; 80 h plan question; AI usage record from other members.
 
+
+## 2026-11-06 — Codex — Full-page magazine advertisement preview
+- User requested a magazine-ad example for final submission. Generated a new flat full-page print-ad concept based on the existing lifestyle campaign and selected cream/black screen design.
+- Used a modern white antenna-free product, warm domestic photography, one headline and an ivory offer/fine-print area; no added recurring price or plan rule.
+- Added preview and exact prompt; refreshed asset inventory and AI usage. Visually inspected the generated image for typography, device identity and numeric consistency. It remains a raster draft pending team review and editable type finishing; no claim of press-ready export.
+- Preserved teammate instruction-set work and existing final prototype links.

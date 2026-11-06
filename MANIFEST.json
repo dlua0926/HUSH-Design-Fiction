@@ -34,18 +34,18 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 7670,
-      "sha256": "f240f3d17ec7e5217ee13d9808228319c4f05408830644063278b8ff95b3a372"
+      "bytes": 8172,
+      "sha256": "fe1b51ef8e6aa0f2f5b6f86c2c6e21258c9fdbe970faf72bd8987b9dac2bfc1a"
     },
     {
       "path": "WORK_LOG.md",
-      "bytes": 8036,
-      "sha256": "ef2cec002f76ae0459edd5e680cd7480fe3c508ad144a7ceab83580f10ff30a6"
+      "bytes": 8810,
+      "sha256": "0c16387ab4a00b7625e75fef5b627ebf947ced457f56bf703fcce9082fbb1ac0"
     },
     {
       "path": "ai/USAGE.md",
-      "bytes": 2782,
-      "sha256": "6db5e9172bdf58477b4ce1ec2d27356fe816850eb41d257f040b51879f40a82f"
+      "bytes": 3259,
+      "sha256": "7ce9defb7b57b657690b5eddddf45a71bd84c7eb21ebf02a28653c609e44d916"
     },
     {
       "path": "ai/prompts/HUSH-Advertisement-Future-Product-Prompt.txt",
@@ -78,14 +78,19 @@
       "sha256": "db306fbaa5166933638e179ee645738543f31f5a041fac5127b0cb4f2f7fe6bf"
     },
     {
+      "path": "ai/prompts/HUSH-Magazine-Advertisement-Prompt.txt",
+      "bytes": 4399,
+      "sha256": "d345b3d7a3a67b19f051c748895774f19aa5a518cc5160f96a7068e7a1ad81bb"
+    },
+    {
       "path": "ai/prompts/HUSH-Physical-Prototype-Prompt.txt",
       "bytes": 3259,
       "sha256": "7670bf2479408729f40d8ac7844d03f0b980525b0cae914585572ad2cc4c70c8"
     },
     {
       "path": "assets/INDEX.md",
-      "bytes": 2897,
-      "sha256": "fec8e3af865b42dee6faaf49669ed1b618b734f79d7b8aceb0d0d1129c1ed51f"
+      "bytes": 3261,
+      "sha256": "f3653c55e566bc7a6d5f5817d60d57180178d817c84d234e21c61dca697ebddc"
     },
     {
       "path": "assets/advertisements/01-craft-product.jpg",
@@ -106,6 +111,11 @@
       "path": "assets/advertisements/05-white-no-antennas.jpg",
       "bytes": 244338,
       "sha256": "4b40946d812c8dbed21f526d5e9ee1d2093d8dbedac94ce20d499d974212df21"
+    },
+    {
+      "path": "assets/advertisements/07-magazine-full-page.jpg",
+      "bytes": 246275,
+      "sha256": "f4e594ae319a329fc02b737ff6bbc99e82aac2a22d25d261b20efc55cc3e8af9"
     },
     {
       "path": "assets/physical/01-initial.jpg",
