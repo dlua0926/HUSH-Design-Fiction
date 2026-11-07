@@ -1,0 +1,14 @@
+Use your image generation tool to create 8 SEPARATE high-quality product images for a print catalogue page about a fictional home device called HUSH (a home Wi-Fi privacy router with a built-in screen). The attached poster (poster-v5c.png) shows the product and the visual style: matte warm-white plastic, soft rounded thick bezel, a slim kickstand, glossy-free studio lighting, warm off-white seamless background, red (#D0122C) used only as an accent.
+
+Save each image as a PNG in the current folder with exactly these filenames. Every image: plain warm off-white seamless background (#F6F2EF), soft natural contact shadow, photorealistic 3D product render, crisp and sharp, NO text, NO letters, NO logos, NO watermarks anywhere.
+
+1. hero.png (landscape 1536x1024): the HUSH device seen STRAIGHT ON from the front, perfectly frontal, eye level, no rotation, standing on its kickstand. Landscape tablet-like body about 4:3, thick rounded warm-white bezel, the bezel slightly thicker at the bottom. The SCREEN must be a perfectly flat, uniform, matte light cream colour (#EFECE6), completely blank, no reflections, no UI, a clean rectangle with slightly rounded corners. Device fills about 70% of the image width, centred.
+2. corner.png (square 1024x1024): extreme close-up of the device's top-left rounded corner and bezel, showing the soft matte material and a tiny round recessed light sensor. Blank, no logo.
+3. side.png (square 1024x1024): pure side profile of the device on its kickstand, showing the slim body and the angled stand.
+4. back.png (square 1024x1024): the device seen straight from behind. A neat recessed port panel in the upper-middle with two RJ45 Ethernet ports and one USB-C port, all clearly visible. A narrow kickstand attached LOW near the bottom edge so it covers nothing. No cables.
+5. step-laptop.png (square 1024x1024): a slim modern laptop at three-quarter view, its screen showing only a minimal light dashboard with a single thin red rising line chart (no text).
+6. step-pause.png (square 1024x1024): the same HUSH device at a gentle three-quarter angle, its blank cream screen showing one large glowing red circular pause button (two white vertical bars inside).
+7. step-dial.png (square 1024x1024): a smooth round warm-white puck/dial object on the surface, with a thin red progress ring arc around about 70% of its top edge.
+8. red-shape.png (square 1024x1024): only a large soft-edged glossy red sphere segment / circle shape, as an abstract background graphic, on the same off-white background.
+
+Keep the product design identical across images 1, 2, 3, 4 and 6. After saving, list the files with their sizes. Do not modify any other files.

@@ -34,3 +34,8 @@ td { border-bottom: .25mm solid var(--line); padding: 1.6mm 2.5mm 1.6mm 0; verti
 .quote { font-size: 20pt; line-height: 1.2; font-weight: 500; letter-spacing: -.01em; }
 .red { color: var(--alert); }
 .mono { font-family: Consolas, "Courier New", monospace; }
+
+.wtag, .ptag { display:inline-block; font-size:6.6pt; letter-spacing:.16em; padding:.5mm 2mm; border-radius:.8mm; margin-right:2.5mm; vertical-align:1px; font-weight:700; }
+.wtag { background: var(--accent); color: #F4F2ED; }
+.ptag { border: .3mm solid var(--soft); color: var(--soft); }
+.spec { display:inline-block; font-size:6.6pt; letter-spacing:.16em; color: var(--alert); border:.3mm solid var(--alert); padding:.3mm 1.6mm; border-radius:.8mm; margin-left:2mm; }

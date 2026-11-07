@@ -1,0 +1,101 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HUSH catalogue insert</title><style>
+@page { size: 210mm 297mm; margin: 0; }
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:794px;height:1123px;overflow:hidden}
+body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:#141414;background:#F6F2EF;position:relative;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.red{color:#C8102E}
+/* header */
+.logo{position:absolute;left:40px;top:34px;height:62px}
+.tag{position:absolute;left:42px;top:108px;font-size:15px;font-weight:800;letter-spacing:.42em}
+.rule{position:absolute;left:42px;top:136px;width:332px;height:3px;background:#C8102E}
+.pcb{position:absolute;right:42px;top:40px;text-align:right;font-size:14px;font-weight:800;letter-spacing:.14em;line-height:1.45}
+.pcb:before{content:"";position:absolute;right:-12px;top:-12px;width:22px;height:22px;border-top:2px solid #C8102E;border-right:2px solid #C8102E}
+/* hero */
+.circle{position:absolute;right:-90px;top:150px;width:470px;height:470px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#F04A4A 0%,#D3132B 45%,#A80C20 100%)}
+.arc{position:absolute;right:-60px;top:120px;width:560px;height:560px;border-radius:50%;border:1.5px solid rgba(200,16,46,.35)}
+.hero{position:absolute;left:318px;top:200px;width:470px;filter:drop-shadow(-6px 22px 18px rgba(60,40,35,.30))}
+h1{position:absolute;left:40px;top:178px;font-size:60px;font-weight:900;line-height:.98;letter-spacing:-.035em;width:330px}
+.sub{position:absolute;left:42px;top:372px;font-size:26px;font-weight:400;line-height:1.15;width:240px}
+.subrule{position:absolute;left:42px;top:448px;width:52px;height:4px;background:#C8102E}
+/* section labels */
+.sec{font-size:22px;font-weight:800;letter-spacing:-.01em}
+.sec:before{content:"/ ";color:#C8102E;font-weight:900}
+.meet{position:absolute;left:40px;top:548px}
+.meet p{font-size:16px;line-height:1.3;margin:6px 0 0 18px}
+.corner{position:absolute;left:28px;top:628px;width:180px;height:128px;object-fit:cover;border-radius:2px}
+.hmark{position:absolute;left:162px;top:706px;width:34px;height:34px;border-radius:50%;border:2.5px solid #1E2421;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:700;color:#1E2421;background:rgba(246,242,239,.6)}
+.views{position:absolute;left:240px;top:600px}
+.vrow{position:absolute;left:226px;top:636px;display:flex;gap:10px}
+.vrow figure{width:176px;text-align:center}
+.vrow img{width:176px;height:108px;object-fit:cover}
+.vrow figcaption{font-size:10px;font-weight:800;letter-spacing:.32em;margin-top:6px}
+/* how it works */
+.how{position:absolute;left:40px;top:780px}
+.steps{position:absolute;left:40px;top:816px;display:flex;align-items:center;gap:6px}
+.st{z-index:1;width:140px;height:162px;background:#F6F2EF;border:1px solid #E2DBD5;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.06);position:relative;overflow:hidden}
+.st .n{position:absolute;left:10px;top:12px;width:22px;height:22px;border-radius:50%;background:#C8102E;color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.st .t{position:absolute;left:38px;top:10px;font-size:14px;font-weight:800;line-height:1.1}
+.st img{position:absolute;left:6px;bottom:8px;width:128px;height:96px;object-fit:contain}
+.arr{width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:11px solid #C8102E}
+/* offer */
+.vline{position:absolute;left:520px;top:784px;width:2px;height:212px;background:#141414}
+.offer{position:absolute;left:540px;top:758px;width:220px}
+.offer .big{font-size:58px;font-weight:900;font-style:normal;line-height:.9;color:#C8102E;letter-spacing:-.03em}
+.offer .ph{font-size:35px;font-weight:900;line-height:.95;letter-spacing:-.03em}
+.offer .ph sup{font-size:26px;vertical-align:top;position:relative;top:-4px}
+.offer .one{font-size:16px;font-weight:700;margin-top:4px}
+.offer .need{font-size:16px;font-weight:800;margin-top:10px}
+.offer .add{font-size:15px;margin-top:2px}
+.pill{display:inline-block;margin-top:6px;background:linear-gradient(#E01B33,#B30D22);color:#fff;font-size:30px;font-weight:900;padding:2px 20px 4px;border-radius:30px;letter-spacing:-.01em}
+/* footer */
+.wm{position:absolute;left:34px;bottom:44px;height:60px;opacity:.06;z-index:0}
+.plans{position:absolute;left:40px;right:40px;top:1034px;display:flex;border-top:1.5px solid #141414;border-bottom:1px solid #CFC8C2;padding:7px 0}
+.plans div{flex:1;display:flex;align-items:baseline;justify-content:space-between;padding:0 14px;border-left:1px solid #CFC8C2;font-size:12px}
+.plans div:first-child{border-left:0;padding-left:0}.plans div:last-child{padding-right:0}
+.plans b{font-size:14px;font-weight:900;letter-spacing:.04em}.plans span{color:#555}.plans i{font-style:normal;font-weight:800;font-size:14px}
+.fine{position:absolute;left:40px;right:40px;bottom:12px;font-size:8.4px;line-height:1.45;color:#333}
+</style></head><body>
+<img class="logo" src="../../assets/brand/hush-logo-red.svg" alt="HUSH">
+<div class="tag">HOME PRIVACY UTILITY</div>
+<div class="rule"></div>
+<div class="pcb">PRIVACY.<br>CONTROL.<br>BALANCE.</div>
+
+<div class="arc"></div>
+<div class="circle"></div>
+<img class="hero" src="el/hero-angled-cut.png" alt="">
+<h1>Your apps know enough.</h1>
+<div class="sub">Give them some time off.</div>
+<div class="subrule"></div>
+
+<div class="meet"><div class="sec">Meet HUSH</div><p>Private time for<br>your home.</p></div>
+<img class="corner" src="el/corner.png" alt=""><div class="hmark">H</div>
+<div class="views sec">Device Views</div>
+<div class="vrow">
+  <figure><img src="el/hero-cut.png" alt="" style="object-fit:contain"><figcaption>FRONT VIEW</figcaption></figure>
+  <figure><img src="el/side.png" alt=""><figcaption>SIDE VIEW</figcaption></figure>
+  <figure><img src="el/back.png" alt=""><figcaption>BACK VIEW</figcaption></figure>
+</div>
+
+<div class="how sec">How It Works</div>
+<div class="steps">
+  <div class="st"><div class="n">1</div><div class="t">Choose<br>a Plan</div><img src="el/laptop-plan-crop.png" alt=""></div>
+  <div class="arr"></div>
+  <div class="st"><div class="n">2</div><div class="t">Start<br>Private Time</div><img src="el/hero-active-crop.png" alt=""></div>
+  <div class="arr"></div>
+  <div class="st"><div class="n">3</div><div class="t">Pause When<br>Finished</div><img src="el/hero-paused-crop.png" alt=""></div>
+</div>
+
+<div class="vline"></div>
+<div class="offer">
+  <div class="big">20</div>
+  <div class="ph">Private<br>Hours.<sup>*</sup></div>
+  <div class="one">One connected home.</div>
+  <div class="need">Need a little longer?</div>
+  <div class="add">Add 1 Private Hour</div>
+  <div class="pill">$3.99</div>
+</div>
+
+
+<div class="plans"><div><b>PERSONAL</b><span>10 h / month</span><i>$9.99</i></div><div><b>HOME</b><span>20 h / month</span><i>$19.99</i></div><div><b>HOME+</b><span>40 h / month</span><i>$29.99</i></div></div>
+<div class="fine">*HUSH Home: $19.99/month, including 20 shared Private Hours. Extra hours: $3.99 each (60 minutes, whole home). Active sessions and participating services on HUSH Wi-Fi only. Previously collected data and existing profiles are not removed.</div>
+</body></html>

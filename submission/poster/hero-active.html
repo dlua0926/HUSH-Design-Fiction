@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1536px;height:1024px;overflow:hidden;background:#F6F2EF}
+body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:#1E2421;position:relative}
+.bg{position:absolute;inset:0;background:url(el/hero.png) 0 0/1536px 1024px no-repeat}
+.scr{position:absolute;left:287px;top:169px;width:960px;height:607px;border-radius:26px;overflow:hidden;background:#F1EEE8;display:flex;flex-direction:column}
+.hd{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;border-bottom:1.5px solid #DAD6CE}
+.hd .ic{width:32px;height:32px;border-radius:50%;border:2px solid #1E2421;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:600}
+.hd .t{font-size:14px;letter-spacing:.22em;font-weight:700}
+.hd .m{font-size:22px;letter-spacing:.1em}
+.time{text-align:center;font-size:15px;letter-spacing:.08em;color:#5E6662;margin-top:18px}
+.main{display:flex;align-items:center;justify-content:center;gap:90px;margin-top:22px}
+.ph .k{font-size:14px;letter-spacing:.2em;font-weight:700}
+.ph .n{font-size:118px;font-weight:200;line-height:1;letter-spacing:-.02em;margin-top:6px}
+.ph .r{font-size:17px;color:#5E6662;text-align:right;margin-top:2px}
+.ring{width:150px;height:150px;border-radius:50%;border:2px solid #C9C4BA;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring b{font-size:46px;font-weight:300;line-height:1}.ring span{font-size:12px;letter-spacing:.2em;color:#5E6662;margin-top:6px}
+.stats{display:flex;margin:26px 60px 0;border-top:1.5px solid #DAD6CE;padding-top:16px}
+.stats div{flex:1;text-align:center;border-left:1.5px solid #DAD6CE}.stats div:first-child{border-left:0}
+.stats span{display:block;font-size:12px;letter-spacing:.2em;color:#5E6662}.stats b{display:block;font-size:20px;font-weight:400;margin-top:4px}
+.band{margin-top:auto;background:#1E2421;color:#F1EEE8;padding:16px 28px 18px}
+.band .top{display:flex;justify-content:space-between;font-size:12px;letter-spacing:.2em;color:#C9C4BA}
+.band .top i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#E0392B;margin-right:10px;font-style:normal}
+.band .cats{display:flex;margin-top:10px}.band .cats div{flex:1;font-size:14px;color:#C9C4BA}.band .cats b{display:block;color:#fff;font-size:16px;margin-top:2px}
+.logo{position:absolute;left:50%;top:815px;transform:translateX(-50%);height:26px}
+
+.pp{width:150px;height:150px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#F0414B,#C8102E 70%);box-shadow:0 0 0 8px rgba(200,16,46,.12),0 6px 18px rgba(200,16,46,.35);display:flex;align-items:center;justify-content:center;gap:16px}
+.pp i{display:block;width:16px;height:58px;background:#fff;border-radius:3px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:10px;vertical-align:1px}
+</style></head><body>
+<div class="bg"></div>
+<div class="scr">
+  <div class="hd"><div class="ic">H</div><div class="t">HUSH HOME</div><div class="m">···</div></div>
+  <div class="time">8:42 PM</div>
+  <div class="main">
+    <div class="ph"><div class="k"><span class="dot" style="background:#5E9B6E"></span>PROTECTION ACTIVE</div><div class="n">59:59</div><div class="r">remaining</div></div>
+    <div class="pp"><i></i><i></i></div>
+  </div>
+  <div class="stats"><div><span>MONTHLY USAGE</span><b>20 / 20 hours</b></div><div><span>NEXT RENEWAL</span><b>3 days</b></div><div><span>CONNECTED</span><b>11 devices</b></div></div>
+  <div class="band"><div class="top"><span><i style="background:#5E9B6E"></i>11 DEVICES PROTECTED</span><span>NOW</span></div>
+    <div class="cats"><div>App Tracking<b>Blocked</b></div><div>Browser Profiling<b>Blocked</b></div><div>Device Data Sharing<b>Protected</b></div><div>Ad Personalisation<b>Blocked</b></div></div></div>
+</div>
+<img class="logo" src="../../assets/brand/hush-logo-dark.svg">
+</body></html>

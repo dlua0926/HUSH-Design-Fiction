@@ -36,3 +36,18 @@ Built-in image generation, with the earlier white antenna-free campaign image as
   - These are rough and unreviewed. The team should rewrite them in its own words where needed.
   - The prototype screenshots are automated browser captures, not AI images.
 
+## 2026-11-07 — Review and revision
+- **Draft review.** A teammate used ChatGPT to review the draft PDF; that checklist was not committed.
+- **Revision.** Claude Code did the follow-up work, with subagents:
+  - Researched and cross-checked the faint-signal sources.
+  - Critiqued the causal chain of the new consequence and suggested the prop copy, which Jinge chose and which was edited.
+  - Built props 06–08 as HTML mock-ups. They are not AI images: the text is typed, not generated.
+
+## 2026-11-07 — Text prompts and logo
+- Added Appendix B to the PDF: key text prompts to Claude, verbatim with translations (T1–T10). Full session transcripts are kept by Jinge.
+- The HUSH logo SVG was drawn by Claude as vector paths, matching the logo in the AI-generated magazine ad.
+
+## 2026-11-07 — Final catalogue insert (v6)
+- **Codex image generation.** Produced 8 separate product renders with no text (P15).
+- **Claude Code.** Composed them in HTML with live type, the HUSH wordmark and the real screen UI.
+- **Research.** Faint-signal sources were found and cross-checked by Claude research subagents.

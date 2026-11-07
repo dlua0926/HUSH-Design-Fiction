@@ -31,6 +31,17 @@ for i in range(0, len(g), 2):
 
 for p in PdfReader(d / "out/part2.pdf").pages: w.add_page(p)
 
+def banner():
+    """Red strip across the top of each archived slide page."""
+    import io
+    from reportlab.pdfgen import canvas
+    buf = io.BytesIO(); c = canvas.Canvas(buf, pagesize=(W, H))
+    c.setFillColorRGB(0xC4/255, 0x55/255, 0x3B/255); c.rect(0, H-16, W, 16, fill=1, stroke=0)
+    c.setFillColorRGB(1, 1, 1); c.setFont("Helvetica-Bold", 7.5)
+    c.drawCentredString(W/2, H-11, "ARCHIVED WEEK 11 PRESENTATION  ·  NOT FINAL DESIGN  ·  PRICES AND DEVICE SUPERSEDED BY THE FINAL ARTEFACTS")
+    c.save(); buf.seek(0)
+    return PdfReader(buf).pages[0]
+
 for src in PdfReader(slides).pages:
     sw, sh = float(src.mediabox.width), float(src.mediabox.height)
     m = 18; s = min((W-2*m)/sw, (H-2*m)/sh)

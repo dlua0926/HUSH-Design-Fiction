@@ -1,0 +1,5 @@
+Use your image generation tool to create ONE image and save it as hero-angled-green.png in the current folder (landscape 1536x1024, highest quality).
+
+Recreate EXACTLY the device, angle, lighting and framing of the attached hero-angled.png (the HUSH device in three-quarter view with its kickstand), but place it on a SOLID, perfectly flat chroma-key green background (#00FF00) filling the whole image. No floor, no shadow, no reflections of green on the device, no gradient in the background. The device itself stays matte warm-white. The SCREEN stays perfectly flat, uniform matte light cream (#EFECE6), completely blank. No text or logos anywhere.
+
+After saving, print the file size. Do not modify other files.

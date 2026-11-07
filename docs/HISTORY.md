@@ -25,3 +25,8 @@ This is an editorial summary of the project conversation, not a verbatim transcr
 
 ## What is not decided
 Final scenario, immediate consequence, monthly base price, final service-protocol explanation, exact hardware dimensions, final ad approval and final presentation script.
+
+18. 2026-11-07: a teammate's ChatGPT review of the draft PDF flagged a weak consequence and a wrong weekday (15 Sept 2046 is a Saturday).
+   - Jinge chose the employer flight-risk consequence: the employer is not notified; it subscribes to a derived-score service, and J. is moved off a key project on Monday.
+   - Added the paused-data and derived-data rules to the world.
+   - Updated the scenario pages, the guide (troubleshooting and fine print) and the draft PDF.

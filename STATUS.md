@@ -5,6 +5,32 @@ Last updated: **2026-11-07 · Australia/Sydney**
 ## Final PDF: rough first draft — 2026-11-07
 - **Rough first pass only, made quickly in one go by Jinge's AI. Not reviewed, not final.** `submission/HUSH_A4_Submission_DRAFT.pdf` (28 pages, A4 landscape) compiles: cover, faint signals and what-if, world rules, design development, physical model photos, Figma screens, scenario storyboard, the quick-start guide (2-up), the poster v5c advertisement and its iterations, critical questions, the original W11 slides and the AI usage record with all 14 prompts.
 - Editable sources and a rebuild script are in `submission/`; read `submission/README.md` first.
+- Update (same day, after the teammate's GPT review):
+  - The scenario now ends with an employer flight-risk consequence (see docs/WORLD_RULES.md).
+  - Date corrected to Saturday 15 Sept 2046.
+  - Added a References page (9 sources, each opened and checked), clickable prototype links, larger screenshots and a note on the W11 pricing.
+  - Second review round (a teammate's table and a GPT report, `9201 A3.pdf`):
+    - pages tagged in-world or process;
+    - P11 chain shortened, with the employer policy shown on the Anchorline card (1 of 1 lead);
+    - archived banner added to the W11 slides;
+    - ad renamed as a catalogue insert;
+    - APA 7 references;
+    - prompts moved to Appendix A.
+  - Third round:
+    - portrait phone screens;
+    - unified HUSH logo (`assets/brand/`);
+    - redrawn guide cover;
+    - Appendix B with verbatim text prompts.
+  - Fourth round:
+    - faint signals from 2025–26 sources;
+    - catalogue insert rebuilt sharp with live type (`submission/poster/`);
+    - four key iterations;
+    - redesigned small-print page.
+  - The PDF is now 34 pages.
+  - Open, for the team, in Figma:
+    - change the phone status text to "Protection Paused · Tracking active" (the PDF captures were edited to match);
+    - change "Pause" to "Pause Protection".
+  - Open, for the team: change the Figma button from "Pause" to "Pause Protection".
 - Team to check: wording of the process pages and scenario; AI record (Figma AI use? W11 deck images? 07 magazine page author? each member's own AI use); plan tiers 10/20/40 vs 80 h.
 
 ## Instruction set draft — 2026-11-07

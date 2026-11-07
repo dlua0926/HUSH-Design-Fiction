@@ -35,3 +35,18 @@ Line illustrations for the quick-start guide live in [instructions/img](../instr
 - Real model photos: `exhibition.jpg` and `front.jpg`.
 - Browser captures of the two live Figma prototypes in `shots/`. These are real renders, not AI images.
 
+## Scenario props — 2026-11-07
+`submission/props/*.png` are in-world mock-ups rendered from `submission/props/src/*.html`: the platform notice, the Anchorline digest and the Monday chat. `*-crop.png` are the crops used in the PDF. These are made for the document and are not AI-generated images.
+
+## Brand and phone captures — 2026-11-07
+- `assets/brand/hush-logo-dark.svg` and `hush-logo-light.svg`: the single HUSH wordmark, used across the document and guide.
+- `submission/shots/m*.png`: portrait captures of the phone simulation. The status-bar text was edited in the capture to read "Protection Paused · Tracking active".
+
+## Final catalogue insert — 2026-11-07
+`submission/poster/`:
+- `el/`: Codex renders.
+- `hero-ui.png`: hero render with the live UI overlay.
+- `poster.html`: the layout source.
+- `poster-v6.png`: the final 3176×4492 render.
+
+Earlier raster posters v2–v5c are iterations only.

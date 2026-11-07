@@ -1,0 +1,7 @@
+Use your image generation tool to create ONE image and save it as hero-angled.png in the current folder (landscape 1536x1024, highest quality).
+
+The SAME HUSH device as in the attached reference images (hero.png is the exact product: matte warm-white body, thick soft rounded bezel, slightly thicker bottom bezel, slim kickstand), now shown as a dramatic 3D product hero shot: three-quarter view, the device turned about 25-30 degrees so its screen faces front-left, camera slightly above, the kickstand visible behind on the right, exactly like the angled hero device in poster-v5c.png. Photorealistic studio product render, soft lighting, crisp edges, warm off-white seamless background (#F6F2EF), soft contact shadow under the device.
+
+The SCREEN must be perfectly flat, uniform, matte light cream (#EFECE6), completely blank with no UI, no reflections and no gradients, so that its four corners are clearly visible. No text, no logos anywhere on the device or background. The device fills about 75% of the image width, centred.
+
+After saving, print the file size. Do not modify other files.

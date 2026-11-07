@@ -36,13 +36,11 @@
   .cover .eyebrow { color: #9BA39D; }
   .cover h1 { margin-top: 40mm; font-size: 29pt; }
   .cover .sub { margin-top: 5mm; font-size: 9pt; color: #B9BDB7; font-weight: 300; }
-  .cover .device { position: absolute; left: 13mm; right: 13mm; bottom: 34mm; height: 52mm;
-                   border: 0.3mm solid #4A534D; border-radius: 3mm; display: flex; align-items: center;
-                   justify-content: center; flex-direction: column; gap: 3mm; }
-  .cover .device .scr { width: 64%; height: 58%; border-radius: 1.2mm; background: #EDEBE6;
-                        display: flex; align-items: center; justify-content: center; }
-  .cover .device .scr span { font-size: 15pt; font-weight: 300; color: var(--ink); letter-spacing: 0.02em; }
-  .cover .device .wm { font-size: 7pt; letter-spacing: 0.6em; color: #EDEBE6; font-weight: 300; }
+  .cover .logo { height: 5.2mm; display: block; }
+  .cover .device { position: absolute; left: 50%; transform: translateX(-50%); bottom: 30mm; width: 88mm; }
+  .cover .device .frame { background: #EEECE7; border-radius: 4mm; padding: 4mm 4mm 3.2mm; }
+  .cover .device .scr { display: block; width: 100%; border-radius: 1.2mm; }
+  .cover .device .dlogo { display: block; height: 2.6mm; margin: 2.6mm auto 0; }
   .cover .bottom { position: absolute; bottom: 14mm; left: 13mm; right: 13mm; display: flex; justify-content: space-between;
                    font-size: 6.4pt; letter-spacing: 0.18em; color: #9BA39D; text-transform: uppercase; }
   .cover .folio { color: #6E766F; }
@@ -113,17 +111,33 @@
   .rules { margin-top:3mm; }
   .rule-item { display:grid; grid-template-columns:7mm 1fr; gap:3mm; padding:2.4mm 0; border-bottom:0.25mm solid var(--line); }
   .rn { width:6mm; height:6mm; border-radius:50%; border:0.3mm solid var(--accent); color:var(--accent); font-size:7.5pt; font-weight:600; display:flex; align-items:center; justify-content:center; }
+
+  /* Small print redesign */
+  .sp { display:grid; grid-template-columns: 1fr 1fr; gap: 3.4mm; }
+  .spc { background:#FBFAF7; border:0.25mm solid var(--line); border-radius:2mm; padding:3.4mm 3.4mm 3.8mm; }
+  .spc .q { font-size:6.2pt; letter-spacing:0.12em; text-transform:uppercase; color:var(--soft); font-weight:600; margin-bottom:1.4mm; }
+  .spc .big { font-size:13pt; font-weight:400; line-height:1.15; margin-bottom:1.4mm; }
+  .spc .big.red { color: var(--alert); }
+  .spc p { font-size:7.1pt; line-height:1.45; color:#4A4F4B; }
+  .tiers { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2mm; margin-bottom:1.6mm; }
+  .tiers div { border:0.25mm solid var(--line); border-radius:1.2mm; padding:1.2mm 1.4mm; text-align:center; }
+  .tiers div.on { background: var(--accent); border-color: var(--accent); color:#F4F2ED; }
+  .tiers b { display:block; font-size:11.5pt; font-weight:400; }
+  .tiers span { font-size:5.6pt; line-height:1.3; display:block; opacity:.85; }
+  .legal { font-size:6.2pt; line-height:1.45; color:var(--soft); margin-top:3mm; }
+  .specbar { display:flex; justify-content:space-between; border-top:0.25mm solid var(--line); margin-top:2.6mm; padding-top:2mm; font-size:6.2pt; }
+  .specbar span { display:block; font-size:5.2pt; letter-spacing:0.14em; text-transform:uppercase; color:var(--soft); }
 </style>
 </head>
 <body>
 
 <!-- 1. COVER -->
 <section class="page cover">
-  <div class="wordmark">HUSH</div>
+  <img class="logo" src="../assets/brand/hush-logo-light.svg" alt="HUSH">
   <div class="eyebrow" style="margin-top:2mm">Home · Model H-20</div>
   <h1>Quick Start<br>Guide</h1>
   <div class="sub">Private time for your connected home.</div>
-  <div class="device"><div class="scr"><span>20:00:00</span></div><div class="wm">HUSH</div></div>
+  <div class="device"><div class="frame"><img class="scr" src="ref/screen-home.jpg" alt=""><img class="dlogo" src="../assets/brand/hush-logo-dark.svg" alt="HUSH"></div></div>
   <div class="bottom"><span>Read before setup</span><span>EN · 2046 edition</span></div>
 </section>
 
@@ -144,7 +158,7 @@
   <h2 style="margin-bottom:0">Meet your screen</h2>
   <div class="devframe">
     <img src="ref/screen-home.jpg" alt="">
-    <div class="wm">HUSH</div>
+    <div class="wm"><img src="../assets/brand/hush-logo-dark.svg" alt="HUSH" style="height:2.2mm; width:auto; border:none; display:inline-block"></div>
     <div class="callout" style="left:22mm; top:31mm">1</div>
     <div class="callout" style="left:77mm; top:25mm">2</div>
     <div class="callout" style="left:9mm; top:56.5mm">3</div>
@@ -190,7 +204,7 @@
     <tr><td>Devices covered</td><td>up to 10</td><td class="cur">up to 20</td><td>up to 40</td></tr>
     <tr><td>Monthly price</td><td>$9.99</td><td class="cur">$19.99</td><td>$29.99</td></tr>
   </table>
-  <p class="small" style="margin-top:1.6mm">All plans: additional Private Hours $3.99 each · change or cancel anytime in the app.</p>
+  <p class="small" style="margin-top:1.6mm">All plans: additional Private Hours $3.99 each · change or cancel any time in the app.</p>
   <div class="folio"><span>HUSH HOME</span><span>03</span></div>
 </section>
 
@@ -272,8 +286,8 @@
     <div class="a">Displays sync every few minutes. The router screen shows your household's official balance.</div>
     <div class="q">I paused, but the timer is still running.</div>
     <div class="a">Another member tapped <i>Keep me private</i>. Use <i>Step out</i> to leave the session yourself.</div>
-    <div class="q">My job recommendations changed after one search.</div>
-    <div class="a">Activity outside a Private Hour is shared under each service's normal settings. Starting a session later does not remove profiles that were already updated.</div>
+    <div class="q">I paused HUSH for a quick search, and now things at work feel different.</div>
+    <div class="a">Activity while paused is shared under each service's normal settings, including derived signals passed to participating employment services. HUSH cannot recall them later. Keep a session active whenever you're job-hunting.</div>
     <div class="q">A website still knew who I was during a session.</div>
     <div class="a">Information you choose to send — logins, bookings, payments, messages — still reaches that service. Protection is not anonymity.</div>
   </div>
@@ -283,34 +297,38 @@
 <!-- 7. FINE PRINT -->
 <section class="page">
   <div class="eyebrow">Good to know</div>
-  <h2 style="margin-top:1.5mm">The small print</h2>
-  <ul class="fine" style="margin-top:2mm">
-    <li>Private Hours are available only with an active HUSH plan. Plans are billed monthly in advance to the household payment method and renew automatically. Unused Private Hours expire at renewal.</li>
-    <li>HUSH Personal: 10 Private Hours, up to 10 devices, $9.99/month. HUSH Home: 20 Private Hours, up to 20 devices, $19.99/month. HUSH Home+: 40 Private Hours, up to 40 devices, $29.99/month.</li>
-    <li>Additional Private Hours: $3.99 each (60 minutes, whole home). Additional hours start immediately.</li>
-    <li>One Private Hour is counted once for the whole household, however many devices or members are in the session. Time keeps counting while any member keeps protection on.</li>
-    <li>Pause requests expire after 30 seconds. A member who steps out of a session is not protected for the remainder of it.</li>
-    <li>Protection applies to new tracking, profiling and identifiable data sharing by participating services on HUSH Wi-Fi during an active session. Participating services are listed at hush.home/participating and may change monthly.</li>
-    <li>Previously collected data and existing profiles are not removed by starting a session, buying additional hours or changing plans.</li>
-    <li>HUSH does not listen to your home and does not read the content of your activity. Session start and end times are retained for billing and service improvement.</li>
-    <li>Emergency services may access your connection at any time, including during a Private Hour.</li>
-  </ul>
-  <div class="rule"></div>
-  <div class="eyebrow">Specifications</div>
-  <div class="specs">
-    <div><span>Model</span><br>HUSH Home H-20</div>
-    <div><span>Display</span><br>10.9" touch, always on</div>
-    <div><span>Wireless</span><br>Wi-Fi 9 · tri-band</div>
-    <div><span>Ports</span><br>2 × 10 GbE · USB-C power</div>
-    <div><span>Power</span><br>30 W adapter included</div>
-    <div><span>Use</span><br>Indoor only. Do not cover the display.</div>
+  <h2 style="margin-top:1.5mm; margin-bottom:1.2mm">The small print</h2>
+  <p style="font-size:7pt; color:var(--soft); margin-bottom:3mm">Six questions people ask in the first week, answered plainly.</p>
+  <div class="sp">
+    <div class="spc"><div class="q">What am I paying for?</div>
+      <div class="tiers"><div><b>10 h</b><span>Personal<br>$9.99</span></div><div class="on"><b>20 h</b><span>Home<br>$19.99</span></div><div><b>40 h</b><span>Home+<br>$29.99</span></div></div>
+      <p>Per month, billed in advance, renews automatically. Unused hours expire at renewal. Extra hour $3.99.</p></div>
+    <div class="spc"><div class="q">How is an hour counted?</div>
+      <div class="big">Once for the whole home.</div>
+      <p>Eleven devices on HUSH Wi-Fi still use one hour, not eleven. The clock runs while anyone keeps protection on.</p></div>
+    <div class="spc"><div class="q">What happens while I'm paused?</div>
+      <div class="big red">Tracking is back on.</div>
+      <p>What's collected while paused may be shared and scored later, even after you resume. Inferred signals ("derived data") can pass between participating services.</p></div>
+    <div class="spc"><div class="q">Does buying time erase the past?</div>
+      <div class="big red">No.</div>
+      <p>Starting a session, adding hours or changing plans never removes data already collected or profiles that already exist.</p></div>
+    <div class="spc"><div class="q">Does HUSH listen to my home?</div>
+      <div class="big">No.</div>
+      <p>It doesn't hear the room or read your activity. It does keep the start and end time of every session, for billing and service improvement.</p></div>
+    <div class="spc"><div class="q">Who is covered?</div>
+      <div class="big">Participating services.</div>
+      <p>The list lives at hush.home/participating and may change monthly. Emergency services can access your connection at any time.</p></div>
+  </div>
+  <p class="legal">Pause requests expire after 30 seconds. A member who steps out is not protected for the rest of that session. Protection covers new tracking, profiling and identifiable data sharing on HUSH Wi-Fi during an active session. Protection is not anonymity.</p>
+  <div class="specbar">
+    <div><span>Model</span>H-20</div><div><span>Display</span>10.9" touch</div><div><span>Wireless</span>Wi-Fi 9</div><div><span>Ports</span>2 × Ethernet · USB-C</div><div><span>Power</span>30 W</div>
   </div>
   <div class="folio"><span>HUSH HOME</span><span>07</span></div>
 </section>
 
 <!-- 8. BACK COVER -->
 <section class="page cover">
-  <div class="wordmark">HUSH</div>
+  <img class="logo" src="../assets/brand/hush-logo-light.svg" alt="HUSH">
   <div class="eyebrow" style="margin-top:2mm">Privacy starts at home</div>
   <h1 style="margin-top:62mm; font-size:21pt">Your apps know enough.<br>Give them some time off.</h1>
   <div class="sub">Manage your plan, hours and household at hush.home</div>

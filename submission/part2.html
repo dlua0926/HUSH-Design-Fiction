@@ -1,57 +1,60 @@
 <!doctype html><html><head><meta charset="utf-8"><title>HUSH — Part 2</title><link rel="stylesheet" href="style.css">
 <style>
-.var img { height: 70mm; width: 100%; object-fit: cover; object-position: top; border-radius: 1mm; }
-.it img { height: 62mm; width: 100%; object-fit: contain; background:#fff; border: .3mm solid var(--line); border-radius: 1mm; }
+.var img { height: 72mm; width: auto; max-width: 100%; display: block; border-radius: 1mm; }
+.it img { width: auto; max-width: 100%; height: 60mm; display: block; border-radius: 1mm; }
 .q .card p { font-size: 9pt; }
+a.lnk { color: var(--accent); text-decoration: underline; word-break: break-all; }
+.apa { font-size: 8.6pt; padding-left: 8mm; text-indent: -8mm; margin-bottom: 2.6mm; line-height: 1.45; }
+a.lnk2 { color: var(--accent); text-decoration: underline; overflow-wrap: anywhere; }
+.refs td { font-size: 8.4pt; padding: 2mm 3mm 2mm 0; } .refs td.rn { color: var(--alert); font-weight: 700; }
 </style></head><body>
 
 <!-- AD (in-world, full page) -->
 <section class="page" style="padding:9mm 15mm; display:grid; grid-template-columns: 131mm 1fr; gap: 12mm">
-  <img src="img/poster.jpg" style="height:192mm; width:auto; box-shadow: 0 1mm 4mm rgba(0,0,0,.18)">
+  <img src="img/poster-v6.jpg" style="height:192mm; width:auto; box-shadow: 0 1mm 4mm rgba(0,0,0,.18)">
   <div style="padding-top:4mm">
-    <div class="kicker">08 · Advertisement · Full-page magazine insert</div>
+    <div class="kicker"><span class="wtag">IN-WORLD ARTEFACT · 2046</span>08 · Full-page home technology catalogue insert</div>
     <h1 style="font-size:22pt">"Your apps know enough. Give them some time off."</h1>
     <h2 style="margin-top:5mm">Where people meet it</h2>
-    <p>A full-page insert in a 2046 home and lifestyle magazine. The same artwork runs as an in-store poster beside the router shelf at electronics retailers. It sells HUSH the way routers and meal kits are sold today: cheerful, practical, and with the price up front.</p>
+    <p>A full-page insert in the 2046 home technology catalogue that comes with home and lifestyle magazines. The same artwork runs as an in-store poster beside the router shelf at electronics retailers. It sells HUSH the way routers and meal kits are sold today: cheerful, practical, and with the price up front.</p>
     <h2 style="margin-top:5mm">What the ad shows, and what it leaves out</h2>
-    <p>The hero device is shown at <b>00:00</b>, with "Protection inactive" and every category <i>Active</i>. The ad treats running out as normal, even friendly: "Need a little longer? Add 1 Private Hour, $3.99." The three steps read <b>Choose a Plan → Take a Pause → Get Your Time Back</b>. In the ad, privacy is something you take a break into, not something you live in.</p>
+    <p>The hero device is shown at <b>00:00</b>, with "Protection inactive" and every category <i>Active</i>. The ad treats running out as normal, even friendly: "Need a little longer? Add 1 Private Hour, $3.99." The three steps read <b>Choose a Plan → Start Private Time → Pause When Finished</b>. In the ad, privacy is something you switch on for a while, not something you live in. A plan strip along the bottom puts all three tiers side by side, like a phone contract.</p>
     <h2 style="margin-top:5mm">The fine print</h2>
-    <p class="small" style="border-left:.6mm solid var(--alert); padding-left:3mm; color:var(--ink)">*HUSH Home plan $19.99/month includes 20 shared Private Hours. Additional hours $3.99 each (60 minutes, whole home). Protection applies on HUSH Wi-Fi during active sessions through participating services. Previously collected data and existing profiles are not removed.</p>
+    <p class="small" style="border-left:.6mm solid var(--alert); padding-left:3mm; color:var(--ink)">*HUSH Home: $19.99/month, including 20 shared Private Hours. Extra hours: $3.99 each (60 minutes, whole home). Active sessions and participating services on HUSH Wi-Fi only. Previously collected data and existing profiles are not removed.</p>
     <p class="small" style="margin-top:3mm">The asterisk on "20 Private Hours" carries the critique: the hours are shared, they depend on other companies taking part, and they cannot undo the past. Every number matches the interface and the quick-start guide.</p>
   </div>
 </section>
 
 <!-- CAMPAIGN + ITERATION -->
 <section class="page">
-  <div class="kicker">08 · Process · Campaign variants and iterations</div>
+  <div class="kicker"><span class="ptag">PROCESS · 2026</span>08 · Campaign variants and iterations</div>
   <h1 style="font-size:20pt">One campaign, several placements.</h1>
   <div class="grid4 var" style="grid-template-columns: repeat(3, 1fr) 1.15fr; gap:6mm">
     <figure><img src="img/ad-04-lifestyle.jpg"><div class="cap"><b>Exhibition poster.</b> Warm night-time lifestyle version, printed and pinned above the model at the showcase.</div></figure>
-    <figure><img src="img/ad-07-magazine-full-page.jpg"><div class="cap"><b>Lifestyle magazine page.</b> Same line, quieter type, with the 00:00 screen in a living room.</div></figure>
+    <figure><img src="img/ad-07-magazine-full-page.jpg"><div class="cap"><b>Lifestyle magazine ad.</b> Same line, quieter type, with the 00:00 screen in a living room.</div></figure>
     <figure><img src="img/ad-05-white-no-antennas.jpg"><div class="cap"><b>Product shot.</b> First version of the white, antenna-free finished device.</div></figure>
     <div>
-      <h2>How the insert was iterated</h2>
-      <p class="small" style="color:var(--ink)">Jinge sketched the final layout. The poster was then iterated with AI image generation over six rounds, each with written feedback:</p>
-      <p class="small" style="margin-top:2mm">v2 · swap the photo steps for silhouette icons, remove the black band behind the hero, show ethernet ports on the back<br>
-      v3 · rebuild on the new layout sketch<br>
-      v4 · "How It Works" redone as minimal 3D, not hand-drawn<br>
-      v5 · remove italics, rename step 1 "Choose a Plan", fix punctuation, add fine print<br>
-      v5c · back view redrawn so the stand and cable no longer hide the ports</p>
+      <h2>How the catalogue insert was iterated</h2>
+      <p class="small" style="color:var(--ink)">Jinge sketched the layout. Three turning points:</p>
+      <p class="small" style="margin-top:2mm"><b>v2 · first AI version.</b> Silhouette steps, product hero, ethernet ports on the back.<br>
+      <b>v3 · new layout.</b> Rebuilt on Jinge's sketch: hero device, device views, How It Works, offer.<br>
+      <b>v5c · refined.</b> 3D steps instead of hand-drawn, upright type, "Choose a Plan", fine print, clear back view.<br>
+      <b>Final · team layout, rebuilt sharp.</b> Follows the team's red-and-white vector layout (new steps, plan strip, fine print). Every product image was generated separately and every screen and word set in real type, so it stays crisp in print.</p>
     </div>
   </div>
-  <div class="grid4 it" style="margin-top:5mm; grid-template-columns: repeat(4, 1fr) 1.15fr; gap:4mm">
-    <figure><img src="img/pv-v2.jpg"><div class="cap">v2</div></figure>
-    <figure><img src="img/pv-v3.jpg"><div class="cap">v3</div></figure>
-    <figure><img src="img/pv-v4.jpg"><div class="cap">v4</div></figure>
-    <figure><img src="img/pv-v5.jpg"><div class="cap">v5</div></figure>
-    <figure><img src="img/poster.jpg"><div class="cap"><b>v5c, final</b></div></figure>
+  <div class="grid4 it" style="margin-top:5mm; grid-template-columns: repeat(4, 1fr); gap:6mm; justify-items:start">
+    <figure><img src="img/pv-v2.jpg"><div class="cap">v2 · first AI version</div></figure>
+    <figure><img src="img/pv-v3.jpg"><div class="cap">v3 · new layout</div></figure>
+    <figure><img src="img/pv-v5c.jpg"><div class="cap">v5c · refined</div></figure>
+    <figure><img src="img/pv-v6.jpg"><div class="cap"><b>Final · rebuilt with live type</b></div></figure>
+  </div></figure>
   </div>
   <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Advertisement · process</span></div>
 </section>
 
 <!-- CRITICAL QUESTIONS -->
 <section class="page q">
-  <div class="kicker">09 · Critical questions</div>
+  <div class="kicker"><span class="ptag">PROCESS · 2026</span>09 · Critical questions</div>
   <h1>Questions HUSH leaves on the shelf.</h1>
   <p class="lead" style="margin-bottom:7mm">We don't answer these. The artefacts are built so that visitors reach them by using the device, not by reading a statement.</p>
   <div class="grid3" style="gap:7mm 9mm">
@@ -65,11 +68,31 @@
   <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Critical questions</span></div>
 </section>
 
+<!-- REFERENCES -->
+<section class="page">
+  <div class="kicker"><span class="ptag">PROCESS · 2026</span>09 · References</div>
+  <h1 style="font-size:20pt">References</h1>
+  <p class="small" style="margin-bottom:4mm">APA 7th edition. All sources were published between November 2025 and August 2026, and each was opened and checked on 7 November 2026. Settlements and consumer-group findings are reported as allegations, not court findings.</p>
+  <div class="apalist">
+<p class="apa">BEUC. (2026, March 17). <i>Meta&#x27;s latest consent-for-ads model still unlawful according to consumer groups&#x27; analysis</i> [Press release]. <a class="lnk2" href="https://www.beuc.eu/press-releases/metas-latest-consent-ads-model-still-unlawful-according-consumer-groups-analysis">https://www.beuc.eu/press-releases/metas-latest-consent-ads-model-still-unlawful-according-consumer-groups-analysis</a></p>
+<p class="apa">Federal Trade Commission. (2026, January 14). <i>FTC finalizes order settling allegations that GM and OnStar collected and sold geolocation data without consumers&#x27; informed consent</i> [Press release]. <a class="lnk2" href="https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers">https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers</a></p>
+<p class="apa">Leon, J. (2026, August 30). <i>Anthropic&#x27;s Claude Code usage cap update actually hides a quiet downgrade</i>. Android Headlines. <a class="lnk2" href="https://www.androidheadlines.com/2026/08/anthropic-claude-code-weekly-limits-update.html">https://www.androidheadlines.com/2026/08/anthropic-claude-code-weekly-limits-update.html</a></p>
+<p class="apa">Meta. (2025, September 26). <i>Facebook and Instagram to offer subscription for no ads in the UK</i>. Meta Newsroom. <a class="lnk2" href="https://about.fb.com/news/2025/09/facebook-and-instagram-to-offer-subscription-for-no-ads-in-the-uk/">https://about.fb.com/news/2025/09/facebook-and-instagram-to-offer-subscription-for-no-ads-in-the-uk/</a></p>
+<p class="apa">New York State Senate. (2026, June 4). <i>Senate Bill S9348: An act to amend the general business law, in relation to prohibiting motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold</i> [Legislation, 2025–2026 session]. <a class="lnk2" href="https://www.nysenate.gov/legislation/bills/2025/S9348/amendment/original">https://www.nysenate.gov/legislation/bills/2025/S9348/amendment/original</a></p>
+<p class="apa">O'Kane, S. (2026, January 14). <i>Tesla will only offer subscriptions for Full Self-Driving (Supervised) going forward</i>. TechCrunch. <a class="lnk2" href="https://techcrunch.com/2026/01/14/tesla-will-only-offer-subscriptions-for-full-self-driving-supervised-going-forward/">https://techcrunch.com/2026/01/14/tesla-will-only-offer-subscriptions-for-full-self-driving-supervised-going-forward/</a></p>
+<p class="apa">Office of the Texas Attorney General. (2026, May 11). <i>Attorney General Ken Paxton secures major agreement with LG to protect Texans&#x27; privacy and stop data from being collected without their knowledge</i> [Press release]. <a class="lnk2" href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-major-agreement-lg-protect-texans-privacy-and-stop-data-being">https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-major-agreement-lg-protect-texans-privacy-and-stop-data-being</a></p>
+<p class="apa">Sharma, A. (2026, June 17). <i>Google to use UK and EU user IP addresses for ad personalization</i>. BleepingComputer. <a class="lnk2" href="https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/">https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/</a></p>
+<p class="apa">Smalley, S. (2026, February 27). <i>Samsung updates ACR privacy practices after Texas sues TV manufacturers</i>. The Record from Recorded Future News. <a class="lnk2" href="https://therecord.media/samsung-updates-acr-privacy-practices-texas">https://therecord.media/samsung-updates-acr-privacy-practices-texas</a></p>
+<p class="apa">Wellauer, K., &amp; Flanders, K. (2025, November 3). <i>Prepaid electricity consumers sweltering under regular disconnections, report finds</i>. ABC News. <a class="lnk2" href="https://www.abc.net.au/news/2025-11-03/first-nations-right-to-power/105941906">https://www.abc.net.au/news/2025-11-03/first-nations-right-to-power/105941906</a></p>
+  </div>
+  <div class="foot"><span>HUSH · Group UNLIMITED</span><span>References</span></div>
+</section>
+
 <!-- SLIDES DIVIDER -->
 <section class="page divider">
-  <div class="kicker">10 · Presentation slides</div>
+  <div class="kicker">10 · Presentation slides · Archived Week 11 version</div>
   <h1>Week 11 presentation</h1>
-  <p>"UNLIMITED: Visitors from 2046". The original Week 11 deck, included unchanged as presented. It shows the earlier wall-hub version of HUSH. The device, interface and campaign above are the revised versions made after that presentation's feedback.</p>
+  <p>"UNLIMITED: Visitors from 2046". Archived Week 11 presentation, included unchanged as presented. Earlier visual designs, pricing (Personal $14.99, Household $29.99 for 80 h, Unlimited $59.99) and story are retained as originally shown. The earlier pages of this document record the revised final artefacts and rules, and they take precedence where the two differ.</p>
   <div class="foot"><span>HUSH · Group UNLIMITED</span><span>Presentation slides</span></div>
 </section>
 

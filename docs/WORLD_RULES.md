@@ -39,3 +39,14 @@ A real present-day router does not, simply by routing traffic, prevent every app
 - No automatic family notification, employer notification or school intervention is established canon.
 - A browser search is not proof of a person's intent. Any story inference should be labelled a possibility and its consequences made explicit.
 - Stay within a router's chosen coverage; don't imply it hides off-network location or hotel registration.
+
+## Accepted 2026-11-07 (Jinge): employer consequence and two new rules
+- **Paused data.** Anything collected while protection is paused can still be shared and scored later, even after HUSH is back on.
+- **Derived data.** Under the 2046 data-sharing rules, signals that services infer ("derived data") may be shared with participating services. Raw activity may not.
+- **Consequence (final story).** The chain runs as follows:
+  1. While HUSH is paused, J. searches for jobs on a personal laptop.
+  2. The jobs platform's tracker links the search to J.'s logged-in profile, which gains "Career-change interest added". J. is notified.
+  3. A derived "move likelihood" score reaches Anchorline Workforce Insights, a participating employment service.
+  4. J.'s employer, Harbourline Digital, subscribes to Anchorline and matches scores to staff through the work email J. once verified.
+  5. On Monday the manager receives the digest and moves J. off the lead role on Project Banksia, as a deniable workload change.
+- **Why this is not the rejected "HR is notified".** No one notifies the employer. The employer pays for a probabilistic score, and the action it takes is deniable.
